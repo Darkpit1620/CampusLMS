@@ -1,0 +1,37 @@
+{# Stage 16: explicit dropdown; choices are server-verified by DepartmentEmployeeSignupForm. #}
+<div class="cd-picker cd-v16" data-cd-unit-picker
+     data-url="{% url 'campus_departments:unit_options' %}"
+     data-initial="{% for pk in form.requested_units.value %}{{ pk }},{% endfor %}">
+  <p class="cd-muted">Choose your department, select a programme or academic term, then add only the units you will teach. Every request requires administrator approval.</p>
+  <div class="cd-controls">
+    <label>Programme
+      <select data-cd-programme aria-label="Filter programmes"><option value="">All programmes in this department</option></select>
+    </label>
+    <label>Year
+      <select data-cd-year><option value="">All years</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option></select>
+    </label>
+    <label>Semester
+      <select data-cd-semester><option value="">All semesters</option><option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option></select>
+    </label>
+    <label class="cd-search">Find a unit
+      <input type="search" data-cd-search placeholder="Search code or unit title" autocomplete="off">
+    </label>
+  </div>
+  <div class="cd-dropdown-area">
+    <label for="cd-unit-dropdown">Units offered in your department</label>
+    <div class="cd-dropdown-row">
+      <select id="cd-unit-dropdown" data-cd-unit-dropdown aria-label="Choose a teaching unit">
+        <option value="">Choose your department to load units</option>
+        {% for placement in form.fields.requested_units.queryset %}
+        <option value="{{ placement.pk }}" data-year="{{ placement.year }}" data-semester="{{ placement.semester }}" data-programme="{{ placement.programme.code }}">{{ placement.unit.code }} — {{ placement.unit.title }} · {{ placement.programme.code }} · Y{{ placement.year }} S{{ placement.semester }}</option>
+        {% endfor %}
+      </select>
+      <button type="button" class="cd-add-button" data-cd-add>Add Unit +</button>
+    </div>
+  </div>
+  <p data-cd-status class="cd-muted" role="status" aria-live="polite">Choose your department to see available units.</p>
+  <div class="cd-selected" data-cd-selected aria-label="Selected teaching units" aria-live="polite"></div>
+  <p class="cd-muted" data-cd-count>0 units selected</p>
+  <div data-cd-hidden></div>
+  <noscript><p>JavaScript is required for the interactive unit selector. Enable it or contact the admissions office.</p>{{ form.requested_units }}</noscript>
+</div>

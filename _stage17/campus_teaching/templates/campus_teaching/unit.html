@@ -1,0 +1,31 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}{{ placement.unit.code }} | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_teaching/teaching.css' %}">
+<div class="ct-page">
+  <p class="ct-back"><a href="{% url 'campus_teaching:dashboard' %}">← My Teaching Units</a></p>
+  <div class="ct-hero"><div class="ct-eyebrow">APPROVED TEACHING UNIT</div><h1>{{ placement.unit.code }} — {{ placement.unit.title }}</h1>
+    <p>{{ placement.programme.name }} · Year {{ placement.year }} · Semester {{ placement.semester }}</p>
+  </div>
+  {% if messages %}{% for message in messages %}<div class="ct-message">{{ message }}</div>{% endfor %}{% endif %}
+  {% if ready %}
+    <div class="ct-actions">
+      <a class="ct-button" href="{% url 'campus_teaching:upload' placement.pk %}">Upload learning material +</a>
+      <a class="ct-button" href="{% url 'campus_teaching:assignment_create' placement.pk %}">Create assignment +</a>
+      <a class="ct-button ct-outline" href="{% url 'campus_admissions_units:lecturer_queue' %}">Approve student units →</a>
+    </div>
+    <section class="ct-panel"><h2>Assignments</h2>
+    {% for assignment in assignments %}<div class="ct-line"><strong>{{ assignment.title }}</strong><span>{% if assignment.deadline %}Deadline {{ assignment.deadline }}{% endif %}</span></div>
+    {% empty %}<p>No assignments have been created for this unit.</p>{% endfor %}
+    </section>
+    <section class="ct-panel"><h2>Learning Materials</h2>
+    {% for material in materials %}<div class="ct-line"><strong>{{ material.title }}</strong><span>Uploaded to this unit's teaching course</span></div>
+    {% empty %}<p>Upload PDF notes or other learning documents to get started.</p>{% endfor %}
+    </section>
+    <p class="ct-note">Students receive access to the linked teaching course when their unit registrations are approved. Existing download permissions remain enforced by the LMS.</p>
+  {% else %}
+    <section class="ct-panel"><h2>Approved unit awaiting course linkage</h2><p>Your teaching unit is approved, but its LMS course is not ready. An administrator should run <code>python manage.py sync_teaching_courses</code> and review the output. You do not need to sign up again.</p></section>
+  {% endif %}
+</div>
+{% endblock %}

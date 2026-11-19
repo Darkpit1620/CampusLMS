@@ -1,0 +1,11 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}Registration Received | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<div class="access-wrap"><div class="access-form" style="max-width:570px;text-align:center">
+ <span class="access-chip">APPLICATION RECEIVED</span><h1 class="access-heading">Registration submitted ✓</h1>
+ <p class="access-lead">Your details have been received. A university administrator must approve your account before you can sign in. After approval, your account number will be sent to the email you entered, once university email delivery is configured. Keep your password safe.</p>
+ <a class="access-link" href="{% url 'campus_access:home' %}">Return to portals</a>
+</div></div>
+{% endblock %}

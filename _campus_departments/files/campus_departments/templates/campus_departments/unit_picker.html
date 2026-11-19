@@ -1,0 +1,19 @@
+{# Shared unit picker for lecturer signup and lecturer dashboard. #}
+<div class="cd-picker" data-cd-unit-picker data-url="{% url 'campus_departments:unit_options' %}" data-initial="{% for pk in form.requested_units.value %}{{ pk }},{% endfor %}">
+  <p class="cd-muted">Select teaching units from your department. You may choose units across different years and semesters. Your choices require administrator approval.</p>
+  <div class="cd-controls">
+    <label>Year
+      <select data-cd-year><option value="">All years</option><option value="1">Year 1</option><option value="2">Year 2</option><option value="3">Year 3</option><option value="4">Year 4</option></select>
+    </label>
+    <label>Semester
+      <select data-cd-semester><option value="">All semesters</option><option value="1">Semester 1</option><option value="2">Semester 2</option><option value="3">Semester 3</option></select>
+    </label>
+    <label class="cd-search">Search unit name, code or programme
+      <input type="search" data-cd-search placeholder="e.g. CSC101, Accounting, Year 2 unit" autocomplete="off">
+    </label>
+  </div>
+  <div class="cd-options" data-cd-options role="group" aria-label="Available teaching units"><p class="cd-muted">Choose a department first.</p></div>
+  <div class="cd-selected" data-cd-selected aria-live="polite"></div>
+  <p class="cd-muted" data-cd-count>0 unit(s) selected</p>
+  <div data-cd-hidden></div>
+</div>

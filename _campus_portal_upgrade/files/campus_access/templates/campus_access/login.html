@@ -1,0 +1,22 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}{{ role_title }} Login | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<div class="access-wrap">
+ <div class="access-form" style="max-width:480px">
+  <span class="access-chip">{{ role_title|upper }} ACCESS</span>
+  <h1 class="access-heading">{{ role_title }} sign in ✦</h1>
+  <p class="access-lead">{% if role_key == 'student' %}Use your approved admission number and password.{% else %}Use your approved registration number and password. Existing lecturers may still use their original username.{% endif %}</p>
+  {% if form.non_field_errors %}<div class="access-error" role="alert">Incorrect details or an account awaiting approval. Please check your credentials.</div>{% endif %}
+  <form method="post">
+   {% csrf_token %}
+   <div class="access-field"><label for="{{ form.username.id_for_label }}">{% if role_key == 'student' %}Admission number{% else %}Registration number or existing username{% endif %}</label>{{ form.username }}{{ form.username.errors }}</div>
+   <div class="access-field" style="margin-top:16px"><label for="{{ form.password.id_for_label }}">Password</label>{{ form.password }}{{ form.password.errors }}</div>
+   {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+   <button class="access-submit" type="submit">Sign In →</button>
+  </form>
+  <a class="access-back" href="{% url 'campus_access:home' %}">← Back to all portals</a>
+ </div>
+</div>
+{% endblock %}

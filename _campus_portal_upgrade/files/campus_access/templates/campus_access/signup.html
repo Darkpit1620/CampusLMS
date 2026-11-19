@@ -1,0 +1,29 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}{{ role_title }} Sign Up | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<div class="access-wrap">
+ <div class="access-form">
+  <span class="access-chip">NEW {{ role_title|upper }} ACCOUNT</span>
+  <h1 class="access-heading">{{ role_title }} registration ✦</h1>
+  <p class="access-lead">{{ intro }}</p>
+  {% if form.non_field_errors %}<div class="access-error">{{ form.non_field_errors }}</div>{% endif %}
+  <form method="post" novalidate>
+   {% csrf_token %}
+   <div class="access-form-grid">
+    {% for field in form %}
+     <div class="access-field{% if field.name == 'department' or field.name == 'job_title' %} access-full{% endif %}">
+      <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+      {{ field }}
+      {% if field.errors %}<div class="access-error">{{ field.errors }}</div>{% endif %}
+     </div>
+    {% endfor %}
+   </div>
+   <p class="access-lead" style="font-size:13px;margin-top:24px">Your account stays inactive until a university administrator approves it. Use a strong password and never share it.</p>
+   <button class="access-submit" type="submit">Submit for Approval →</button>
+  </form>
+  <a class="access-back" href="{% url 'campus_access:home' %}">← Back to all portals</a>
+ </div>
+</div>
+{% endblock %}

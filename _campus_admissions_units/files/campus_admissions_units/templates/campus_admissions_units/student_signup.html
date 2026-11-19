@@ -1,0 +1,34 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}Student Admission Application | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<link rel="stylesheet" href="{% static 'campus_admissions_units/admission-units.css' %}">
+<div class="access-wrap">
+  <div class="access-form" style="max-width:860px">
+    <span class="access-chip">STUDENT ADMISSIONS</span>
+    <h1 class="access-heading">Find your programme and apply ✦</h1>
+    <p class="access-lead">Enter your KCSE results first. CampusLMS will show programmes whose <b>illustrative</b> minimums you meet, then let you apply for one. Your application stays pending until the administrator verifies and approves it.</p>
+    <div class="cu-notice" role="note"><b>Important:</b> The starting scores are examples, not official KUCCPS cutoffs. Actual weighted cluster points vary by programme, university and year. Subject grades and available vacancies also matter. Applying is not a guarantee of admission.</div>
+    {% if form.non_field_errors %}<div class="access-error">{{ form.non_field_errors }}</div>{% endif %}
+    <form method="post" id="cu-application-form" novalidate data-finder-url="{% url 'campus_admissions_units:programme_finder' %}">
+      {% csrf_token %}
+      <div class="access-form-grid">
+        {% for field in form %}
+        <div class="access-field{% if field.name == 'programme' %} access-full{% endif %}">
+          <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+          {{ field }}
+          {% if field.help_text %}<small class="cu-help">{{ field.help_text }}</small>{% endif %}
+          {% for error in field.errors %}<div class="access-error">{{ error }}</div>{% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+      <div class="cu-match" id="cu-results" aria-live="polite">Choose your KCSE mean grade and enter your estimated weighted points to display possible programmes.</div>
+      <p class="cu-help">Administrator review is required before your admission number is issued. Use the show/hide password icon as needed; passwords are never sent in approval emails.</p>
+      <button type="submit" class="access-submit">Submit Student Application →</button>
+    </form>
+    <a class="access-back" href="{% url 'campus_access:home' %}">← All university portals</a>
+  </div>
+</div>
+<script defer src="{% static 'campus_admissions_units/programme-finder.js' %}"></script>
+{% endblock %}

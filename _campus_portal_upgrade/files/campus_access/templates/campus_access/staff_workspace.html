@@ -1,0 +1,11 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}Staff Workspace | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<div class="access-wrap"><div class="access-form">
+ <span class="access-chip">UNIVERSITY STAFF WORKSPACE</span><h1 class="access-heading">Welcome, {{ request.user.get_full_name|default:request.user.username }} ✦</h1>
+ <p class="access-lead">Your university staff account is active. Staff-specific work tools will be connected as the university management features are built.</p>
+ <a class="access-link" href="{% url 'home' %}">Go to Homepage</a>
+</div></div>
+{% endblock %}

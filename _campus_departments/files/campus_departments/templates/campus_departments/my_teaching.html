@@ -1,0 +1,44 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}My Teaching Units | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<link rel="stylesheet" href="{% static 'campus_departments/department.css' %}">
+<div class="access-wrap" style="max-width:970px">
+  <span class="access-chip">LECTURER DASHBOARD</span>
+  <h1 class="access-heading">My teaching units ✦</h1>
+  <p class="access-lead">Choose your department, select units from any year and semester, then submit them for approval. Selecting a unit does not immediately give teaching access.</p>
+  <section class="cd-panel">
+    <h2>Request additional teaching units</h2>
+    {% if form.non_field_errors %}<div class="access-error">{{ form.non_field_errors }}</div>{% endif %}
+    <form method="post" novalidate>
+      {% csrf_token %}
+      <div class="access-field">
+        <label for="{{ form.department.id_for_label }}">Department / School</label>
+        {{ form.department }}
+        {% for err in form.department.errors %}<div class="access-error">{{ err }}</div>{% endfor %}
+      </div>
+      {% include 'campus_departments/unit_picker.html' %}
+      {% for err in form.requested_units.errors %}<div class="access-error">{{ err }}</div>{% endfor %}
+      <button class="access-submit" type="submit">Submit teaching unit requests →</button>
+    </form>
+  </section>
+  <section class="cd-panel">
+    <h2>Approved teaching assignments</h2>
+    <div class="cd-list">
+      {% for row in assigned %}
+        <div class="cd-record"><strong>{{ row.placement.unit.code }} — {{ row.placement.unit.title }}</strong><div class="cd-sub">{{ row.placement.programme.name }} · Year {{ row.placement.year }} · Semester {{ row.placement.semester }}</div></div>
+      {% empty %}<p class="cd-muted">Your teaching assignments will appear here after approval.</p>{% endfor %}
+    </div>
+  </section>
+  <section class="cd-panel">
+    <h2>Teaching unit requests</h2>
+    <div class="cd-list">
+      {% for row in requests %}
+        <div class="cd-record"><strong>{{ row.placement.unit.code }} — {{ row.placement.unit.title }}</strong><div class="cd-sub">{{ row.placement.programme.code }} · Year {{ row.placement.year }} · Semester {{ row.placement.semester }} · {{ row.get_status_display }}</div>{% if row.review_note %}<p>{{ row.review_note }}</p>{% endif %}</div>
+      {% empty %}<p class="cd-muted">You have not requested any units yet.</p>{% endfor %}
+    </div>
+  </section>
+</div>
+<script defer src="{% static 'campus_departments/department-picker.js' %}"></script>
+{% endblock %}

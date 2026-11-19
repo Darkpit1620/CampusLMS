@@ -1,0 +1,31 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}Unit Approval Requests | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_admissions_units/admission-units.css' %}">
+<div class="cu-wrap">
+  <span class="cu-eyebrow">LECTURER WORKSPACE</span>
+  <h1>Unit Approval Requests ✦</h1>
+  <p class="cu-sub">Review semester unit requests only for the units assigned to you. An approval of a unit linked to a CampusLMS teaching course also enrols the student in that course.</p>
+  {% if messages %}{% for message in messages %}<div class="cu-message">{{ message }}</div>{% endfor %}{% endif %}
+  <div class="cu-panel"><h2>Pending Requests</h2>
+    {% for item in pending %}
+      <div class="cu-review-row">
+        <div><span class="cu-code">{{ item.placement.unit.code }}</span><h3>{{ item.placement.unit.title }}</h3>
+        <p>{{ item.registration.student_programme.student.get_full_name|default:item.registration.student_programme.student.username }} · {{ item.registration.student_programme.programme.code }} · Year {{ item.registration.year }}, Semester {{ item.registration.semester }}</p></div>
+        <form method="post" action="{% url 'campus_admissions_units:lecturer_review' item.id %}" class="cu-review-form">
+          {% csrf_token %}
+          <label for="note-{{ item.id }}">Feedback (optional)</label>
+          <input id="note-{{ item.id }}" name="note" maxlength="300" placeholder="Optional lecturer comment">
+          <div><button class="cu-mini cu-yes" name="decision" value="approve">Approve</button> <button class="cu-mini cu-no" name="decision" value="reject">Reject</button></div>
+        </form>
+      </div>
+    {% empty %}<p>No unit registrations currently need your approval. An administrator must assign you to units before requests appear here.</p>{% endfor %}
+  </div>
+  <div class="cu-panel"><h2>Recently Reviewed</h2>
+    {% for item in reviewed %}<div class="cu-history"><b>{{ item.placement.unit.code }}</b> · {{ item.registration.student_programme.student.get_full_name|default:item.registration.student_programme.student.username }} · {{ item.get_status_display }}{% if item.review_note %} · {{ item.review_note }}{% endif %}</div>
+    {% empty %}<p>No previous decisions yet.</p>{% endfor %}
+  </div>
+  <a class="cu-textlink" href="{% url 'dashboard' %}">← Lecturer Dashboard</a>
+</div>
+{% endblock %}

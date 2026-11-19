@@ -1,0 +1,17 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}Choose Your Campus Portal | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<div class="access-wrap">
+ <span class="access-chip">WELCOME TO CAMPUSLMS</span>
+ <h1 class="access-heading">Your university portal ✦</h1>
+ <p class="access-lead">Choose your account type to sign in or register. New accounts require university approval.</p>
+ <div class="access-grid">
+  <section class="access-card"><span class="access-chip">🎓 STUDENTS</span><h2>Student Portal</h2><p>Apply for admission, access your course units and check grades.</p><a class="access-link" href="{% url 'campus_access:student_signup' %}">Student Sign Up</a><a class="access-link alt" href="{% url 'campus_access:role_login' 'student' %}">Student Login</a></section>
+  <section class="access-card"><span class="access-chip">📚 LECTURERS</span><h2>Lecturer Portal</h2><p>Apply for a teaching account, upload notes and assess students.</p><a class="access-link" href="{% url 'campus_access:lecturer_signup' %}">Lecturer Sign Up</a><a class="access-link alt" href="{% url 'campus_access:role_login' 'lecturer' %}">Lecturer Login</a></section>
+  <section class="access-card"><span class="access-chip">🏛️ STAFF</span><h2>University Staff Portal</h2><p>Apply for a university employee account and access approved functions.</p><a class="access-link" href="{% url 'campus_access:staff_signup' %}">Staff Sign Up</a><a class="access-link alt" href="{% url 'campus_access:role_login' 'staff' %}">Staff Login</a></section>
+  <section class="access-card"><span class="access-chip">🔐 ADMIN</span><h2>Administrator Portal</h2><p>Approve accounts, issue admission numbers and manage the university. Administrator accounts are created by an existing superuser.</p><a class="access-link" href="{% url 'admin:login' %}">Administrator Login</a></section>
+ </div>
+</div>
+{% endblock %}

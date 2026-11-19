@@ -1,0 +1,34 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}My Semester Units | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'academics/academics.css' %}">
+<div class="academics-wrap">
+  <span class="academics-pill">STUDENT WORKSPACE</span>
+  <h1 class="academics-heading">My Semester Units ✦</h1>
+  {% if record %}
+    <p class="academics-lead"><b>{{ record.programme.name }}</b><br>Year {{ record.current_year }} · Semester {{ record.current_semester }} · {{ record.get_status_display }}</p>
+    <div class="academics-grid">
+      {% for row in rows %}
+        <article class="academics-card">
+          <span class="academics-pill">{{ row.placement.unit.code }}</span>
+          <h2>{{ row.placement.unit.title }}</h2>
+          <p>{{ row.placement.unit.credits }} credits · {% if row.placement.required %}Required{% else %}Elective{% endif %}</p>
+          {% if row.can_open %}
+            <a class="academics-action" href="{% url 'courses:course_detail' row.placement.lms_course.id %}">Open learning materials</a>
+          {% elif row.placement.lms_course %}
+            <p class="academics-meta">The unit is connected to an LMS course. Ask the administrator to complete your course enrolment.</p>
+          {% else %}
+            <p class="academics-meta">Learning materials have not been connected yet.</p>
+          {% endif %}
+        </article>
+      {% empty %}
+        <div class="academics-empty">Your programme is assigned, but no units have been added for this semester yet.</div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="academics-empty">Your programme has not been assigned yet. Contact your administrator. Your existing course submissions and grades remain available.</div>
+  {% endif %}
+  <p><a class="academics-link" href="{% url 'dashboard' %}">← Return to dashboard</a></p>
+</div>
+{% endblock %}

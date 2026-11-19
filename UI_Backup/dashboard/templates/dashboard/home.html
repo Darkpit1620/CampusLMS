@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>CampusLMS | Learning Management System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+        }
+
+        header {
+            background: #143b70;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #526277;
+        }
+
+        .button {
+            display: inline-block;
+            background: #1769cf;
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>CampusLMS</h2>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/admin/">Administration</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to CampusLMS</h1>
+        <p>
+            Empowering students and lecturers through
+            modern digital learning.
+        </p>
+        <a href="{% url 'login' %}" class="button">
+    Login to CampusLMS
+</a>
+    </section>
+
+</body>
+</html>

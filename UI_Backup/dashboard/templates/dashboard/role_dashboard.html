@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>{{ role_title }} | CampusLMS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            color: #172b4d;
+        }
+        header {
+            background: #143b70;
+            color: white;
+            padding: 20px 8%;
+        }
+        main {
+            max-width: 1050px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px #0001;
+        }
+        button {
+            background: #1769cf;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>CampusLMS</h2>
+    </header>
+
+    <main>
+        <h1>{{ role_title }}</h1>
+        <p>Welcome, {{ user.username }}!</p>
+
+        
+<div class="cards">
+    {% for feature in features %}
+
+        <div class="card">
+            <h3>{{ feature }}</h3>
+
+            {% if feature == "My Courses" %}
+
+                <a href="{% url 'courses:my_courses' %}">
+                    View My Courses
+                </a>
+
+            {% else %}
+
+                <p>Coming soon</p>
+
+            {% endif %}
+        </div>
+
+    {% endfor %}
+</div>
+
+        <p>
+            <a href="{% url 'home' %}">
+                Return to Homepage
+            </a>
+        </p>
+
+        <form action="{% url 'logout' %}"
+              method="post">
+            {% csrf_token %}
+            <button type="submit">Log Out</button>
+        </form>
+    </main>
+</body>
+</html>

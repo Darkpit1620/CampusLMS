@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>Upload Material | CampusLMS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+            margin: 0;
+        }
+
+        header {
+            background: #143b70;
+            color: white;
+            padding: 20px 8%;
+        }
+
+        main {
+            max-width: 650px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .form-box {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #0001;
+        }
+
+        input, textarea {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        form p {
+            margin-bottom: 22px;
+        }
+
+        button {
+            background: #1769cf;
+            color: white;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        a {
+            color: #1769cf;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h2>CampusLMS</h2>
+</header>
+
+<main>
+    <h1>Upload Learning Material</h1>
+    <p>{{ course.code }} - {{ course.title }}</p>
+
+    <div class="form-box">
+        <form method="post"
+              enctype="multipart/form-data">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <button type="submit">
+                Upload Material
+            </button>
+        </form>
+
+        <p>Accepted: PDF, DOCX, PPTX. Maximum: 10 MB.</p>
+
+        <a href="{% url 'courses:course_detail' course.id %}">
+            Back to Course
+        </a>
+    </div>
+</main>
+</body>
+</html>

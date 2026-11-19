@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>Submit Assignment | CampusLMS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+        }
+
+        header {
+            background: #143b70;
+            color: white;
+            padding: 20px 8%;
+        }
+
+        main {
+            max-width: 750px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #0001;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            border: 1px solid #ccd4df;
+            width: 90%;
+        }
+
+        button {
+            background: #1769cf;
+            color: white;
+            padding: 12px 22px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        .success {
+            color: #176b3a;
+            font-weight: bold;
+        }
+
+        .error {
+            color: #a12424;
+        }
+
+        a {
+            color: #1769cf;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>CampusLMS</h2>
+</header>
+
+<main>
+    <h1>{{ assignment.title }}</h1>
+
+    <div class="box">
+        <p>{{ assignment.instructions }}</p>
+
+        <p>
+            <strong>Deadline:</strong>
+            {{ assignment.due_at|date:"d M Y, H:i" }}
+        </p>
+
+        <p>
+            <strong>Maximum Marks:</strong>
+            {{ assignment.max_marks }}
+        </p>
+
+        <hr>
+
+        {% if submission %}
+            <p class="success">
+                Assignment submitted successfully!
+            </p>
+
+            <p>
+                Submitted on:
+                {{ submission.submitted_at|date:"d M Y, H:i" }}
+            </p>
+
+            <p>
+                Your submission has been recorded.
+            </p>
+
+        {% elif deadline_passed %}
+            <p class="error">
+                The submission deadline has passed.
+            </p>
+
+        {% else %}
+            <h2>Upload Your Work</h2>
+
+            <p>Accepted: PDF or DOCX, maximum 10 MB.</p>
+
+            <form method="post"
+                  enctype="multipart/form-data">
+                {% csrf_token %}
+
+                {{ form.as_p }}
+
+                <button type="submit">
+                    Submit Assignment
+                </button>
+            </form>
+        {% endif %}
+
+        <p>
+            <a href="{% url 'assignments:course_assignments' assignment.course_id %}">
+                Back to Course Assignments
+            </a>
+        </p>
+    </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>Student Submissions | CampusLMS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+            margin: 0;
+        }
+        main {
+            max-width: 950px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 18px 0;
+        }
+        a {
+            display: inline-block;
+            margin: 8px 12px 8px 0;
+            color: #1769cf;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Student Submissions</h1>
+    <h2>{{ assignment.title }}</h2>
+
+    {% for submission in submissions %}
+        <div class="card">
+            <h3>{{ submission.student.username }}</h3>
+
+            <p>
+                Submitted:
+                {{ submission.submitted_at|date:"d M Y, H:i" }}
+            </p>
+
+            {% if submission.grade %}
+                <p>
+                    Grade: {{ submission.grade.marks }}
+                    / {{ assignment.max_marks }}
+                </p>
+            {% else %}
+                <p>Not yet graded</p>
+            {% endif %}
+
+            <a href="{% url 'assignments:download_submission' submission.id %}">
+                Download Work
+            </a>
+
+            <a href="{% url 'assignments:grade_submission' submission.id %}">
+                Grade Submission
+            </a>
+        </div>
+    {% empty %}
+        <p>No student submissions yet.</p>
+    {% endfor %}
+
+    <a href="{% url 'assignments:course_assignments' assignment.course_id %}">
+        Back to Assignments
+    </a>
+</main>
+</body>
+</html>

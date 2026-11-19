@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>{{ course.code }} | CampusLMS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+        }
+
+        header {
+            background: #143b70;
+            padding: 20px 8%;
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 45px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 15px #0001;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #1769cf;
+            color: white;
+            border-radius: 7px;
+            text-decoration: none;
+        }
+
+        a {
+            color: #1769cf;
+        }
+
+        .button {
+            color: white;
+        }
+
+        .muted {
+            color: #526277;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h2>CampusLMS</h2>
+</header>
+
+<main>
+    <h1>{{ course.code }} - {{ course.title }}</h1>
+    <p>{{ course.description }}</p>
+<p>
+    <a class="button"
+       href="{% url 'assignments:course_assignments' course.id %}">
+        View Course Assignments
+    </a>
+</p>
+    <h2>Learning Materials</h2>
+
+    {% if can_upload %}
+        <p>
+            <a class="button"
+               href="{% url 'courses:upload_material' course.id %}">
+                + Upload New Material
+            </a>
+        </p>
+    {% endif %}
+
+    {% for material in materials %}
+        <div class="card">
+            <h3>{{ material.title }}</h3>
+
+            <p>{{ material.description }}</p>
+
+            <p class="muted">
+                Uploaded by {{ material.uploaded_by.username }}
+                on {{ material.uploaded_at|date:"d M Y" }}
+            </p>
+
+            <a class="button"
+               href="{% url 'courses:download_material' course.id material.id %}">
+                Download Material
+            </a>
+        </div>
+    {% empty %}
+        <div class="card">
+            <p>No learning materials uploaded yet.</p>
+        </div>
+    {% endfor %}
+
+    <p>
+        <a href="{% url 'courses:my_courses' %}">
+            Back to My Courses
+        </a>
+    </p>
+</main>
+</body>
+</html>

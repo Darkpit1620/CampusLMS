@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Assignments | CampusLMS</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #172b4d;
+        }
+
+        header {
+            background: #143b70;
+            padding: 20px 8%;
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px #0001;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #1769cf;
+            color: white;
+            border-radius: 7px;
+            text-decoration: none;
+        }
+
+        .muted {
+            color: #526277;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h2>CampusLMS</h2>
+</header>
+
+<main>
+    <h1>Course Assignments</h1>
+    <p>{{ course.code }} - {{ course.title }}</p>
+
+    {% if can_create %}
+        <p>
+            <a class="button"
+               href="{% url 'assignments:create_assignment' course.id %}">
+                + Create New Assignment
+            </a>
+        </p>
+    {% endif %}
+
+    {% for assignment in assignments %}
+        <div class="card">
+            <h2>{{ assignment.title }}</h2>
+
+            <p>{{ assignment.instructions }}</p>
+
+            <p>
+                <strong>Deadline:</strong>
+                {{ assignment.due_at|date:"d M Y, H:i" }}
+            </p>
+
+            <p>
+                <strong>Maximum Marks:</strong>
+                {{ assignment.max_marks }}
+            </p>
+
+            <p class="muted">
+                Created by
+                {{ assignment.created_by.username }}
+            </p>
+            {% if not can_create %}
+    <a class="button"
+       href="{% url 'assignments:submit_assignment' assignment.id %}">
+        View / Submit Assignment
+    </a>
+            {% if can_create %}
+    <a class="button"
+       href="{% url 'assignments:assignment_submissions' assignment.id %}">
+        View Student Submissions
+    </a>
+{% endif %}
+{% endif %}
+        </div>
+
+    {% empty %}
+        <div class="card">
+            <p>No assignments have been created yet.</p>
+        </div>
+    {% endfor %}
+
+    <a href="{% url 'courses:course_detail' course.id %}">
+        Back to Course
+    </a>
+</main>
+</body>
+</html>

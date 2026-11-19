@@ -1,0 +1,18 @@
+/* Style additions compatible with CampusLMS light and dark themes. */
+.cd-v16 .cd-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cd-v16 .cd-dropdown-area{margin-top:15px}
+.cd-v16 .cd-dropdown-area>label{display:block;font-size:13px;font-weight:750;margin-bottom:7px;color:var(--ink,#172b4d)}
+.cd-v16 .cd-dropdown-row{display:flex;gap:8px}
+.cd-v16 .cd-dropdown-row select{flex:1;min-width:0;padding:12px;border-radius:11px;border:1px solid var(--stroke,#dce2ee);color:var(--ink,#172b4d);background:var(--surface,#fff)}
+.cd-v16 .cd-add-button{border:0;border-radius:10px;color:white;background:linear-gradient(110deg,#6857f6,#3578ef);padding:11px 14px;font-weight:750;cursor:pointer;white-space:nowrap}
+.cd-v16 .cd-add-button:focus-visible,.cd-v16 .cd-tag:focus-visible{outline:3px solid #38bdf8;outline-offset:2px}
+.cd-v16 .cd-selected:empty{display:none}
+.s16-student-preview{margin:20px 0;background:var(--canvas,#f7f8ff);border:1px solid var(--stroke,#dce2ee);border-radius:16px;padding:16px;color:var(--ink,#172b4d)}
+.s16-student-preview summary{cursor:pointer;font-size:15px;font-weight:750}
+.s16-student-preview .s16-preview-list{margin:12px 0;padding-left:23px}
+.s16-student-preview .s16-preview-list li{padding:4px 0;font-size:13px}
+.s16-student-preview small{color:var(--ink-soft,#64728c)}
+.s16-student-semester{background:var(--surface,#fff);border:1px solid var(--stroke,#dce2ee);border-radius:14px;padding:14px;margin:18px 0;color:var(--ink,#172b4d)}
+.s16-student-semester summary{cursor:pointer;font-weight:700;padding:4px}
+.s16-student-semester .cu-grid{margin-top:12px}
+@media(max-width:600px){.cd-v16 .cd-controls{grid-template-columns:1fr}.cd-v16 .cd-dropdown-row{flex-direction:column}}

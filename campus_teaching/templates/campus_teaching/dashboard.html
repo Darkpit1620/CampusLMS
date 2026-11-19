@@ -1,0 +1,39 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}My Teaching Units | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_teaching/teaching.css' %}">
+<div class="ct-page">
+  <div class="ct-hero"><div class="ct-eyebrow">LECTURER WORKSPACE</div>
+    <h1>My Teaching Units ✦</h1>
+    <p>Only administrator-approved units appear here. Open a unit to upload notes, create assignments and manage its class.</p>
+    <div class="ct-chips"><span>{{ approved_count }} approved teaching units</span><span>{{ pending_count }} awaiting administrator approval</span></div>
+  </div>
+  {% if messages %}{% for message in messages %}<div class="ct-message">{{ message }}</div>{% endfor %}{% endif %}
+  <div class="ct-heading"><h2>Approved Units</h2><a class="ct-button ct-outline" href="{% url 'campus_departments:my_teaching' %}">Request More Units</a></div>
+  <div class="ct-grid">
+  {% for row in rows %}
+    <section class="ct-card">
+      <div class="ct-top"><span class="ct-code">{{ row.placement.unit.code }}</span><span class="ct-pill">Approved</span></div>
+      <h3>{{ row.placement.unit.title }}</h3>
+      <p>{{ row.placement.programme.name }}</p>
+      <div class="ct-meta">Year {{ row.placement.year }} · Semester {{ row.placement.semester }} · {{ row.assignment_count }} assignment(s)</div>
+      {% if row.ready %}
+        <a class="ct-button" href="{% url 'campus_teaching:unit' row.placement.pk %}">Open unit workspace →</a>
+      {% else %}
+        <a class="ct-button ct-outline" href="{% url 'campus_teaching:unit' row.placement.pk %}">Course linking needs review</a>
+      {% endif %}
+    </section>
+  {% empty %}
+    <section class="ct-card"><h3>No approved teaching units yet</h3><p>Choose your department, request units, and ask the administrator to approve the teaching assignments. They will appear here after approval.</p><a class="ct-button" href="{% url 'campus_departments:my_teaching' %}">Choose teaching units →</a></section>
+  {% endfor %}
+  </div>
+  <section class="ct-panel">
+    <h2>Requests awaiting administrator approval</h2>
+    {% for req in pending %}
+      <div class="ct-line"><strong>{{ req.placement.unit.code }} — {{ req.placement.unit.title }}</strong><span>{{ req.placement.programme.code }} · Y{{ req.placement.year }} S{{ req.placement.semester }}</span></div>
+    {% empty %}<p>There are no pending teaching-unit requests.</p>{% endfor %}
+  </section>
+  <div class="ct-actions"><a class="ct-button ct-outline" href="{% url 'campus_admissions_units:lecturer_queue' %}">Review student unit registrations →</a><a class="ct-button ct-outline" href="{% url 'dashboard' %}">Back to dashboard</a></div>
+</div>
+{% endblock %}

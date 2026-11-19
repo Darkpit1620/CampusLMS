@@ -1,0 +1,16 @@
+{% extends 'dashboard/base.html' %}{% load static %}
+{% block title %}My Student Services | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_services/services.css' %}">
+<div class="cs-wrap">
+<span class="cs-eyebrow">STUDENT PORTAL</span><h1 class="cs-title">My Student Services ✦</h1>
+<p class="cs-intro">Everything you need for your fee statement, accommodation, and graduation in one place.</p>
+<div class="cs-grid">
+<article class="cs-card"><span class="cs-label">Total fees due</span><div class="cs-stat">KES {{ statement.total|floatformat:2 }}</div><p class="cs-muted">Recorded university and hostel charges</p><a class="cs-link" href="{% url 'campus_services:fees' %}">View My Fees →</a></article>
+<article class="cs-card"><span class="cs-label">Outstanding balance</span><div class="cs-stat">KES {{ statement.balance|floatformat:2 }}</div><p class="cs-muted">Paid: KES {{ statement.paid|floatformat:2 }}</p><a class="cs-link" href="{% url 'campus_services:fees' %}">Fee Statement →</a></article>
+<article class="cs-card"><span class="cs-label">Accommodation</span><div class="cs-stat" style="font-size:22px">{% if room %}{{ room.room.hostel.name }}{% else %}Not allocated{% endif %}</div><p class="cs-muted">{% if room %}Room {{ room.room.number }}{% else %}Apply for a hostel room, if needed{% endif %}</p><a class="cs-link" href="{% url 'campus_services:accommodation' %}">My Hostel →</a></article>
+</div>
+<div class="cs-panel"><h2>Graduation &amp; Honours</h2><p class="cs-muted">Official classifications require verified results in all required units. Graduation is approved by the university registrar after the necessary clearances.</p><p><b>Current status:</b> {% if readiness.eligible %}<span class="cs-success">Ready to apply for review</span>{% else %}Requirements still pending{% endif %}</p><a class="cs-link" href="{% url 'campus_services:graduation' %}">Check Graduation Readiness →</a></div>
+<p><a href="{% url 'dashboard' %}">← Back to Dashboard</a></p>
+</div>
+{% endblock %}

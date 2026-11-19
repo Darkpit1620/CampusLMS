@@ -1,0 +1,12 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}Create Unit Assignment | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_teaching/teaching.css' %}">
+<div class="ct-page ct-narrow"><p class="ct-back"><a href="{% url 'campus_teaching:unit' placement.pk %}">← {{ placement.unit.code }}</a></p>
+ <section class="ct-panel"><h1>Create an Assignment</h1><p>{{ placement.unit.title }} · Year {{ placement.year }} · Semester {{ placement.semester }}</p>
+ <form method="post">{% csrf_token %}
+ {{ form.non_field_errors }}
+ {% for field in form %}<div class="ct-field"><label for="{{ field.id_for_label }}">{{ field.label }}</label>{{ field }}{{ field.errors }}{% if field.help_text %}<small>{{ field.help_text }}</small>{% endif %}</div>{% endfor %}
+ <button class="ct-button" type="submit">Publish assignment →</button></form></section></div>
+{% endblock %}

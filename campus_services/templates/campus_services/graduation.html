@@ -1,0 +1,22 @@
+{% extends 'dashboard/base.html' %}{% load static %}
+{% block title %}Graduation & Honours | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_services/services.css' %}">
+<div class="cs-wrap"><span class="cs-eyebrow">REGISTRAR / GRADUATION</span><h1 class="cs-title">Graduation &amp; Honours ✦</h1>
+<p class="cs-intro">Check academic completion, clearance, and your provisional degree classification. Final awards are confirmed by the university's academic board and registrar.</p>
+{% if messages %}{% for message in messages %}<div class="cs-message">{{ message }}</div>{% endfor %}{% endif %}
+<div class="cs-grid cs-two"><article class="cs-card"><span class="cs-label">Official final-unit weighted average</span><div class="cs-stat">{% if ready.average != None %}{{ ready.average|floatformat:2 }}%{% else %}—{% endif %}</div><p class="cs-muted">{% if ready.complete %}All required unit results verified{% else %}{{ ready.missing }} required unit results remain unverified or missing{% endif %}</p></article>
+<article class="cs-card"><span class="cs-label">Classification / award status</span><h2>{{ ready.label|default:'Awaiting academic verification' }}</h2><p class="cs-muted">Not an official award until registrar approval</p></article></div>
+<section class="cs-panel"><h2>Clearance Checklist</h2>
+<ul class="cs-checklist"><li>Academic programme completed: {% if ready.record.status == 'COMPLETED' %}<span class="cs-success">Yes</span>{% else %}Not yet{% endif %}</li>
+<li>All compulsory unit results verified: {% if ready.complete %}<span class="cs-success">Yes</span>{% else %}Pending{% endif %}</li>
+<li>Finance clearance: {% if ready.clearance.finance and ready.financial.has_charges and ready.financial.balance <= 0 %}<span class="cs-success">Cleared</span>{% else %}Pending{% endif %}</li>
+<li>Library clearance: {% if ready.clearance.library %}<span class="cs-success">Cleared</span>{% else %}Pending{% endif %}</li>
+<li>Accommodation clearance: {% if ready.clearance.hostel %}<span class="cs-success">Cleared</span>{% else %}Pending{% endif %}</li>
+<li>Department clearance: {% if ready.clearance.department %}<span class="cs-success">Cleared</span>{% else %}Pending{% endif %}</li></ul>
+{% if ready.blockers %}<div class="cs-alert"><b>Outstanding requirements:</b><ul>{% for blocker in ready.blockers %}<li>{{ blocker }}</li>{% endfor %}</ul></div>{% else %}<div class="cs-alert"><span class="cs-success">All automated checks passed.</span> Graduation still requires registrar review.</div>{% endif %}
+</section>
+<section class="cs-panel"><h2>Graduation Application</h2>{% if application %}<p>Current request: <span class="cs-pill">{{ application.get_status_display }}</span></p>{% if application.status == 'APPROVED' %}<p><b>Registrar-confirmed award:</b> {{ application.award_confirmed|default:ready.label }}</p>{% endif %}{% if application.note %}<p>{{ application.note }}</p>{% endif %}
+{% elif ready.eligible %}<form method="post">{% csrf_token %}<button class="cs-button" type="submit">Submit Application for Graduation</button></form>{% else %}<p class="cs-muted">You can submit an application once the required academic and clearance checks are complete.</p>{% endif %}</section>
+<a class="cs-link cs-link-secondary" href="{% url 'campus_services:home' %}">← My Student Services</a>
+</div>{% endblock %}

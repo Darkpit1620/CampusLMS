@@ -1,0 +1,30 @@
+/* CampusLMS services: inherits light/dark theme from existing campus.css */
+.cs-wrap {width:min(1140px,100%);margin:0 auto;padding:46px 26px 70px;color:var(--ink)}
+.cs-eyebrow {font-size:12px;color:var(--purple);font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
+.cs-title {font-size:clamp(29px,3vw,41px);margin:9px 0 8px;line-height:1.15}
+.cs-intro,.cs-muted {color:var(--ink-soft);line-height:1.65}
+.cs-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:22px 0 30px}
+.cs-two {grid-template-columns:repeat(2,minmax(0,1fr))}
+.cs-card,.cs-panel {background:var(--surface);color:var(--ink);border:1px solid var(--stroke);border-radius:21px;padding:23px;box-shadow:var(--shadow)}
+.cs-card h2,.cs-panel h2 {margin:5px 0 11px;font-size:20px}
+.cs-stat {font-size:29px;line-height:1.2;font-weight:800;margin:6px 0}
+.cs-label {font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--ink-soft);font-weight:750}
+.cs-panel {margin:18px 0 26px}
+.cs-pill {display:inline-block;border-radius:999px;padding:6px 12px;background:var(--canvas);border:1px solid var(--stroke);font-size:12px;color:var(--ink);font-weight:800}
+.cs-link {display:inline-block;padding:11px 17px;background:linear-gradient(110deg,#7354f1,#397ddd);color:white!important;border:0;border-radius:12px;font-size:14px;font-weight:750;text-decoration:none}
+.cs-link:hover {filter:brightness(1.06);text-decoration:none}
+.cs-link-secondary {border:1px solid var(--stroke);background:var(--surface);color:var(--ink)!important}
+.cs-table-wrap {width:100%;overflow:auto}
+.cs-table {width:100%;border-collapse:collapse;min-width:620px}
+.cs-table th,.cs-table td {padding:13px 10px;border-bottom:1px solid var(--stroke);text-align:left;color:var(--ink);font-size:13px;vertical-align:top}
+.cs-table th {color:var(--ink-soft);font-size:12px;text-transform:uppercase}
+.cs-alert {background:var(--canvas);color:var(--ink-soft);border:1px dashed var(--stroke);border-radius:15px;padding:15px;margin:14px 0}
+.cs-checklist {padding-left:22px;line-height:1.8}
+.cs-checklist li {margin:4px 0}
+.cs-success {color:var(--mint);font-weight:850}
+.cs-form {margin:18px 0}
+.cs-button {padding:12px 18px;border:0;border-radius:12px;background:var(--purple);color:#fff;font-weight:750;cursor:pointer}
+.cs-button:disabled {opacity:.6;cursor:not-allowed}
+.cs-message {padding:12px 16px;background:var(--surface);border:1px solid var(--stroke);border-radius:12px;margin:12px 0}
+@media(max-width:800px){.cs-grid {grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.cs-grid {grid-template-columns:1fr}.cs-wrap{padding:30px 16px}.cs-table{min-width:540px}}

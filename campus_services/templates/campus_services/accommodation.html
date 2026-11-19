@@ -1,0 +1,14 @@
+{% extends 'dashboard/base.html' %}{% load static %}
+{% block title %}My Hostel | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_services/services.css' %}">
+<div class="cs-wrap"><span class="cs-eyebrow">STUDENT ACCOMMODATION</span><h1 class="cs-title">Hostel &amp; Room Allocation ✦</h1>
+<p class="cs-intro">View your allocated hostel, room number, and fees. You can also request accommodation for your current semester.</p>
+{% if messages %}{% for message in messages %}<div class="cs-message">{{ message }}</div>{% endfor %}{% endif %}
+<section class="cs-panel"><h2>My Room Allocations</h2><div class="cs-table-wrap"><table class="cs-table"><thead><tr><th>Year / Semester</th><th>Hostel</th><th>Room</th><th>Fee per semester</th><th>Status</th></tr></thead><tbody>{% for a in allocations %}<tr><td>{{ a.academic_year }} / S{{ a.semester }}</td><td>{{ a.room.hostel.name }}</td><td>{{ a.room.number }}</td><td>KES {{ a.room.semester_fee|floatformat:2 }}</td><td><span class="cs-pill">{{ a.get_status_display }}</span></td></tr>{% empty %}<tr><td colspan="5">No hostel room allocated yet.</td></tr>{% endfor %}</tbody></table></div></section>
+<section class="cs-panel"><h2>Accommodation Applications</h2>
+{% if can_request %}<p class="cs-muted">Request accommodation for your current semester. A university administrator will allocate an available room.</p><form method="post" class="cs-form">{% csrf_token %}<button class="cs-button" type="submit">Request Hostel Allocation</button></form>{% else %}<p class="cs-muted">{% if not record %}You must first be assigned a university programme.{% else %}An application or allocation may already exist for your current semester.{% endif %}</p>{% endif %}
+{% for item in requests %}<p><span class="cs-pill">{{ item.academic_year }} S{{ item.semester }}</span> {{ item.get_status_display }}</p>{% empty %}<p class="cs-muted">No accommodation applications submitted.</p>{% endfor %}</section>
+<p class="cs-muted">Hostel charges are shown in <a href="{% url 'campus_services:fees' %}">My Fees</a>. Only authorized staff can allocate rooms or confirm payments.</p>
+<a class="cs-link cs-link-secondary" href="{% url 'campus_services:home' %}">← My Student Services</a>
+</div>{% endblock %}

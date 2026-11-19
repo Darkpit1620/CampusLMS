@@ -1,0 +1,22 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Student Submissions | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'assignments:course_assignments' assignment.course_id %}">Assignments</a><span>›</span>Student submissions</div>
+  <div class="page-heading"><div class="eyebrow">LECTURER WORKSPACE</div><h1>Student submissions <span aria-hidden="true">✓</span></h1><p>{{ assignment.title }}</p></div>
+  <div class="detail-strip"><span class="detail-item"><strong>{{ submissions|length }}</strong> submission{{ submissions|length|pluralize }}</span><span class="detail-item">Maximum <strong>{{ assignment.max_marks }} marks</strong></span></div>
+  <section class="card-grid">
+    {% for submission in submissions %}
+      <article class="content-card">
+        <span class="card-tag">Student work</span>
+        <h2>{{ submission.student.get_full_name|default:submission.student.username }}</h2>
+        <p class="meta">Submitted {{ submission.submitted_at|date:'d M Y, H:i' }}</p>
+        {% if submission.grade %}<div class="notice notice-success">Graded: {{ submission.grade.marks }} / {{ assignment.max_marks }}</div>{% else %}<div class="notice notice-warning">Awaiting grading</div>{% endif %}
+        <div class="action-row">{% url 'assignments:download_submission' submission.id as review_download_url %}{% if review_download_url %}<a class="btn btn-outline btn-small" href="{{ review_download_url }}">↓ Download work</a>{% endif %}{% url 'assignments:grade_submission' submission.id as grade_url %}{% if grade_url %}<a class="btn btn-primary btn-small" href="{{ grade_url }}">{% if submission.grade %}Edit grade{% else %}Grade submission{% endif %} →</a>{% endif %}</div>
+      </article>
+    {% empty %}
+      <div class="empty-state"><h3>No submissions yet</h3><p>Student submissions will show here when received.</p></div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "dashboard/base.html" %}
+{% block title %}Create Student Account | CampusLMS{% endblock %}
+{% block content %}
+<style>
+.admission-page {max-width:760px;margin:35px auto 80px;padding:0 18px;}
+.admission-card {background:var(--surface,#fff);color:var(--ink,#172b4d);border:1px solid var(--stroke,#e0e5f1);border-radius:24px;padding:clamp(24px,5vw,42px);box-shadow:var(--shadow,0 8px 28px #1b265414);}
+.admission-eyebrow{color:var(--purple,#6d59f6);font-weight:800;letter-spacing:2px;font-size:11px;text-transform:uppercase;}
+.admission-card h1{font-size:clamp(26px,5vw,38px);margin:10px 0 8px;}
+.admission-muted{color:var(--ink-soft,#62728b);line-height:1.6;}
+.admission-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.admission-field{display:flex;flex-direction:column;gap:7px;margin:13px 0;min-width:0;}
+.admission-field label{font-size:13px;font-weight:750;}
+.admission-field input{box-sizing:border-box;width:100%;border:1px solid var(--stroke,#dce2ee);background:var(--canvas,#f7f8ff);color:var(--ink,#172b4d);border-radius:12px;padding:13px;font:inherit;}
+.admission-field input:focus{outline:2px solid var(--purple,#715cff);outline-offset:1px;}
+.admission-error{color:#e76565;font-size:12px;line-height:1.5;}
+.admission-errors{background:rgba(230,70,90,.1);padding:12px;border-radius:12px;margin:15px 0;}
+.admission-submit{border:0;border-radius:12px;background:linear-gradient(105deg,#7158ff,#3987f5);color:white;padding:15px 24px;font:inherit;font-weight:750;width:100%;cursor:pointer;margin-top:12px;}
+.admission-foot{text-align:center;margin-top:20px;}
+.admission-foot a{color:var(--purple,#715cff);font-weight:750;}
+@media(max-width:590px){.admission-grid{grid-template-columns:1fr;gap:0;}}
+</style>
+<div class="admission-page">
+ <div class="admission-card">
+  <div class="admission-eyebrow">Join CampusLMS</div>
+  <h1>Create your student account ✦</h1>
+  <p class="admission-muted">Fill in your details. An administrator will review your application and issue an admission number after approval.</p>
+  {% if form.non_field_errors %}<div class="admission-errors">{{ form.non_field_errors }}</div>{% endif %}
+  <form method="post" action="{% url 'admissions:register' %}">
+   {% csrf_token %}
+   <div class="admission-grid">
+    {% for field in form %}
+     <div class="admission-field">
+      <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+      {{ field }}
+      {% if field.errors %}<div class="admission-error">{{ field.errors }}</div>{% endif %}
+     </div>
+    {% endfor %}
+   </div>
+   <p class="admission-muted" style="font-size:12px">Your date of birth and contact details are used for admission review. An admission number is issued only after approval.</p>
+   <button type="submit" class="admission-submit">Submit registration →</button>
+  </form>
+  <div class="admission-foot admission-muted">Already approved? <a href="{% url 'login' %}">Sign in</a></div>
+ </div>
+</div>
+{% endblock %}

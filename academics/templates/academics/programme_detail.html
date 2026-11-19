@@ -1,0 +1,26 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}{{ programme.name }} | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'academics/academics.css' %}">
+<div class="academics-wrap">
+  <a class="academics-link" href="{% url 'academics:programme_list' %}">← All programmes</a>
+  <p><span class="academics-pill">{{ programme.code }}</span></p>
+  <h1 class="academics-heading">{{ programme.name }}</h1>
+  <p class="academics-lead">{{ programme.description|default:"Your programme is organized by academic year and semester." }}<br>{{ programme.duration_years }} year{{ programme.duration_years|pluralize }} · 3 semesters each year</p>
+  <div class="academics-terms">
+  {% for term in terms %}
+    <section class="academics-term">
+      <h3>Year {{ term.year }} · Semester {{ term.semester }}</h3>
+      {% for entry in term.units %}
+        <div class="academics-unit">
+          <div><b>{{ entry.unit.code }}</b> — {{ entry.unit.title }}<small>{{ entry.unit.credits }} credits · {% if entry.required %}Required{% else %}Elective{% endif %}</small></div>
+        </div>
+      {% empty %}
+        <p class="academics-meta">Units not assigned yet.</p>
+      {% endfor %}
+    </section>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}

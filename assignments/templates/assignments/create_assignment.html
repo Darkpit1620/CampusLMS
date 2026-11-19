@@ -1,0 +1,19 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Create Assignment | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'assignments:course_assignments' course.id %}">Assignments</a><span>›</span>New assignment</div>
+  <div class="form-shell">
+    <div class="page-heading"><div class="eyebrow">LECTURER WORKSPACE</div><h1>Create an assignment <span aria-hidden="true">✦</span></h1><p>{{ course.code }} — {{ course.title }}</p></div>
+    <section class="form-card">
+      <form method="post">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {% for field in form %}<div class="form-field">{{ field.label_tag }}{{ field }}{{ field.errors }}{% if field.help_text %}<span class="helptext">{{ field.help_text }}</span>{% endif %}</div>{% endfor %}
+        <button class="btn btn-primary" type="submit">Create assignment →</button>
+        <a class="btn btn-ghost" href="{% url 'assignments:course_assignments' course.id %}">Cancel</a>
+      </form>
+    </section>
+  </div>
+</div>
+{% endblock %}

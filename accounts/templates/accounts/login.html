@@ -1,0 +1,31 @@
+{% extends "dashboard/base.html" %}
+{% block title %}Sign In | CampusLMS{% endblock %}
+{% block content %}
+<style>
+.signin-wrap{max-width:490px;margin:60px auto 80px;padding:0 18px;}
+.signin-card{background:var(--surface,#fff);border:1px solid var(--stroke,#e0e5f1);color:var(--ink,#16274b);border-radius:24px;padding:clamp(25px,5vw,40px);box-shadow:var(--shadow,0 10px 24px #192b5513);}
+.signin-card h1{font-size:30px;margin:8px 0;}
+.signin-card p{color:var(--ink-soft,#62728b);line-height:1.6;}
+.signin-field{margin:18px 0;display:flex;flex-direction:column;gap:7px;}
+.signin-field label{font-weight:750;font-size:13px;}
+.signin-field input{background:var(--canvas,#f7f8ff);border:1px solid var(--stroke,#dce2ee);color:var(--ink,#16274b);padding:14px;border-radius:12px;width:100%;box-sizing:border-box;font:inherit;}
+.signin-error{color:#ed6666;font-size:13px;}
+.signin-btn{background:linear-gradient(110deg,#7158ff,#3987f5);color:white;font:inherit;font-weight:750;border:0;border-radius:12px;padding:14px;width:100%;cursor:pointer;}
+.signin-card a{color:var(--purple,#7158ff);font-weight:750;text-decoration:none;}
+.signin-footer{text-align:center;margin-top:20px;}
+</style>
+<div class="signin-wrap"><div class="signin-card">
+ <div style="font-size:12px;font-weight:800;letter-spacing:1.8px;color:var(--purple,#7158ff)">WELCOME BACK</div>
+ <h1>Sign in to CampusLMS ✦</h1>
+ <p>Students use their admission number. Lecturers and administrators continue using their username.</p>
+ {% if form.non_field_errors %}<div class="signin-error">{{ form.non_field_errors }}</div>{% endif %}
+ <form method="post" action="{% url 'login' %}">
+ {% csrf_token %}
+ <div class="signin-field"><label for="{{ form.username.id_for_label }}">{{ form.username.label }}</label>{{ form.username }}{{ form.username.errors }}</div>
+ <div class="signin-field"><label for="{{ form.password.id_for_label }}">Password</label>{{ form.password }}{{ form.password.errors }}</div>
+ {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+ <button type="submit" class="signin-btn">Sign in →</button>
+ </form>
+ <div class="signin-footer"><p>New student? <a href="{% url 'admissions:register' %}">Create an account</a></p><p><a href="{% url 'home' %}">Back to homepage</a></p></div>
+ </div></div>
+{% endblock %}

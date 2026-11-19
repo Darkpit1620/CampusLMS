@@ -1,0 +1,18 @@
+{% extends "dashboard/base.html" %}
+{% block title %}Registration Pending | CampusLMS{% endblock %}
+{% block content %}
+<style>
+.pending-wrap{max-width:650px;margin:70px auto;padding:18px;}
+.pending-card{padding:clamp(24px,5vw,46px);background:var(--surface,#fff);color:var(--ink,#172b4d);border:1px solid var(--stroke,#ddd);border-radius:24px;text-align:center;box-shadow:var(--shadow,0 10px 24px #192b5511);}
+.pending-icon{font-size:42px;}
+.pending-card p{color:var(--ink-soft,#62728b);line-height:1.7;}
+.pending-card a{display:inline-block;margin-top:12px;padding:13px 22px;border-radius:12px;color:white;background:linear-gradient(110deg,#7158ff,#3987f5);text-decoration:none;font-weight:750;}
+</style>
+<div class="pending-wrap"><div class="pending-card">
+ <div class="pending-icon">📨</div>
+ <h1>Registration received!</h1>
+ <p>Your student account is <strong>pending administrator review</strong>. You cannot sign in until approval. Once the administrator issues your unique CampusLMS admission number and shares it securely with you, use that number and your password to log in.</p>
+ <p>No admission number has been issued yet. Contact your campus admissions office if you need an update.</p>
+ <a href="{% url 'home' %}">Return to homepage</a>
+</div></div>
+{% endblock %}

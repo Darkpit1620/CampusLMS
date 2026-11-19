@@ -1,0 +1,21 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Grade Submission | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'assignments:assignment_submissions' submission.assignment_id %}">Submissions</a><span>›</span>Marking</div>
+  <div class="form-shell">
+    <div class="page-heading"><div class="eyebrow">LECTURER GRADING</div><h1>Grade this submission <span aria-hidden="true">✓</span></h1><p>{{ submission.student.username }} · {{ submission.assignment.title }}</p></div>
+    <div class="form-card">
+      <div class="detail-strip"><span class="detail-item">Student: <strong>{{ submission.student.username }}</strong></span><span class="detail-item">Maximum: <strong>{{ submission.assignment.max_marks }} marks</strong></span></div>
+      <div class="action-row">{% url 'assignments:download_submission' submission.id as grading_download_url %}{% if grading_download_url %}<a class="btn btn-outline" href="{{ grading_download_url }}">↓ Download student's work</a>{% endif %}</div>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {% for field in form %}<div class="form-field">{{ field.label_tag }}{{ field }}{{ field.errors }}{% if field.help_text %}<span class="helptext">{{ field.help_text }}</span>{% endif %}</div>{% endfor %}
+        <button class="btn btn-primary" type="submit">Save grade & feedback →</button>
+        <a class="btn btn-ghost" href="{% url 'assignments:assignment_submissions' submission.assignment_id %}">Cancel</a>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

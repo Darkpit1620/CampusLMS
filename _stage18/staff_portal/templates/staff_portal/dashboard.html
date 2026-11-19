@@ -1,0 +1,52 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}My Staff Desk | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'staff_portal/staff.css' %}">
+<div class="staff-container">
+  <div class="staff-hero">
+    <span class="staff-overline">UNIVERSITY EMPLOYEE WORKSPACE</span>
+    <h1>My Staff Desk ✦</h1>
+    <p>Welcome, {{ request.user.get_full_name|default:request.user.username }}. Your university employment profile and department information in one place.</p>
+    <div class="staff-hero-metrics">
+      <span>👤 {{ request.user.get_full_name|default:request.user.username }}</span>
+      {% if application and application.registration_number %}<span>🪪 {{ application.registration_number }}</span>{% endif %}
+    </div>
+  </div>
+  <div class="staff-summary-grid">
+    <section class="staff-info-card">
+      <div class="staff-info-label">Staff category</div>
+      <div class="staff-info-value">{% if profile %}{{ profile.get_category_display }}{% else %}University Staff{% endif %}</div>
+    </section>
+    <section class="staff-info-card">
+      <div class="staff-info-label">My department</div>
+      <div class="staff-info-value">{% if profile %}{{ profile.department.name }}{% elif application %}{{ application.department|default:'Not assigned' }}{% else %}Not assigned{% endif %}</div>
+    </section>
+    <section class="staff-info-card">
+      <div class="staff-info-label">Position</div>
+      <div class="staff-info-value">{% if application %}{{ application.job_title|default:'Staff member' }}{% else %}Staff member{% endif %}</div>
+    </section>
+    <section class="staff-info-card">
+      <div class="staff-info-label">University status</div>
+      <div class="staff-info-value">{% if application and application.status == 'APPROVED' %}<span class="staff-positive">Approved</span>{% elif application %}{{ application.get_status_display }}{% else %}Existing staff account{% endif %}</div>
+    </section>
+  </div>
+  <section class="staff-panel">
+    <h2>Your university role</h2>
+    <p>{% if profile and profile.is_department_head %}You are designated as a department head by the university administrator.{% elif profile %}You are assigned to the {{ profile.department.name }} department. Management permissions are granted only by authorized administrators.{% else %}Your employee account is active, but its department profile has not been configured. Contact the administrator to complete your staff details.{% endif %}</p>
+    <div class="staff-actions">
+      <a class="staff-primary staff-action" href="{% url 'campus_access:staff_departments' %}">View Staff Departments →</a>
+      <a class="staff-outline staff-action" href="{% url 'home' %}">University Homepage</a>
+    </div>
+  </section>
+  <section class="staff-panel">
+    <h2>Staff services overview</h2>
+    <div class="staff-summary-grid staff-stats-grid">
+      <div class="staff-stat"><strong>{{ departments_count }}</strong><span>Active staff departments</span></div>
+      <div class="staff-stat"><strong>{{ teaching_support_count }}</strong><span>Teaching support departments</span></div>
+      <div class="staff-stat"><strong>{{ non_teaching_count }}</strong><span>Non-teaching departments</span></div>
+    </div>
+    <p class="staff-hint">This is the staff workspace, separate from the lecturer teaching dashboard. Department workflows such as HR records and payroll are not accessible without explicit permissions.</p>
+  </section>
+</div>
+{% endblock %}

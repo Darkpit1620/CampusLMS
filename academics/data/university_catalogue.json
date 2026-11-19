@@ -1,0 +1,6869 @@
+{
+  "sample_notice": "ILLUSTRATIVE SAMPLE ONLY. Not an approved curriculum or accreditation claim. Review prior to student use.",
+  "programmes": [
+    {
+      "code": "BSC-CS",
+      "name": "Bachelor of Science in Computer Science",
+      "department": "School of Computing and Informatics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "CSC101",
+          "title": "Introduction to Programming",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1102",
+          "title": "Discrete Mathematics I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1103",
+          "title": "Computer Fundamentals",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1105",
+          "title": "Calculus for Computing I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1201",
+          "title": "Object-Oriented Programming",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1202",
+          "title": "Discrete Mathematics II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1203",
+          "title": "Computer Organization",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1204",
+          "title": "Web Development I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1205",
+          "title": "Linear Algebra",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1301",
+          "title": "Data Structures I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1302",
+          "title": "Database Management I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1303",
+          "title": "Computer Networks I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1304",
+          "title": "Probability for Computing",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-1305",
+          "title": "Software Development Practice",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2101",
+          "title": "Data Structures II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2102",
+          "title": "Operating Systems I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2103",
+          "title": "Database Management II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2104",
+          "title": "Computer Networks II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2105",
+          "title": "Statistics for Computing",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2201",
+          "title": "Algorithms and Complexity",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2202",
+          "title": "Web Development II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2203",
+          "title": "Systems Analysis and Design",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2204",
+          "title": "Computer Architecture",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2205",
+          "title": "Professional Ethics in Computing",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2301",
+          "title": "Software Engineering I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2302",
+          "title": "Operating Systems II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2303",
+          "title": "Human-Computer Interaction",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2304",
+          "title": "Information Security Fundamentals",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-2305",
+          "title": "Research Methods in Computing",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3101",
+          "title": "Artificial Intelligence Foundations",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3102",
+          "title": "Software Engineering II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3103",
+          "title": "Mobile Application Development I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3104",
+          "title": "Cloud Computing Foundations",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3105",
+          "title": "Computer Graphics",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3201",
+          "title": "Machine Learning Foundations",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3202",
+          "title": "Distributed Systems",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3203",
+          "title": "Mobile Application Development II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3204",
+          "title": "Cryptography",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3205",
+          "title": "Data Mining",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3301",
+          "title": "Advanced Algorithms",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3302",
+          "title": "Compiler Design",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3303",
+          "title": "Cybersecurity Operations",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3304",
+          "title": "Parallel Programming",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-3305",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4101",
+          "title": "Natural Language Processing",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4102",
+          "title": "Internet of Things",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4103",
+          "title": "Software Testing and Quality",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4104",
+          "title": "DevOps and Deployment",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4105",
+          "title": "Entrepreneurship in Technology",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4201",
+          "title": "Computer Vision",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4202",
+          "title": "Advanced Databases",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4203",
+          "title": "Cloud Systems Engineering",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "CSC-4205",
+          "title": "Professional Practice",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4301",
+          "title": "Emerging Computing Technologies",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4302",
+          "title": "Scalable Web Systems",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4303",
+          "title": "Computing Policy and Governance",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "CSC-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "CSC-4305",
+          "title": "Industry Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-IT",
+      "name": "Bachelor of Science in Information Technology",
+      "department": "School of Computing and Informatics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "ITC-1101",
+          "title": "Introduction to Information Technology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1102",
+          "title": "Computer Applications",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1103",
+          "title": "Mathematics for IT I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1105",
+          "title": "Programming Fundamentals",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1201",
+          "title": "Structured Programming",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1202",
+          "title": "Computer Hardware",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1203",
+          "title": "Business Information Systems",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1204",
+          "title": "Mathematics for IT II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1205",
+          "title": "Web Technologies I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1301",
+          "title": "Computer Networks I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1302",
+          "title": "Database Fundamentals",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1303",
+          "title": "Object-Oriented Programming",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1304",
+          "title": "IT Support Principles",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-1305",
+          "title": "Statistics for IT",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2101",
+          "title": "Database Administration I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2102",
+          "title": "Network Administration I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2103",
+          "title": "Web Technologies II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2104",
+          "title": "Systems Analysis",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2105",
+          "title": "IT Service Management",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2201",
+          "title": "Cloud Infrastructure I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2202",
+          "title": "Cybersecurity Fundamentals",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2203",
+          "title": "Enterprise Systems",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2204",
+          "title": "Network Administration II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2205",
+          "title": "Business Process Modelling",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2301",
+          "title": "Virtualization Technologies",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2302",
+          "title": "Database Administration II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2303",
+          "title": "Software Project Management",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2304",
+          "title": "Wireless Networks",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-2305",
+          "title": "Research Methods in IT",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3101",
+          "title": "Information Systems Audit",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3102",
+          "title": "Advanced Networking",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3103",
+          "title": "Mobile Systems",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3104",
+          "title": "Data Analytics for IT",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3105",
+          "title": "Information Security Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3201",
+          "title": "Enterprise Architecture",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3202",
+          "title": "Cloud Infrastructure II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3203",
+          "title": "IT Governance",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3204",
+          "title": "Human-Computer Interaction",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3205",
+          "title": "Digital Forensics Foundations",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3301",
+          "title": "Network Security Engineering",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3302",
+          "title": "Advanced Enterprise Systems",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3303",
+          "title": "Business Intelligence",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3304",
+          "title": "IT Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-3305",
+          "title": "Technology Entrepreneurship",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4101",
+          "title": "Systems Integration",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4102",
+          "title": "Data Centre Management",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4103",
+          "title": "Incident Response",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4104",
+          "title": "IT Project Implementation",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4105",
+          "title": "Privacy and Data Protection",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4201",
+          "title": "Cloud Operations and Automation",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4202",
+          "title": "IT Consulting Practice",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4203",
+          "title": "IT Service Continuity",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "ITC-4205",
+          "title": "Professional Placement",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4301",
+          "title": "Emerging IT Platforms",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4302",
+          "title": "IT Policy and Strategy",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4303",
+          "title": "Enterprise Performance Management",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ITC-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "ITC-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-SE",
+      "name": "Bachelor of Science in Software Engineering",
+      "department": "School of Computing and Informatics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "SWE-1101",
+          "title": "Programming Foundations",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1102",
+          "title": "Discrete Structures",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1103",
+          "title": "Introduction to Software Engineering",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1104",
+          "title": "Calculus I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1105",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1201",
+          "title": "Object-Oriented Design",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1202",
+          "title": "Data Structures",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1203",
+          "title": "Requirements Engineering I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1204",
+          "title": "Linear Algebra",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1205",
+          "title": "Software Development Tools",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1301",
+          "title": "Algorithms I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1302",
+          "title": "Database Systems",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1303",
+          "title": "Web Application Engineering I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1304",
+          "title": "User Interface Design",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-1305",
+          "title": "Probability and Statistics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2101",
+          "title": "Algorithms II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2102",
+          "title": "Software Architecture I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2103",
+          "title": "Operating Systems",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2104",
+          "title": "Requirements Engineering II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2105",
+          "title": "Software Verification I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2201",
+          "title": "Web Application Engineering II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2202",
+          "title": "Software Design Patterns",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2203",
+          "title": "Software Configuration Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2204",
+          "title": "Computer Networks",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2205",
+          "title": "Agile Development",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2301",
+          "title": "Software Architecture II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2302",
+          "title": "Software Testing I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2303",
+          "title": "Mobile Application Engineering",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2304",
+          "title": "Project Planning and Estimation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-2305",
+          "title": "Software Security",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3101",
+          "title": "DevOps Foundations",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3102",
+          "title": "Formal Methods",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3103",
+          "title": "Cloud-Native Development",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3104",
+          "title": "Software Testing II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3105",
+          "title": "Research Methods in Software",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3201",
+          "title": "Distributed Software Systems",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3202",
+          "title": "API Design and Integration",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3203",
+          "title": "Performance Engineering",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3204",
+          "title": "Accessibility Engineering",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3205",
+          "title": "Software Product Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3301",
+          "title": "Secure Software Development",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3302",
+          "title": "Large Scale Systems",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3303",
+          "title": "Quality Assurance Management",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-3305",
+          "title": "Industry Case Study",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4101",
+          "title": "Reliability Engineering",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4102",
+          "title": "Microservices Architecture",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4103",
+          "title": "Deployment Automation",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4104",
+          "title": "Professional Ethics",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4105",
+          "title": "Entrepreneurship",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4201",
+          "title": "Software Maintenance and Evolution",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4202",
+          "title": "Software Engineering Economics",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4203",
+          "title": "Team Project Management",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "SWE-4205",
+          "title": "Industry Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "SWE-4301",
+          "title": "Advanced Software Architecture",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4302",
+          "title": "Software Process Improvement",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4303",
+          "title": "Emerging Engineering Practices",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "SWE-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "SWE-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-DS",
+      "name": "Bachelor of Science in Data Science",
+      "department": "School of Computing and Informatics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "DSC-1101",
+          "title": "Introduction to Data Science",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1102",
+          "title": "Python Programming",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1103",
+          "title": "Calculus I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1105",
+          "title": "Descriptive Statistics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1201",
+          "title": "Database Fundamentals",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1202",
+          "title": "Linear Algebra I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1203",
+          "title": "Probability I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1204",
+          "title": "Data Wrangling",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1205",
+          "title": "Programming with R",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1301",
+          "title": "Data Structures for Data Science",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1302",
+          "title": "Inferential Statistics I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1303",
+          "title": "SQL for Analytics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1304",
+          "title": "Data Visualization I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-1305",
+          "title": "Calculus II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2101",
+          "title": "Regression Analysis I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2102",
+          "title": "Probability II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2103",
+          "title": "Statistical Computing",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2104",
+          "title": "Data Ethics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2105",
+          "title": "Data Collection Methods",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2201",
+          "title": "Machine Learning I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2202",
+          "title": "Database Systems II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2203",
+          "title": "Time Series I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2204",
+          "title": "Experimental Design",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2205",
+          "title": "Data Visualization II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2301",
+          "title": "Machine Learning II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2302",
+          "title": "Multivariate Analysis",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2303",
+          "title": "Big Data Fundamentals",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2304",
+          "title": "Research Methods",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-2305",
+          "title": "Optimization for Analytics",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3101",
+          "title": "Deep Learning I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3102",
+          "title": "Natural Language Processing I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3103",
+          "title": "Cloud Data Platforms",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3104",
+          "title": "Data Engineering I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3105",
+          "title": "Applied Econometrics",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3201",
+          "title": "Deep Learning II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3202",
+          "title": "Data Engineering II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3203",
+          "title": "Bayesian Statistics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3204",
+          "title": "Geospatial Analytics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3205",
+          "title": "Business Analytics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3301",
+          "title": "Predictive Analytics",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3302",
+          "title": "Natural Language Processing II",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3303",
+          "title": "Data Governance",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-3305",
+          "title": "Data Science Practicum",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4101",
+          "title": "Recommender Systems",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4102",
+          "title": "Computer Vision Fundamentals",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4103",
+          "title": "Causal Inference",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4104",
+          "title": "Operations Research",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4105",
+          "title": "Analytics Consulting",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4201",
+          "title": "Advanced Machine Learning",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4202",
+          "title": "Data Product Deployment",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4203",
+          "title": "Statistical Learning Theory",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DSC-4205",
+          "title": "Industry Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "DSC-4301",
+          "title": "Responsible AI Systems",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4302",
+          "title": "Scalable Data Pipelines",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4303",
+          "title": "Emerging Data Technologies",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DSC-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DSC-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BCOM",
+      "name": "Bachelor of Commerce",
+      "department": "School of Business and Economics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "COM-1101",
+          "title": "Principles of Accounting I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1102",
+          "title": "Microeconomics I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1103",
+          "title": "Business Mathematics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1104",
+          "title": "Business Communication",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1105",
+          "title": "Introduction to Management",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1201",
+          "title": "Principles of Accounting II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1202",
+          "title": "Macroeconomics I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1203",
+          "title": "Business Statistics I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1204",
+          "title": "Business Law I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1205",
+          "title": "Business Information Systems",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1301",
+          "title": "Financial Accounting I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1302",
+          "title": "Business Finance I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1303",
+          "title": "Marketing Principles",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1304",
+          "title": "Business Statistics II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-1305",
+          "title": "Organizational Behaviour",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2101",
+          "title": "Financial Accounting II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2102",
+          "title": "Cost Accounting I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2103",
+          "title": "Commercial Law",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2104",
+          "title": "Operations Management",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2105",
+          "title": "Research Skills in Business",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2201",
+          "title": "Management Accounting I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2202",
+          "title": "Corporate Finance I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2203",
+          "title": "Taxation Principles",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2204",
+          "title": "Human Resource Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2205",
+          "title": "Entrepreneurship",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2301",
+          "title": "Auditing Principles",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2302",
+          "title": "Corporate Finance II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2303",
+          "title": "Marketing Management",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2304",
+          "title": "Business Research Methods",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-2305",
+          "title": "International Business",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3101",
+          "title": "Financial Reporting I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3102",
+          "title": "Management Accounting II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3103",
+          "title": "Investment Analysis",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3104",
+          "title": "Financial Markets",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3105",
+          "title": "Strategic Management I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3201",
+          "title": "Financial Reporting II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3202",
+          "title": "Advanced Taxation",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3203",
+          "title": "Supply Chain Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3204",
+          "title": "Business Analytics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3205",
+          "title": "Business Ethics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3301",
+          "title": "Risk Management",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3302",
+          "title": "Strategic Management II",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3303",
+          "title": "Public Finance",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-3305",
+          "title": "Elective in Commerce",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4101",
+          "title": "Advanced Auditing",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4102",
+          "title": "Financial Modelling",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4103",
+          "title": "International Trade",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4104",
+          "title": "Corporate Governance",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4105",
+          "title": "Business Consultancy",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4201",
+          "title": "Business Valuation",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4202",
+          "title": "Enterprise Risk Analysis",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4203",
+          "title": "Digital Commerce",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "COM-4205",
+          "title": "Professional Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "COM-4301",
+          "title": "Contemporary Business Issues",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4302",
+          "title": "Financial Strategy",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4303",
+          "title": "Sustainability Accounting",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "COM-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "COM-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BBA",
+      "name": "Bachelor of Business Administration",
+      "department": "School of Business and Economics",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "BBA-1101",
+          "title": "Introduction to Business Administration",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1102",
+          "title": "Principles of Management",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1103",
+          "title": "Business Mathematics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1105",
+          "title": "Microeconomics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1201",
+          "title": "Organizational Behaviour",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1202",
+          "title": "Business Statistics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1203",
+          "title": "Financial Accounting Basics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1204",
+          "title": "Marketing Principles",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1205",
+          "title": "Business Law",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1301",
+          "title": "Human Resource Management I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1302",
+          "title": "Managerial Economics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1303",
+          "title": "Operations Management I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1304",
+          "title": "Business Information Systems",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-1305",
+          "title": "Professional Writing",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2101",
+          "title": "Project Management I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2102",
+          "title": "Organizational Development",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2103",
+          "title": "Business Finance",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2104",
+          "title": "Consumer Behaviour",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2105",
+          "title": "Research Skills",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2201",
+          "title": "Leadership and Team Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2202",
+          "title": "Business Strategy I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2203",
+          "title": "Entrepreneurship I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2204",
+          "title": "Management Accounting",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2205",
+          "title": "Supply Chain Fundamentals",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2301",
+          "title": "Operations Management II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2302",
+          "title": "Digital Marketing",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2303",
+          "title": "Business Research Methods",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2304",
+          "title": "Negotiation Skills",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-2305",
+          "title": "Corporate Governance",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3101",
+          "title": "Strategic Human Resource Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3102",
+          "title": "Business Analytics I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3103",
+          "title": "Business Strategy II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3104",
+          "title": "Service Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3105",
+          "title": "Innovation Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3201",
+          "title": "Risk and Compliance Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3202",
+          "title": "International Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3203",
+          "title": "Business Analytics II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3204",
+          "title": "Customer Relationship Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3205",
+          "title": "Change Leadership",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3301",
+          "title": "Business Process Improvement",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3302",
+          "title": "Strategic Marketing",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3303",
+          "title": "Public Sector Management",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-3305",
+          "title": "Management Consulting",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4101",
+          "title": "Corporate Strategy",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4102",
+          "title": "Performance Management",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4103",
+          "title": "Enterprise Systems",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4104",
+          "title": "Entrepreneurship II",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4105",
+          "title": "Business Ethics",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4201",
+          "title": "Global Business Operations",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4202",
+          "title": "Leadership Practicum",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4203",
+          "title": "Digital Transformation",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "BBA-4205",
+          "title": "Industrial Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "BBA-4301",
+          "title": "Executive Decision Making",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4302",
+          "title": "Sustainable Business",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4303",
+          "title": "Contemporary Management Issues",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "BBA-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "BBA-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BED-ART",
+      "name": "Bachelor of Education (Arts)",
+      "department": "School of Education",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "EDA-1101",
+          "title": "Foundations of Education",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1102",
+          "title": "Introduction to Psychology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1103",
+          "title": "Academic Communication",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1104",
+          "title": "Language and Society",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1105",
+          "title": "Introduction to Sociology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1201",
+          "title": "History of Education",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1202",
+          "title": "Educational Psychology I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1203",
+          "title": "Curriculum Studies I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1204",
+          "title": "Literature and Language Studies",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1205",
+          "title": "ICT in Education",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1301",
+          "title": "Philosophy of Education",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1302",
+          "title": "Educational Psychology II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1303",
+          "title": "Teaching Methods I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1304",
+          "title": "African History and Society",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-1305",
+          "title": "Assessment Fundamentals",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2101",
+          "title": "Sociology of Education",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2102",
+          "title": "Curriculum Development",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2103",
+          "title": "Classroom Management I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2104",
+          "title": "Applied Linguistics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2105",
+          "title": "Educational Statistics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2201",
+          "title": "Inclusive Education",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2202",
+          "title": "Teaching Methods II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2203",
+          "title": "Research Methods in Education",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2204",
+          "title": "Contemporary Literature",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2205",
+          "title": "Guidance and Counselling",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2301",
+          "title": "Instructional Technology",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2302",
+          "title": "Educational Administration I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2303",
+          "title": "Language Teaching Practice",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2304",
+          "title": "Social Science Pedagogy",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-2305",
+          "title": "Microteaching I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3101",
+          "title": "Assessment and Evaluation",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3102",
+          "title": "Educational Policy",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3103",
+          "title": "Advanced Classroom Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3104",
+          "title": "Curriculum Implementation",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3105",
+          "title": "Teaching Practice Preparation",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3201",
+          "title": "School Leadership",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3202",
+          "title": "Education and Development",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3203",
+          "title": "Literary Criticism",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3204",
+          "title": "History Teaching Methods",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3205",
+          "title": "School-Based Practicum I",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3301",
+          "title": "Educational Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3302",
+          "title": "Special Needs Education Practice",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3303",
+          "title": "Microteaching II",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3304",
+          "title": "Comparative Education",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-3305",
+          "title": "Arts Subject Specialization I",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4101",
+          "title": "Community Education",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4102",
+          "title": "Educational Measurement",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4103",
+          "title": "Arts Subject Specialization II",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4104",
+          "title": "Teaching Practice I",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4105",
+          "title": "Professional Ethics for Teachers",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4201",
+          "title": "Instructional Design",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4202",
+          "title": "Educational Leadership",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4203",
+          "title": "Teacher Professional Development",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4204",
+          "title": "School Research Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4205",
+          "title": "Teaching Practice II",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4301",
+          "title": "Education Quality Assurance",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4302",
+          "title": "Emerging Issues in Education",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4303",
+          "title": "School Research Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "EDA-4304",
+          "title": "Teaching Practice III",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDA-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BED-SCI",
+      "name": "Bachelor of Education (Science)",
+      "department": "School of Education",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "EDS-1101",
+          "title": "Foundations of Education",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1102",
+          "title": "General Biology I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1103",
+          "title": "Calculus for Science",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1104",
+          "title": "General Chemistry I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1105",
+          "title": "Academic Communication",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1201",
+          "title": "Educational Psychology I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1202",
+          "title": "General Biology II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1203",
+          "title": "General Chemistry II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1204",
+          "title": "Introduction to Physics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1205",
+          "title": "ICT in Education",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1301",
+          "title": "Curriculum Studies I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1302",
+          "title": "Cell Biology",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1303",
+          "title": "Organic Chemistry I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1304",
+          "title": "Teaching Mathematics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-1305",
+          "title": "Education Statistics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2101",
+          "title": "Educational Psychology II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2102",
+          "title": "Ecology and Environment",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2103",
+          "title": "Physical Chemistry",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2104",
+          "title": "Science Laboratory Methods",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2105",
+          "title": "Classroom Management",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2201",
+          "title": "Science Teaching Methods I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2202",
+          "title": "Human Physiology",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2203",
+          "title": "Inorganic Chemistry",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2204",
+          "title": "Research Methods in Education",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2205",
+          "title": "Inclusive Education",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2301",
+          "title": "Instructional Technology",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2302",
+          "title": "Genetics",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2303",
+          "title": "Analytical Chemistry",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2304",
+          "title": "Assessment and Evaluation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-2305",
+          "title": "Microteaching I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3101",
+          "title": "Science Teaching Methods II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3102",
+          "title": "Microbiology",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3103",
+          "title": "Environmental Chemistry",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3104",
+          "title": "Curriculum Implementation",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3105",
+          "title": "Educational Policy",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3201",
+          "title": "Teaching Practice Preparation",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3202",
+          "title": "Biochemistry",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3203",
+          "title": "Scientific Instrumentation",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3204",
+          "title": "School Leadership",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3205",
+          "title": "Practical Science Instruction",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3301",
+          "title": "Educational Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3302",
+          "title": "Biotechnology Basics",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3303",
+          "title": "Applied Physics in Education",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3304",
+          "title": "Science Assessment Design",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-3305",
+          "title": "School-Based Practicum I",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4101",
+          "title": "Education Quality Assurance",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4102",
+          "title": "Chemistry Teaching Practicum",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4103",
+          "title": "Biology Teaching Practicum",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4104",
+          "title": "Microteaching II",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4105",
+          "title": "Professional Ethics for Teachers",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4201",
+          "title": "Educational Administration",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4202",
+          "title": "Advanced Science Pedagogy",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4203",
+          "title": "Teacher Professional Development",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4204",
+          "title": "School Research Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4205",
+          "title": "Teaching Practice I",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4301",
+          "title": "Inclusive Science Education",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4302",
+          "title": "Emerging Issues in Science Education",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4303",
+          "title": "School Research Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "EDS-4304",
+          "title": "Teaching Practice II",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EDS-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-NUR",
+      "name": "Bachelor of Science in Nursing",
+      "department": "School of Health Sciences",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "NUR-1101",
+          "title": "Anatomy and Physiology I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1102",
+          "title": "Fundamentals of Nursing I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1103",
+          "title": "Human Biology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1104",
+          "title": "Communication for Health Professionals",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1105",
+          "title": "Introduction to Public Health",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1201",
+          "title": "Anatomy and Physiology II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1202",
+          "title": "Fundamentals of Nursing II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1203",
+          "title": "Biochemistry for Nursing",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1204",
+          "title": "Microbiology for Health Sciences",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1205",
+          "title": "Health Psychology",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1301",
+          "title": "Medical-Surgical Nursing I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1302",
+          "title": "Pharmacology I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1303",
+          "title": "Pathophysiology I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1304",
+          "title": "Health Assessment",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-1305",
+          "title": "Nutrition and Dietetics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2101",
+          "title": "Medical-Surgical Nursing II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2102",
+          "title": "Pharmacology II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2103",
+          "title": "Pathophysiology II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2104",
+          "title": "Infection Prevention and Control",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2105",
+          "title": "Nursing Skills Laboratory",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2201",
+          "title": "Maternal Health Nursing I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2202",
+          "title": "Child Health Nursing I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2203",
+          "title": "Community Health Nursing I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2204",
+          "title": "Nursing Research Fundamentals",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2205",
+          "title": "Professional Ethics in Nursing",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2301",
+          "title": "Maternal Health Nursing II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2302",
+          "title": "Child Health Nursing II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2303",
+          "title": "Mental Health Nursing I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2304",
+          "title": "Epidemiology",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-2305",
+          "title": "Clinical Nursing Practicum I",
+          "year": 2,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-3101",
+          "title": "Emergency and Critical Care Nursing I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3102",
+          "title": "Community Health Nursing II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3103",
+          "title": "Mental Health Nursing II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3104",
+          "title": "Nursing Leadership I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3105",
+          "title": "Clinical Nursing Practicum II",
+          "year": 3,
+          "semester": 1,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-3201",
+          "title": "Emergency and Critical Care Nursing II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3202",
+          "title": "Geriatric Nursing",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3203",
+          "title": "Reproductive Health Nursing",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3204",
+          "title": "Evidence-Based Nursing",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3205",
+          "title": "Clinical Nursing Practicum III",
+          "year": 3,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-3301",
+          "title": "Advanced Medical-Surgical Nursing",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3302",
+          "title": "Primary Health Care Management",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3303",
+          "title": "Health Informatics",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-3305",
+          "title": "Clinical Nursing Practicum IV",
+          "year": 3,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-4101",
+          "title": "Advanced Midwifery Care",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4102",
+          "title": "Healthcare Quality and Safety",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4103",
+          "title": "Nursing Management",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4104",
+          "title": "Specialized Clinical Nursing",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4105",
+          "title": "Clinical Nursing Practicum V",
+          "year": 4,
+          "semester": 1,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-4201",
+          "title": "Community Nursing Leadership",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4202",
+          "title": "Public Health Programmes",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4203",
+          "title": "Palliative Care",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4204",
+          "title": "Final Year Research Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4205",
+          "title": "Clinical Nursing Practicum VI",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "NUR-4301",
+          "title": "Nursing Policy and Advocacy",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4302",
+          "title": "Professional Practice Preparation",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4303",
+          "title": "Health Systems Management",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "NUR-4304",
+          "title": "Final Year Research Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "NUR-4305",
+          "title": "Clinical Consolidation Practicum",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-AGR",
+      "name": "Bachelor of Science in Agriculture",
+      "department": "School of Agriculture",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "AGR-1101",
+          "title": "Introduction to Agriculture",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1102",
+          "title": "General Botany",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1103",
+          "title": "General Chemistry",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1104",
+          "title": "Agricultural Mathematics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1105",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1201",
+          "title": "Soil Science I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1202",
+          "title": "Crop Production I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1203",
+          "title": "Animal Science I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1204",
+          "title": "Agricultural Economics I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1205",
+          "title": "Agricultural Biology",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1301",
+          "title": "Soil Fertility and Plant Nutrition",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1302",
+          "title": "Crop Physiology",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1303",
+          "title": "Livestock Production I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1304",
+          "title": "Agricultural Statistics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-1305",
+          "title": "Farm Mechanization",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2101",
+          "title": "Weed Science",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2102",
+          "title": "Crop Protection I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2103",
+          "title": "Livestock Nutrition",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2104",
+          "title": "Agricultural Microbiology",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2105",
+          "title": "Agricultural Extension I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2201",
+          "title": "Irrigation and Drainage",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2202",
+          "title": "Plant Pathology",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2203",
+          "title": "Animal Health",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2204",
+          "title": "Farm Management I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2205",
+          "title": "Research Methods in Agriculture",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2301",
+          "title": "Soil and Water Conservation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2302",
+          "title": "Crop Breeding I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2303",
+          "title": "Livestock Production II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2304",
+          "title": "Agricultural Marketing",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-2305",
+          "title": "Agribusiness Entrepreneurship",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3101",
+          "title": "Sustainable Crop Systems",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3102",
+          "title": "Integrated Pest Management",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3103",
+          "title": "Animal Breeding",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3104",
+          "title": "Agricultural Policy",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3105",
+          "title": "Agricultural GIS",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3201",
+          "title": "Agricultural Biotechnology",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3202",
+          "title": "Rangeland Management",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3203",
+          "title": "Seed Technology",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3204",
+          "title": "Postharvest Systems",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3205",
+          "title": "Farm Management II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3301",
+          "title": "Climate-Smart Agriculture",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3302",
+          "title": "Agricultural Value Chains",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3303",
+          "title": "Precision Agriculture",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-3305",
+          "title": "Field Practical I",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4101",
+          "title": "Horticultural Production",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4102",
+          "title": "Food Security and Nutrition",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4103",
+          "title": "Agricultural Project Management",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4104",
+          "title": "Agroforestry Systems",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4105",
+          "title": "Field Practical II",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4201",
+          "title": "Advanced Crop Production",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4202",
+          "title": "Agribusiness Planning",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4203",
+          "title": "Agricultural Innovations",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "AGR-4205",
+          "title": "Industrial Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "AGR-4301",
+          "title": "Sustainable Farm Enterprises",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4302",
+          "title": "Extension Programme Evaluation",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4303",
+          "title": "Emerging Agricultural Technologies",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "AGR-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "AGR-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BSC-ENV",
+      "name": "Bachelor of Science in Environmental Science",
+      "department": "School of Natural and Environmental Sciences",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "ENV-1101",
+          "title": "Introduction to Environmental Science",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1102",
+          "title": "General Ecology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1103",
+          "title": "Environmental Chemistry I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1104",
+          "title": "Earth Systems",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1105",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1201",
+          "title": "Environmental Biology",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1202",
+          "title": "Environmental Chemistry II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1203",
+          "title": "Environmental Physics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1204",
+          "title": "Environmental Mathematics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1205",
+          "title": "Climate Fundamentals",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1301",
+          "title": "Biodiversity and Conservation",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1302",
+          "title": "Soil and Water Science",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1303",
+          "title": "Environmental Microbiology",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1304",
+          "title": "Environmental Statistics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-1305",
+          "title": "Environmental Law I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2101",
+          "title": "Hydrology and Watershed Studies",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2102",
+          "title": "Air Pollution Science",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2103",
+          "title": "Environmental Toxicology",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2104",
+          "title": "Geographic Information Systems I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2105",
+          "title": "Environmental Economics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2201",
+          "title": "Waste Management I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2202",
+          "title": "Environmental Impact Assessment I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2203",
+          "title": "Climate Change Science",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2204",
+          "title": "Research Methods in Environment",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2205",
+          "title": "Community Ecology",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2301",
+          "title": "Water Quality Management",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2302",
+          "title": "Environmental Monitoring",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2303",
+          "title": "Remote Sensing I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2304",
+          "title": "Natural Resource Management",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-2305",
+          "title": "Environmental Policy",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3101",
+          "title": "Conservation Biology",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3102",
+          "title": "Waste Management II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3103",
+          "title": "Geographic Information Systems II",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3104",
+          "title": "Environmental Epidemiology",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3105",
+          "title": "Sustainable Development",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3201",
+          "title": "Environmental Impact Assessment II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3202",
+          "title": "Climate Adaptation Planning",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3203",
+          "title": "Remote Sensing II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3204",
+          "title": "Land Use Planning",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3205",
+          "title": "Environmental Auditing",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3301",
+          "title": "Environmental Risk Assessment",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3302",
+          "title": "Carbon Accounting",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3303",
+          "title": "Environmental Governance",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3304",
+          "title": "Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-3305",
+          "title": "Field Assessment I",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4101",
+          "title": "Renewable Energy and Environment",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4102",
+          "title": "Ecosystem Restoration",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4103",
+          "title": "Environmental Data Analysis",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4104",
+          "title": "Resource Economics",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4105",
+          "title": "Field Assessment II",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4201",
+          "title": "Climate Mitigation Strategies",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4202",
+          "title": "Pollution Control Technology",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4203",
+          "title": "Environmental Project Management",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4204",
+          "title": "Final Year Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "ENV-4205",
+          "title": "Industrial Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "ENV-4301",
+          "title": "Integrated Environmental Management",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4302",
+          "title": "Biodiversity Policy",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4303",
+          "title": "Environmental Ethics and Practice",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "ENV-4304",
+          "title": "Final Year Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "ENV-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "BENG-EEE",
+      "name": "Bachelor of Engineering in Electrical and Electronic Engineering",
+      "department": "School of Engineering",
+      "duration_years": 4,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "EEE-1101",
+          "title": "Engineering Mathematics I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1102",
+          "title": "Engineering Physics I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1103",
+          "title": "Engineering Drawing",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1104",
+          "title": "Electrical Circuit Fundamentals",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1105",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1201",
+          "title": "Engineering Mathematics II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1202",
+          "title": "Engineering Physics II",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1203",
+          "title": "Circuit Analysis I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1204",
+          "title": "Programming for Engineers",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1205",
+          "title": "Engineering Materials",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1301",
+          "title": "Electrical Machines I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1302",
+          "title": "Circuit Analysis II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1303",
+          "title": "Electronics I",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1304",
+          "title": "Engineering Mathematics III",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-1305",
+          "title": "Workshop Practice",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2101",
+          "title": "Electrical Machines II",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2102",
+          "title": "Digital Electronics I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2103",
+          "title": "Signals and Systems",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2104",
+          "title": "Electromagnetic Fields",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2105",
+          "title": "Engineering Measurements",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2201",
+          "title": "Control Systems I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2202",
+          "title": "Power Systems I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2203",
+          "title": "Microprocessors I",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2204",
+          "title": "Analogue Electronics",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2205",
+          "title": "Engineering Thermodynamics",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2301",
+          "title": "Control Systems II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2302",
+          "title": "Power Systems II",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2303",
+          "title": "Digital Signal Processing",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2304",
+          "title": "Embedded Systems I",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-2305",
+          "title": "Engineering Research Methods",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3101",
+          "title": "Electrical Drives",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3102",
+          "title": "Power Electronics I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3103",
+          "title": "Communications Engineering I",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3104",
+          "title": "Industrial Instrumentation",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3105",
+          "title": "Engineering Economics",
+          "year": 3,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3201",
+          "title": "Power Electronics II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3202",
+          "title": "Renewable Energy Systems",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3203",
+          "title": "Communications Engineering II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3204",
+          "title": "Embedded Systems II",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3205",
+          "title": "Professional Ethics",
+          "year": 3,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3301",
+          "title": "Power System Protection",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3302",
+          "title": "Electrical Installations Design",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3303",
+          "title": "Industrial Automation",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3304",
+          "title": "Engineering Research Proposal",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-3305",
+          "title": "Field Engineering Practice",
+          "year": 3,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4101",
+          "title": "High Voltage Engineering",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4102",
+          "title": "Smart Grids",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4103",
+          "title": "Digital Control Systems",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4104",
+          "title": "Power Distribution Planning",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4105",
+          "title": "Engineering Project Management",
+          "year": 4,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4201",
+          "title": "Electrical System Reliability",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4202",
+          "title": "Advanced Renewable Integration",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4203",
+          "title": "Safety and Standards",
+          "year": 4,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4204",
+          "title": "Final Year Design Project I",
+          "year": 4,
+          "semester": 2,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "EEE-4205",
+          "title": "Industrial Attachment",
+          "year": 4,
+          "semester": 2,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "EEE-4301",
+          "title": "Power Systems Optimization",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4302",
+          "title": "Emerging Electronics Technologies",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4303",
+          "title": "Energy Policy",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "EEE-4304",
+          "title": "Final Year Design Project II",
+          "year": 4,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "EEE-4305",
+          "title": "Professional Seminar",
+          "year": 4,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "DIP-IT",
+      "name": "Diploma in Information Technology",
+      "department": "School of Computing and Informatics",
+      "duration_years": 2,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "DIT-1101",
+          "title": "Computer Applications",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1102",
+          "title": "Digital Literacy",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1103",
+          "title": "Introduction to Programming",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1105",
+          "title": "Basic Mathematics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1201",
+          "title": "PC Hardware and Maintenance",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1202",
+          "title": "Web Design I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1203",
+          "title": "Programming Practice",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1204",
+          "title": "Database Basics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1205",
+          "title": "Computer Networking I",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1301",
+          "title": "Operating Systems Basics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1302",
+          "title": "Web Design II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1303",
+          "title": "Database Queries",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1304",
+          "title": "Computer Networking II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-1305",
+          "title": "Technical Support Practice",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2101",
+          "title": "IT Service Management Basics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2102",
+          "title": "Information Security Basics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2103",
+          "title": "Network Configuration",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2104",
+          "title": "Application Development I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2105",
+          "title": "Business Information Systems",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2201",
+          "title": "Application Development II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2202",
+          "title": "Server Administration",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2203",
+          "title": "Cloud Computing Basics",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2204",
+          "title": "IT Entrepreneurship",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2205",
+          "title": "Project Planning",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2301",
+          "title": "IT Capstone Project",
+          "year": 2,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DIT-2302",
+          "title": "Workplace ICT Support",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2303",
+          "title": "Digital Professional Ethics",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DIT-2304",
+          "title": "Industrial Attachment",
+          "year": 2,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "DIT-2305",
+          "title": "Emerging IT Tools",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "DIP-BM",
+      "name": "Diploma in Business Management",
+      "department": "School of Business and Economics",
+      "duration_years": 2,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "DBM-1101",
+          "title": "Introduction to Business",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1102",
+          "title": "Principles of Management",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1103",
+          "title": "Business Communication",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1104",
+          "title": "Business Mathematics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1105",
+          "title": "Computer Applications",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1201",
+          "title": "Principles of Accounting",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1202",
+          "title": "Business Economics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1203",
+          "title": "Marketing Fundamentals",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1204",
+          "title": "Business Law",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1205",
+          "title": "Office Administration",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1301",
+          "title": "Human Resource Management",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1302",
+          "title": "Business Statistics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1303",
+          "title": "Customer Service",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1304",
+          "title": "Business Finance Basics",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-1305",
+          "title": "Entrepreneurship",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2101",
+          "title": "Operations and Logistics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2102",
+          "title": "Small Business Management",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2103",
+          "title": "Business Research Skills",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2104",
+          "title": "Digital Marketing",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2105",
+          "title": "Organizational Behaviour",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2201",
+          "title": "Strategic Business Planning",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2202",
+          "title": "Financial Decision Making",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2203",
+          "title": "Business Project Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2204",
+          "title": "Business Ethics",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2205",
+          "title": "Workplace Leadership",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2301",
+          "title": "Business Management Capstone",
+          "year": 2,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DBM-2302",
+          "title": "Industrial Attachment",
+          "year": 2,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "DBM-2303",
+          "title": "Enterprise Practice",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2304",
+          "title": "Business Reporting",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DBM-2305",
+          "title": "Career Development",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "DIP-HM",
+      "name": "Diploma in Hospitality Management",
+      "department": "School of Hospitality and Tourism",
+      "duration_years": 2,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "DHM-1101",
+          "title": "Introduction to Hospitality",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1102",
+          "title": "Food Production Basics",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1103",
+          "title": "Food and Beverage Service I",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1105",
+          "title": "Hospitality Hygiene",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1201",
+          "title": "Front Office Operations",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1202",
+          "title": "Housekeeping Operations",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1203",
+          "title": "Food Safety",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1204",
+          "title": "Basic Accounting",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1205",
+          "title": "Customer Relations",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1301",
+          "title": "Food and Beverage Service II",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1302",
+          "title": "Hospitality Marketing",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1303",
+          "title": "Accommodation Operations",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1304",
+          "title": "Hospitality IT",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-1305",
+          "title": "Hospitality Purchasing",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2101",
+          "title": "Restaurant Operations",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2102",
+          "title": "Event Planning Basics",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2103",
+          "title": "Hospitality Human Resource Management",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2104",
+          "title": "Cost Control",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2105",
+          "title": "Tourism Fundamentals",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2201",
+          "title": "Hotel Operations Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2202",
+          "title": "Sustainable Hospitality",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2203",
+          "title": "Event Operations",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2204",
+          "title": "Hospitality Entrepreneurship",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2205",
+          "title": "Hospitality Quality Assurance",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2301",
+          "title": "Hospitality Capstone Project",
+          "year": 2,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DHM-2302",
+          "title": "Industry Attachment",
+          "year": 2,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "DHM-2303",
+          "title": "Professional Ethics",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2304",
+          "title": "Revenue Management",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DHM-2305",
+          "title": "Service Innovation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    },
+    {
+      "code": "DIP-CH",
+      "name": "Diploma in Community Health",
+      "department": "School of Health Sciences",
+      "duration_years": 2,
+      "description": "Illustrative university curriculum for demonstration and customization. Not an accredited or institution-approved syllabus. Administrators must review it before official use.",
+      "units": [
+        {
+          "code": "DCH-1101",
+          "title": "Introduction to Community Health",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1102",
+          "title": "Human Biology",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1103",
+          "title": "Basic Nutrition",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1104",
+          "title": "Communication Skills",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1105",
+          "title": "Health Systems Fundamentals",
+          "year": 1,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1201",
+          "title": "Primary Health Care",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1202",
+          "title": "Community Health Education",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1203",
+          "title": "Health Statistics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1204",
+          "title": "Environmental Health Basics",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1205",
+          "title": "First Aid and Safety",
+          "year": 1,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1301",
+          "title": "Maternal and Child Community Health",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1302",
+          "title": "Disease Prevention",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1303",
+          "title": "Community Nutrition",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1304",
+          "title": "Health Records and Reporting",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-1305",
+          "title": "Community Mobilization",
+          "year": 1,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2101",
+          "title": "Infectious Disease Control",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2102",
+          "title": "Noncommunicable Disease Prevention",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2103",
+          "title": "Health Promotion Methods",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2104",
+          "title": "Research Skills in Health",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2105",
+          "title": "Community Fieldwork I",
+          "year": 2,
+          "semester": 1,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2201",
+          "title": "Health Programme Planning",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2202",
+          "title": "Public Health Surveillance",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2203",
+          "title": "Health Behaviour Change",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2204",
+          "title": "Community Project Management",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2205",
+          "title": "Community Fieldwork II",
+          "year": 2,
+          "semester": 2,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2301",
+          "title": "Community Health Capstone",
+          "year": 2,
+          "semester": 3,
+          "credits": 6,
+          "required": true
+        },
+        {
+          "code": "DCH-2302",
+          "title": "Health Service Ethics",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2303",
+          "title": "Monitoring and Evaluation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        },
+        {
+          "code": "DCH-2304",
+          "title": "Professional Attachment",
+          "year": 2,
+          "semester": 3,
+          "credits": 4,
+          "required": true
+        },
+        {
+          "code": "DCH-2305",
+          "title": "Career Preparation",
+          "year": 2,
+          "semester": 3,
+          "credits": 3,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

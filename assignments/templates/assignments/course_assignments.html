@@ -1,0 +1,31 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Course Assignments | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'courses:my_courses' %}">My Courses</a><span>›</span><a href="{% url 'courses:course_detail' course.id %}">{{ course.code }}</a><span>›</span>Assignments</div>
+  <div class="page-heading"><div class="eyebrow">STAY ON TOP OF YOUR WORK</div><h1>Course assignments <span aria-hidden="true">✎</span></h1><p>{{ course.code }} · {{ course.title }}</p></div>
+  <div class="action-row">{% if can_create %}<a class="btn btn-primary" href="{% url 'assignments:create_assignment' course.id %}">＋ Create new assignment</a>{% endif %}<a class="btn btn-outline" href="{% url 'courses:course_detail' course.id %}">← Back to course</a></div>
+  <div class="detail-strip"><span class="detail-item"><strong>{{ assignments|length }}</strong> assignment{{ assignments|length|pluralize }}</span></div>
+  <section class="card-grid" aria-label="Assignments">
+    {% for assignment in assignments %}
+      <article class="content-card">
+        <span class="card-tag">Assignment</span>
+        <h2>{{ assignment.title }}</h2>
+        <p>{{ assignment.instructions|linebreaksbr }}</p>
+        <div class="detail-strip"><span class="detail-item">📅 Due <strong>{{ assignment.due_at|date:'d M Y, H:i' }}</strong></span><span class="detail-item">Maximum <strong>{{ assignment.max_marks }} marks</strong></span></div>
+        <div class="meta">Created by {{ assignment.created_by.username }}</div>
+        <div class="card-bottom">
+          {% if can_create %}
+            {% url 'assignments:assignment_submissions' assignment.id as student_submissions_url %}
+            {% if student_submissions_url %}<a class="btn btn-primary btn-small" href="{{ student_submissions_url }}">View student submissions →</a>{% else %}<span class="meta">Submission review is being configured</span>{% endif %}
+          {% else %}
+            <a class="btn btn-primary btn-small" href="{% url 'assignments:submit_assignment' assignment.id %}">View / submit assignment →</a>
+          {% endif %}
+        </div>
+      </article>
+    {% empty %}
+      <div class="empty-state"><h3>No assignments yet</h3><p>Assignments for this course will appear here.</p></div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

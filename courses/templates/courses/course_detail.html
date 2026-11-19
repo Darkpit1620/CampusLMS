@@ -1,0 +1,33 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}{{ course.code }} | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'dashboard' %}">Dashboard</a><span>›</span><a href="{% url 'courses:my_courses' %}">My Courses</a><span>›</span>{{ course.code }}</div>
+  <section class="dashboard-hero">
+    <div class="eyebrow">COURSE SPACE · {{ course.code }}</div>
+    <h1>{{ course.title }}</h1>
+    <p>{{ course.description|default:'Welcome to your course workspace.' }}</p>
+    <span class="hero-chip">Lecturer: {{ course.lecturer.get_full_name|default:course.lecturer.username }}</span>
+  </section>
+  <div class="action-row">
+    <a class="btn btn-primary" href="{% url 'assignments:course_assignments' course.id %}">✎ &nbsp; Course assignments →</a>
+    {% if can_upload %}
+      <a class="btn btn-outline" href="{% url 'courses:upload_material' course.id %}">＋ Upload learning material</a>
+    {% endif %}
+  </div>
+  <div class="feature-heading"><h2>Learning materials</h2><span class="pill">{{ materials|length }} resource{{ materials|length|pluralize }}</span></div>
+  <section class="card-grid" aria-label="Learning materials">
+    {% for material in materials %}
+      <article class="content-card">
+        <span class="card-tag">Resource</span>
+        <h3>{{ material.title }}</h3>
+        <p>{{ material.description|default:'Course learning resource.' }}</p>
+        <div class="meta">Uploaded by {{ material.uploaded_by.username }} · {{ material.uploaded_at|date:'d M Y' }}</div>
+        <div class="card-bottom"><span class="meta">Available to authorized course users</span><a class="btn btn-primary btn-small" href="{% url 'courses:download_material' course.id material.id %}">↓ Download</a></div>
+      </article>
+    {% empty %}
+      <div class="empty-state"><h3>Materials are on their way</h3><p>Check back after your lecturer uploads a resource.</p></div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

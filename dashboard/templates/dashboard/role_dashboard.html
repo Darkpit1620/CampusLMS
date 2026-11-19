@@ -1,0 +1,99 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}{{ role_title }} | CampusLMS{% endblock %}
+{% block content %}
+{% if user.role == 'LECTURER' %}{% url 'campus_teaching:dashboard' as campus_teaching_course_url %}{% else %}{% url 'courses:my_courses' as campus_teaching_course_url %}{% endif %}
+
+<div class="page-shell">
+  <section class="dashboard-hero">
+    <div class="eyebrow">PERSONALIZED WORKSPACE</div>
+    <h1>{{ role_title }} <span aria-hidden="true">✦</span></h1>
+    <p>Welcome back, <strong>{{ user.get_full_name|default:user.username }}</strong>. Pick up where you left off and make something great happen today.</p>
+    <span class="hero-chip">Signed in as {{ user.get_role_display }}</span>
+  </section>
+  <div class="feature-heading"><h2>Your workspace</h2><span class="pill"><span class="pill-dot"></span> CampusLMS</span></div>
+  <div class="feature-grid">
+    {% for feature in features %}
+      <article class="feature-card tone-{{ forloop.counter }}">
+        <div class="feature-card-top">
+          <span class="feature-symbol" aria-hidden="true">{% if forloop.counter == 1 %}▣{% elif forloop.counter == 2 %}✦{% elif forloop.counter == 3 %}↗{% else %}✓{% endif %}</span>
+          <span class="card-tag">{% if feature == 'View Reports' %}Planned{% else %}Workspace{% endif %}</span>
+        </div>
+        <h3>{{ feature }}</h3>
+        {% if feature == 'Manage Students' or feature == 'Manage Lecturers' %}
+          <p>View and manage your campus user accounts from the administrator area.</p>
+          <a class="feature-cta" href="{% url 'admin:accounts_user_changelist' %}">Open user management →</a>
+        {% elif feature == 'Manage Courses' %}
+          <p>Create courses and manage lecturer assignments.</p>
+          <a class="feature-cta" href="{% url 'admin:courses_course_changelist' %}">Manage courses →</a>
+        {% elif feature == 'My Courses' %}
+          <p>Explore the courses you teach or the classes you are enrolled in.</p>
+          <a class="feature-cta" href="{{ campus_teaching_course_url }}">View my courses →</a>
+        {% elif feature == 'Upload Learning Materials' %}
+          <p>Choose one of your courses to upload lecture notes and learning resources.</p>
+          <a class="feature-cta" href="{{ campus_teaching_course_url }}">Choose a course →</a>
+        {% elif feature == 'Learning Materials' %}
+          <p>Open an enrolled course to view and download its learning resources.</p>
+          <a class="feature-cta" href="{{ campus_teaching_course_url }}">Open my courses →</a>
+        
+{% elif feature == 'View Grades' %}
+    <p>
+        Check your assignment marks,
+        results, and lecturer feedback.
+    </p>
+    <a class="feature-cta"
+       href="{% url 'student_gradebook' %}">
+        View my grades →
+    </a>
+    {% if user.role == "LECTURER" and not user.is_staff and not user.is_superuser %}
+    <div class="action-row" style="margin-top: 24px;">
+        <a class="btn btn-primary"
+           href="{% url 'lecturer_reports' %}">
+            View Teaching Reports →
+        </a>
+    </div>
+{% endif %}
+
+{% elif feature == 'Manage Assignments' or feature == 'Submit Assignments' or feature == 'Grade Students' %}
+    <p>
+        Choose a course to access assignments,
+        submissions and grading.
+    </p>
+    <a class="feature-cta"
+       href="{{ campus_teaching_course_url }}">
+        Go to courses →
+    </a>
+          <a class="feature-cta" href="{{ campus_teaching_course_url }}">Go to courses →</a>
+        {% else %}
+          <p>More tools and insights are coming to this workspace soon.</p>
+          <span style="color:#a1a9bf;font-size:13px;font-weight:800;">Coming soon</span>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+  <p class="meta" style="margin-top:28px;">Tip: Start with <strong>My Courses</strong> to explore the features already connected to your course records.</p>
+</div>
+
+<!-- CAMPUSLMS STUDENT SERVICES DASHBOARD -->
+{% if user.is_authenticated and user.role == 'STUDENT' and not user.is_staff and not user.is_superuser %}
+<section class="cs-wrap" style="padding-top:0">
+  <span class="cs-eyebrow">STUDENT ESSENTIALS</span>
+  <h2>Finances, Accommodation &amp; Graduation</h2>
+  <div class="cs-grid">
+    <article class="cs-card"><h2>My Fees</h2><p class="cs-muted">Check tuition, payments, and balance.</p><a class="cs-link" href="{% url 'campus_services:fees' %}">View Fee Statement →</a></article>
+    <article class="cs-card"><h2>My Hostel</h2><p class="cs-muted">See your allocated room and hostel fees.</p><a class="cs-link" href="{% url 'campus_services:accommodation' %}">Hostel &amp; Room →</a></article>
+    <article class="cs-card"><h2>Graduation</h2><p class="cs-muted">Check clearances and provisional honours.</p><a class="cs-link" href="{% url 'campus_services:graduation' %}">Graduation Readiness →</a></article>
+  </div>
+</section>
+{% endif %}
+
+{% if user.role == 'LECTURER' and not user.is_superuser %}
+<section style="max-width:1050px;margin:25px auto;padding:0 24px">
+  <div style="border:1px solid var(--stroke,#47527a);border-radius:18px;background:var(--surface,#1c2746);padding:22px">
+    <h2 style="margin:0 0 10px">Your approved teaching units</h2>
+    <p style="color:var(--ink-soft,#b9c1df)">Open your assigned units to upload notes, create assignments and review students' unit registrations.</p>
+    <a href="{% url 'campus_teaching:dashboard' %}" class="btn btn-primary">Open My Teaching Units →</a>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

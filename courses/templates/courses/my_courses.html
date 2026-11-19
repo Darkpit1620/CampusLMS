@@ -1,0 +1,21 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}My Courses | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'dashboard' %}">Dashboard</a><span>›</span>My Courses</div>
+  <div class="page-heading"><div class="eyebrow">EXPLORE AND LEARN</div><h1>{{ heading }} <span aria-hidden="true">📚</span></h1><p>Welcome, {{ user.get_full_name|default:user.username }}. Your course space is ready.</p></div>
+  <div class="detail-strip"><span class="detail-item"><strong>{{ courses|length }}</strong> course{{ courses|length|pluralize }} in your workspace</span><span class="detail-item">Updated from your CampusLMS records</span></div>
+  <section class="card-grid" aria-label="Your courses">
+    {% for course in courses %}
+      <article class="content-card">
+        <span class="card-tag">{{ course.code }}</span>
+        <h2>{{ course.title }}</h2>
+        <p>{{ course.description|default:'Explore your course materials and assignments.' }}</p>
+        <div class="card-bottom"><span class="meta">Lecturer: {{ course.lecturer.get_full_name|default:course.lecturer.username }}</span><a class="btn btn-primary btn-small" href="{% url 'courses:course_detail' course.id %}">Open course →</a></div>
+      </article>
+    {% empty %}
+      <div class="empty-state"><h2>Nothing here yet</h2><p>No courses have been assigned or enrolled for your account.</p></div>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

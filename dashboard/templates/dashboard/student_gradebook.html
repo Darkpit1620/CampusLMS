@@ -1,0 +1,239 @@
+
+{% extends "dashboard/base.html" %}
+
+{% block title %}My Grades | CampusLMS{% endblock %}
+
+{% block content %}
+
+<style>
+.gradebook-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 26px 0;
+}
+
+.gradebook-stat {
+    background: var(--surface);
+    border: 1px solid var(--stroke);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+}
+
+.gradebook-stat strong {
+    display: block;
+    font-size: 32px;
+    color: var(--ink);
+}
+
+.gradebook-stat span {
+    color: var(--ink-soft);
+    font-size: 13px;
+}
+
+.gradebook-stat:first-child {
+    border-top: 4px solid var(--purple);
+}
+
+.gradebook-stat:nth-child(2) {
+    border-top: 4px solid var(--mint);
+}
+
+.gradebook-stat:nth-child(3) {
+    border-top: 4px solid var(--amber);
+}
+
+.gradebook-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.gradebook-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 650px;
+}
+
+.gradebook-table th,
+.gradebook-table td {
+    padding: 17px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--stroke);
+    vertical-align: top;
+}
+
+.gradebook-table th {
+    color: var(--ink-soft);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.gradebook-table td {
+    color: var(--ink);
+    font-size: 14px;
+}
+
+.gradebook-course {
+    font-weight: 800;
+    color: var(--purple);
+}
+
+.gradebook-feedback {
+    color: var(--ink-soft);
+    white-space: pre-wrap;
+}
+
+.gradebook-status {
+    display: inline-block;
+    padding: 6px 11px;
+    border-radius: 10px;
+    background: var(--canvas);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+@media (max-width: 650px) {
+    .gradebook-stats {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<div class="page-shell">
+
+    <div class="breadcrumb">
+        <a href="{% url 'dashboard' %}">
+            Dashboard
+        </a>
+        <span>›</span>
+        <span>My Grades</span>
+    </div>
+
+    <section class="dashboard-hero">
+        <div class="eyebrow">STUDENT WORKSPACE</div>
+
+        <h1>My Grades & Results ✦</h1>
+
+        <p>
+            Review your assignments, marks,
+            and lecturer feedback in one place.
+        </p>
+    </section>
+
+    <div class="gradebook-stats">
+
+        <div class="gradebook-stat">
+            <strong>{{ total_count }}</strong>
+            <span>Assignments Submitted</span>
+        </div>
+
+        <div class="gradebook-stat">
+            <strong>{{ graded_count }}</strong>
+            <span>Assignments Graded</span>
+        </div>
+
+        <div class="gradebook-stat">
+            <strong>
+                {% if average_percentage != None %}
+                    {{ average_percentage }}%
+                {% else %}
+                    —
+                {% endif %}
+            </strong>
+            <span>Average Assignment Percentage</span>
+        </div>
+
+    </div>
+
+    <section class="panel">
+
+        <div class="panel-header">
+            <h2>My Assignment Results</h2>
+        </div>
+
+        {% if records %}
+
+        <div class="gradebook-table-wrap">
+            <table class="gradebook-table">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Assignment</th>
+                        <th>Marks</th>
+                        <th>Result</th>
+                        <th>Feedback</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                {% for row in records %}
+                    <tr>
+                        <td>
+                            <span class="gradebook-course">
+                                {{ row.submission.assignment.course.code }}
+                            </span>
+                        </td>
+
+                        <td>
+                            {{ row.submission.assignment.title }}
+                        </td>
+
+                        <td>
+                            {% if row.grade %}
+                                {{ row.grade.marks }}
+                                /
+                                {{ row.submission.assignment.max_marks }}
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+
+                        <td>
+                            {% if row.grade %}
+                                <span class="gradebook-status">
+                                    {{ row.percentage }}%
+                                </span>
+                            {% else %}
+                                <span class="gradebook-status">
+                                    Awaiting Grade
+                                </span>
+                            {% endif %}
+                        </td>
+
+                        <td>
+                            {% if row.grade %}
+                                <div class="gradebook-feedback">{{ row.grade.feedback }}</div>
+                            {% else %}
+                                Pending lecturer review
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        {% else %}
+            <div class="empty-state">
+                You have not submitted any assignments yet.
+            </div>
+        {% endif %}
+
+    </section>
+
+    <div class="action-row">
+        <a class="btn btn-primary"
+           href="{% url 'dashboard' %}">
+            Back to Dashboard
+        </a>
+
+        <a class="btn btn-outline"
+           href="{% url 'courses:my_courses' %}">
+            My Courses
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

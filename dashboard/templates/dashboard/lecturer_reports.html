@@ -1,0 +1,317 @@
+
+{% extends "dashboard/base.html" %}
+
+{% block title %}
+Lecturer Reports | CampusLMS
+{% endblock %}
+
+{% block content %}
+
+<style>
+.report-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 26px 0;
+}
+
+.report-stat {
+    background: var(--surface);
+    border: 1px solid var(--stroke);
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+}
+
+.report-stat strong {
+    display: block;
+    font-size: 30px;
+    color: var(--ink);
+}
+
+.report-stat span {
+    font-size: 13px;
+    color: var(--ink-soft);
+}
+
+.report-stat:nth-child(1) {
+    border-top: 4px solid #765bff;
+}
+
+.report-stat:nth-child(2) {
+    border-top: 4px solid #32c3be;
+}
+
+.report-stat:nth-child(3) {
+    border-top: 4px solid #ffbf52;
+}
+
+.report-stat:nth-child(4) {
+    border-top: 4px solid #4698ff;
+}
+
+.report-stat:nth-child(5) {
+    border-top: 4px solid #fb8296;
+}
+
+.report-stat:nth-child(6) {
+    border-top: 4px solid #27c58a;
+}
+
+.report-card {
+    background: var(--surface);
+    border: 1px solid var(--stroke);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow);
+}
+
+.report-card h2 {
+    color: var(--ink);
+    margin-top: 0;
+}
+
+.report-card p {
+    color: var(--ink-soft);
+}
+
+.report-table-wrap {
+    overflow-x: auto;
+    margin-top: 18px;
+}
+
+.report-table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--stroke);
+    color: var(--ink);
+    font-size: 13px;
+}
+
+.report-table th {
+    color: var(--ink-soft);
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.report-pill {
+    display: inline-block;
+    border-radius: 9px;
+    padding: 6px 10px;
+    background: var(--canvas);
+    color: var(--ink);
+    font-weight: 700;
+}
+
+.report-link {
+    color: var(--purple);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    .report-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .report-stats {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<div class="page-shell">
+
+    <div class="breadcrumb">
+        <a href="{% url 'dashboard' %}">
+            Dashboard
+        </a>
+        <span>›</span>
+        <span>Lecturer Reports</span>
+    </div>
+
+    <section class="dashboard-hero">
+        <div class="eyebrow">
+            LECTURER WORKSPACE
+        </div>
+
+        <h1>Teaching Performance ✦</h1>
+
+        <p>
+            Monitor your courses, student submissions,
+            grading progress, and class performance.
+        </p>
+    </section>
+
+    <div class="report-stats">
+
+        <div class="report-stat">
+            <strong>{{ course_count }}</strong>
+            <span>Assigned Courses</span>
+        </div>
+
+        <div class="report-stat">
+            <strong>{{ total_enrollments }}</strong>
+            <span>Course Enrolments</span>
+        </div>
+
+        <div class="report-stat">
+            <strong>{{ total_assignments }}</strong>
+            <span>Assignments Created</span>
+        </div>
+
+        <div class="report-stat">
+            <strong>{{ total_submissions }}</strong>
+            <span>Submissions Received</span>
+        </div>
+
+        <div class="report-stat">
+            <strong>{{ pending_grading }}</strong>
+            <span>Awaiting Grading</span>
+        </div>
+
+        <div class="report-stat">
+            <strong>
+                {% if overall_average != None %}
+                    {{ overall_average }}%
+                {% else %}
+                    —
+                {% endif %}
+            </strong>
+            <span>Average Graded Score</span>
+        </div>
+
+    </div>
+
+    <h2>Course Performance</h2>
+
+    {% for report in course_reports %}
+
+        <section class="report-card">
+
+            <h2>
+                {{ report.course.code }} —
+                {{ report.course.title }}
+            </h2>
+
+            <p>
+                {{ report.enrolled }} enrolled |
+                {{ report.assignment_count }} assignments |
+                {{ report.submitted }} submissions |
+                {{ report.graded }} graded
+            </p>
+
+            <p>
+                <strong>Course average:</strong>
+                {% if report.average != None %}
+                    {{ report.average }}%
+                {% else %}
+                    No grades yet
+                {% endif %}
+            </p>
+
+            <div class="report-table-wrap">
+
+                <table class="report-table">
+                    <thead>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Submitted</th>
+                            <th>Graded</th>
+                            <th>Pending</th>
+                            <th>Not Submitted</th>
+                            <th>Average</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    {% for row in report.assignment_rows %}
+
+                        <tr>
+                            <td>
+                                {{ row.assignment.title }}
+                            </td>
+
+                            <td>{{ row.submitted }}</td>
+
+                            <td>{{ row.graded }}</td>
+
+                            <td>
+                                <span class="report-pill">
+                                    {{ row.pending }}
+                                </span>
+                            </td>
+
+                            <td>{{ row.not_submitted }}</td>
+
+                            <td>
+                                {% if row.average != None %}
+                                    {{ row.average }}%
+                                {% else %}
+                                    —
+                                {% endif %}
+                            </td>
+
+                            <td>
+                                <a class="report-link"
+                                   href="{% url 'assignments:assignment_submissions' row.assignment.id %}">
+                                    Review
+                                </a>
+                            </td>
+                        </tr>
+
+                    {% empty %}
+
+                        <tr>
+                            <td colspan="7">
+                                No assignments created yet.
+                            </td>
+                        </tr>
+
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </section>
+
+    {% empty %}
+
+        <section class="report-card">
+            <p>
+                No courses have been assigned
+                to your account yet.
+            </p>
+        </section>
+
+    {% endfor %}
+
+    <div class="action-row">
+        <a class="btn btn-primary"
+           href="{% url 'dashboard' %}">
+            Back to Dashboard
+        </a>
+
+        <a class="btn btn-outline"
+           href="{% url 'courses:my_courses' %}">
+            My Courses
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}

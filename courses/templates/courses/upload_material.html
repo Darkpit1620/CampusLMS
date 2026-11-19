@@ -1,0 +1,20 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Upload Learning Material | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'courses:my_courses' %}">My Courses</a><span>›</span><a href="{% url 'courses:course_detail' course.id %}">{{ course.code }}</a><span>›</span>Upload</div>
+  <div class="form-shell">
+    <div class="page-heading"><div class="eyebrow">LECTURER TOOLS</div><h1>Upload learning material <span aria-hidden="true">✦</span></h1><p>Add a resource to {{ course.code }} — {{ course.title }}.</p></div>
+    <div class="form-card">
+      <div class="notice notice-warning">Accepted formats: PDF, DOCX and PPTX · Maximum file size: 10 MB.</div>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        {% for field in form %}<div class="form-field">{{ field.label_tag }}{{ field }}{{ field.errors }}{% if field.help_text %}<span class="helptext">{{ field.help_text }}</span>{% endif %}</div>{% endfor %}
+        <button class="btn btn-primary" type="submit">↑ Upload material</button>
+        <a class="btn btn-ghost" href="{% url 'courses:course_detail' course.id %}">Cancel</a>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

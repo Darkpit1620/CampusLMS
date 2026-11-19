@@ -1,0 +1,28 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Sign in | CampusLMS{% endblock %}
+{% block content %}
+<div class="auth-wrap">
+  <section class="auth-intro" aria-label="Welcome to CampusLMS">
+    <span style="display:inline-block;padding:8px 12px;background:#ffffff23;border:1px solid #ffffff33;border-radius:99px;width:max-content;font-size:12px;font-weight:800;position:relative;z-index:1;">WELCOME BACK</span>
+    <h1>Make today<br>your <span style="color:#c8fcde;">brightest</span><br>learning day.</h1>
+    <p>Your courses, assignments and learning resources are only one sign-in away.</p>
+    <div style="margin-top:30px;font-size:30px;letter-spacing:8px;position:relative;z-index:1;" aria-hidden="true">✦ ✧ ✦</div>
+  </section>
+  <section class="auth-panel">
+    <div class="eyebrow">YOUR LEARNING SPACE</div>
+    <h2>Welcome back 👋</h2>
+    <p class="subcopy">Sign in to continue to your CampusLMS workspace.</p>
+    {% if form.errors %}<div class="notice notice-error" role="alert">Please check your username and password and try again.</div>{% endif %}
+    {% if next and user.is_authenticated %}<div class="notice notice-warning">Your account does not have access to that page.</div>{% endif %}
+    <form method="post" action="{% url 'login' %}">
+      {% csrf_token %}
+      <div class="form-field"><label for="id_username">Username</label>{{ form.username }}</div>
+      <div class="form-field"><label for="id_password">Password</label>{{ form.password }}</div>
+      <input type="hidden" name="next" value="{{ next }}">
+      <button class="btn btn-primary" style="width:100%;padding:16px;" type="submit">Sign in to CampusLMS <span aria-hidden="true">→</span></button>
+    </form>
+    <p style="color:#8893aa;font-size:13px;margin-top:26px;">Need an account? Contact your LMS administrator.</p>
+    <a href="{% url 'home' %}" style="font-size:13px;font-weight:750;">← Back to homepage</a>
+  </section>
+</div>
+{% endblock %}

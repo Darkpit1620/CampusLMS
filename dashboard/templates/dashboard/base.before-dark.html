@@ -1,0 +1,49 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#6857f6">
+  <title>{% block title %}CampusLMS{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'dashboard/css/campus.css' %}">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="navbar">
+      <div class="nav-inner">
+        <a href="{% url 'home' %}" class="brand" aria-label="CampusLMS home">
+          <span class="brand-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c0 2 12 2 12 0v-5"/><path d="M22 9v7"/>
+            </svg>
+          </span>
+          Campus<span class="accent">LMS</span>
+        </a>
+        <nav class="navlinks" aria-label="Main navigation">
+          <a href="{% url 'home' %}">Home</a>
+          {% if user.is_authenticated %}
+            <a href="{% url 'dashboard' %}">Dashboard</a>
+            {% if user.role == 'STUDENT' or user.role == 'LECTURER' %}
+              {% if not user.is_superuser %}
+                <a href="{% url 'courses:my_courses' %}">My Courses</a>
+              {% endif %}
+            {% endif %}
+            {% if user.is_staff %}
+              <a href="{% url 'admin:index' %}">Admin</a>
+            {% endif %}
+            <form class="inline-form" method="post" action="{% url 'logout' %}">
+              {% csrf_token %}
+              <button class="btn btn-outline btn-small" type="submit">Log out</button>
+            </form>
+          {% else %}
+            <a class="btn btn-primary btn-small" href="{% url 'login' %}">Sign in <span aria-hidden="true">↗</span></a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+    <main>{% block content %}{% endblock %}</main>
+    <footer class="footer">CampusLMS · Learn, teach, and grow together · Built with Django</footer>
+  </div>
+</body>
+</html>

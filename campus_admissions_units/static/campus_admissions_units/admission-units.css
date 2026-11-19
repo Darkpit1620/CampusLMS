@@ -1,0 +1,26 @@
+.cu-wrap{width:min(1150px,100%);margin:0 auto;padding:42px 24px 80px;color:var(--ink)}
+.cu-wrap h1{font-size:clamp(30px,4vw,44px);letter-spacing:-1px;margin:9px 0 13px;color:var(--ink)}
+.cu-wrap h2,.cu-wrap h3{color:var(--ink)}
+.cu-eyebrow,.cu-code{font-size:12px;font-weight:800;letter-spacing:.03em;color:var(--purple,#735afb)}
+.cu-sub{color:var(--ink-soft);font-size:15px;line-height:1.75;margin-bottom:24px}
+.cu-panel,.cu-card{background:var(--surface,#fff);color:var(--ink);border:1px solid var(--stroke,#dce4ee);border-radius:18px;padding:22px;box-shadow:var(--shadow,0 4px 12px #00000009)}
+.cu-panel{margin:20px 0}.cu-panel h2{margin:0 0 10px}
+.cu-panel p,.cu-card p,.cu-card small{color:var(--ink-soft);line-height:1.5}
+.cu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:16px;margin:20px 0}
+.cu-card h3{margin:10px 0;font-size:18px}.cu-card small{display:block;margin:8px 0}
+.cu-clickable{cursor:pointer}.cu-top{display:flex;align-items:center;gap:10px}
+.cu-top input{width:19px;height:19px;accent-color:var(--purple,#7658ff)}
+.cu-button,.cu-mini{display:inline-block;border:0;text-decoration:none;background:linear-gradient(115deg,#7658ff,#3987f1);color:#fff!important;padding:12px 19px;border-radius:11px;font:inherit;font-weight:750;cursor:pointer}
+.cu-submit{margin:14px 0 30px}.cu-mini{background:var(--canvas,#f1f4ff);color:var(--ink)!important;padding:9px 13px;border:1px solid var(--stroke)}
+.cu-toolbar{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin:18px 0;color:var(--ink-soft);font-size:14px}
+.cu-review-row{display:grid;grid-template-columns:1fr minmax(230px,360px);gap:24px;border-top:1px solid var(--stroke);padding:23px 0;align-items:center}
+.cu-review-row h3{margin:5px 0}.cu-review-row p{color:var(--ink-soft);margin:5px 0}
+.cu-review-form{display:flex;flex-direction:column;gap:9px}.cu-review-form label{font-size:12px;color:var(--ink-soft)}
+.cu-review-form input{background:var(--canvas,#f7f8ff);border:1px solid var(--stroke);padding:11px;border-radius:10px;color:var(--ink);width:100%;box-sizing:border-box}
+.cu-yes{background:#17765e;color:#fff!important}.cu-no{background:#ae4358;color:#fff!important}
+.cu-history{padding:12px 0;border-top:1px solid var(--stroke);color:var(--ink)}
+.cu-textlink{color:var(--purple);font-weight:700;text-decoration:none}
+.cu-message,.cu-notice,.cu-match{background:var(--canvas,#f3f5fb);color:var(--ink-soft,#65738d);border:1px solid var(--stroke,#dde1eb);padding:13px 16px;border-radius:12px;margin:15px 0;line-height:1.6}
+.cu-match{font-weight:650}.cu-help{font-size:12px;color:var(--ink-soft);line-height:1.5}
+.cu-note{font-weight:650}
+@media(max-width:700px){.cu-review-row{grid-template-columns:1fr}}

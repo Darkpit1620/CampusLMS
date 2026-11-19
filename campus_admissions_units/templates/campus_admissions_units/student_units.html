@@ -1,0 +1,49 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block title %}Register Semester Units | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_admissions_units/admission-units.css' %}">
+<link rel="stylesheet" href="{% static 'campus_departments/stage16.css' %}">
+<div class="cu-wrap">
+  <span class="cu-eyebrow">STUDENT WORKSPACE</span>
+  <h1>Semester Unit Registration ✦</h1>
+  {% if messages %}{% for message in messages %}<div class="cu-message">{{ message }}</div>{% endfor %}{% endif %}
+  {% if not record %}
+  <div class="cu-panel"><h2>Programme placement pending</h2><p>You need an approved student account and an assigned programme before choosing semester units. Your other CampusLMS records have not been changed.</p></div>
+  {% else %}
+  <p class="cu-sub">{{ record.programme.name }} · <b>Year {{ record.current_year }}</b> · <b>Semester {{ record.current_semester }}</b></p>
+  {% if registration %}
+    <div class="cu-panel"><h2>Registration submitted</h2><p>Semester status: <strong>{{ registration.get_status_display }}</strong>. Lecturers review the units assigned to them. You cannot send duplicate registrations.</p></div>
+    <div class="cu-grid">
+    {% for row in rows %}<article class="cu-card"><span class="cu-code">{{ row.placement.unit.code }}</span><h3>{{ row.placement.unit.title }}</h3><p>{% if row.review %}{{ row.review.get_status_display }}{% else %}Not selected{% endif %}</p>
+      <small>Reviewer: {% if row.lecturer %}{{ row.lecturer.get_full_name|default:row.lecturer.username }}{% else %}Not yet assigned by administrator{% endif %}</small>
+      {% if row.review.review_note %}<p class="cu-note">Feedback: {{ row.review.review_note }}</p>{% endif %}
+      {% if row.review.status == 'APPROVED' and row.placement.lms_course %}<a class="cu-button" href="{% url 'courses:course_detail' row.placement.lms_course_id %}">Open learning unit</a>{% endif %}
+      </article>{% endfor %}
+    </div>
+  {% else %}
+    <div class="cu-panel"><h2>Choose your units</h2><p>Required units must be included. Tick optional units as needed, then submit all selected units for lecturer approval.</p></div>
+    {% if rows %}
+    <form method="post">{% csrf_token %}
+      <div class="cu-toolbar"><button class="cu-mini" type="button" onclick="document.querySelectorAll('[name=units]').forEach(e=>e.checked=true)">Select all units</button><span>Choose units for the current semester</span></div>
+      <details class="s16-student-semester" open>
+        <summary>All {{ rows|length }} units for {{ record.programme.code }} · Year {{ record.current_year }}, Semester {{ record.current_semester }} (expand/collapse)</summary>
+      <div class="cu-grid">
+      {% for row in rows %}
+        <label class="cu-card cu-clickable">
+          <span class="cu-top"><input type="checkbox" name="units" value="{{ row.placement.id }}" checked {% if row.placement.required %}onclick="this.checked=true"{% endif %}> <b>{{ row.placement.unit.code }}</b></span>
+          <h3>{{ row.placement.unit.title }}</h3>
+          <small>{{ row.placement.unit.credits }} credits · {% if row.placement.required %}Required{% else %}Optional{% endif %}</small>
+          <small>Lecturer: {% if row.lecturer %}{{ row.lecturer.get_full_name|default:row.lecturer.username }}{% else %}Assignment pending{% endif %}</small>
+        </label>
+      {% endfor %}
+      </div>
+      </details>
+      <button type="submit" class="cu-button cu-submit" onclick="return confirm('Submit these semester units for lecturer approval?')">Submit Units for Approval →</button>
+    </form>
+    {% else %}<div class="cu-panel">No units have been created for this programme and semester yet.</div>{% endif %}
+  {% endif %}
+  {% endif %}
+  <p><a class="cu-textlink" href="{% url 'dashboard' %}">← Student Dashboard</a> · <a class="cu-textlink" href="{% url 'academics:my_units' %}">My Programme Units</a></p>
+</div>
+{% endblock %}

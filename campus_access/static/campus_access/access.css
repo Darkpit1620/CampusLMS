@@ -1,0 +1,18 @@
+.access-wrap{max-width:950px;margin:38px auto 85px;padding:0 20px;color:var(--ink,#172b4d)}
+.access-heading{margin:5px 0 8px;font-size:clamp(28px,4.3vw,42px)}
+.access-lead{color:var(--ink-soft,#64728c);line-height:1.7;margin:0 0 24px}
+.access-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.access-card{border:1px solid var(--stroke,#dee4ef);background:var(--surface,#fff);border-radius:20px;padding:25px;box-shadow:var(--shadow,0 8px 25px #18275310);color:var(--ink,#172b4d)}
+.access-card h2{margin:4px 0 10px}.access-card p{color:var(--ink-soft,#64728c)}
+.access-chip{display:inline-block;border-radius:11px;padding:6px 10px;background:var(--canvas,#f2f5fe);color:var(--purple,#6c58ff);font-size:12px;font-weight:750}
+.access-link{display:inline-block;border-radius:12px;padding:11px 17px;margin:7px 7px 0 0;text-decoration:none!important;font-weight:750;background:linear-gradient(105deg,#6e5aff,#3985f2);color:#fff!important}
+.access-link.alt{background:transparent;border:1px solid var(--stroke,#d3dbea);color:var(--ink,#172b4d)!important}
+.access-form{max-width:730px;margin:22px auto;border:1px solid var(--stroke,#dce2ee);background:var(--surface,#fff);padding:clamp(20px,5vw,40px);border-radius:24px;box-shadow:var(--shadow,0 8px 25px #18275310)}
+.access-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.access-field{display:flex;flex-direction:column;gap:7px;min-width:0}.access-field label{font-size:13px;font-weight:750;color:var(--ink,#16274b)}
+.access-field input,.access-field select,.access-input{width:100%;min-width:0;box-sizing:border-box;border:1px solid var(--stroke,#dce2ee);background:var(--canvas,#f7f8ff);color:var(--ink,#172b4d);border-radius:12px;padding:13px;font:inherit}
+.access-field input:focus,.access-field select:focus{outline:2px solid var(--purple,#6e5aff)}
+.access-error{color:#ed6b7c;font-size:13px}.access-full{grid-column:1/-1}
+.access-submit{display:block;width:100%;padding:14px;border:0;border-radius:12px;background:linear-gradient(100deg,#7658ff,#3986f4);color:#fff;font:inherit;font-weight:800;cursor:pointer;margin-top:24px}
+.access-back{display:inline-block;margin-top:14px;color:var(--purple,#6857f6);text-decoration:none;font-weight:700}
+@media(max-width:650px){.access-grid,.access-form-grid{grid-template-columns:1fr}}

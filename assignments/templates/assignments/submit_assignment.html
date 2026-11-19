@@ -1,0 +1,40 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Submit Assignment | CampusLMS{% endblock %}
+{% block content %}
+<div class="page-shell">
+  <div class="breadcrumb"><a href="{% url 'assignments:course_assignments' assignment.course_id %}">Assignments</a><span>›</span>Submit your work</div>
+  <div class="form-shell">
+    <div class="page-heading"><div class="eyebrow">STUDENT WORKSPACE</div><h1>{{ assignment.title }}</h1><p>{{ assignment.course.code }} · Submit your work before the deadline.</p></div>
+    <section class="form-card">
+      <div class="card-tag">Assignment details</div>
+      <p style="white-space:pre-line;color:#586782;">{{ assignment.instructions }}</p>
+      <div class="detail-strip"><span class="detail-item">📅 Deadline <strong>{{ assignment.due_at|date:'d M Y, H:i' }}</strong></span><span class="detail-item">Maximum <strong>{{ assignment.max_marks }} marks</strong></span></div>
+      <hr style="border:0;border-top:1px solid #e8ebf6;margin:22px 0;">
+      {% if submission %}
+        <div class="notice notice-success">✓ Your assignment was submitted successfully!</div>
+        <p class="meta">Submitted on {{ submission.submitted_at|date:'d M Y, H:i' }}</p>
+        {% url 'assignments:download_submission' submission.id as student_file_url %}
+        {% if student_file_url %}<a class="btn btn-soft btn-small" href="{{ student_file_url }}">↓ Download my submission</a>{% endif %}
+        {% if grade %}
+          <h2 class="section-label">Your result</h2>
+          <div class="panel" style="background:#f3f1ff;box-shadow:none;"><strong style="font-size:27px;color:#584ee2;">{{ grade.marks }} / {{ assignment.max_marks }}</strong><p style="color:#5f6a87;">Lecturer feedback</p><p>{{ grade.feedback|linebreaksbr|default:'No written feedback provided.' }}</p></div>
+        {% else %}
+          <div class="notice notice-warning">Your submission is awaiting grading.</div>
+        {% endif %}
+      {% elif deadline_passed %}
+        <div class="notice notice-error">This assignment's submission deadline has passed.</div>
+      {% else %}
+        <h2 class="section-label">Upload completed work</h2>
+        <div class="notice notice-warning">PDF or DOCX · Maximum 10 MB · One submission per assignment.</div>
+        <form method="post" enctype="multipart/form-data">
+          {% csrf_token %}
+          {{ form.non_field_errors }}
+          {% for field in form %}<div class="form-field">{{ field.label_tag }}{{ field }}{{ field.errors }}</div>{% endfor %}
+          <button class="btn btn-primary" type="submit">↑ Submit assignment</button>
+        </form>
+      {% endif %}
+      <p style="margin:25px 0 0;"><a href="{% url 'assignments:course_assignments' assignment.course_id %}">← Back to course assignments</a></p>
+    </section>
+  </div>
+</div>
+{% endblock %}

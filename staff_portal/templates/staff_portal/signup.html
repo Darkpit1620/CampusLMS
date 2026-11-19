@@ -1,0 +1,48 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}University Staff Application | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'campus_access/access.css' %}">
+<link rel="stylesheet" href="{% static 'campus_access/password-eye.css' %}">
+<link rel="stylesheet" href="{% static 'staff_portal/staff.css' %}">
+<div class="staff-container staff-register-layout">
+  <aside class="staff-sidepanel">
+    <div class="staff-overline">CAMPUSLMS · STAFF SERVICES</div>
+    <h1>Find your place<br>on campus.</h1>
+    <p>Apply to join the university's support teams. Choose your type of work and the department where you belong.</p>
+    <div class="staff-side-list">
+      <div>👥 &nbsp; Human Resources & Administration</div>
+      <div>🏅 &nbsp; Games & Sports</div>
+      <div>🚌 &nbsp; Transport & Fleet</div>
+      <div>📚 &nbsp; Library, Finance, ICT & more</div>
+      <div>🧪 &nbsp; Teaching Assistants & Lab Support</div>
+    </div>
+    <div class="staff-note">Lecturers who create courses or grade students must use the separate <a href="{% url 'campus_access:lecturer_signup' %}">Lecturer Signup</a> page.</div>
+  </aside>
+  <section class="staff-form-card">
+    <span class="staff-kicker">NEW EMPLOYEE APPLICATION</span>
+    <h2>Staff registration</h2>
+    <p class="staff-help">All applications require administrator review. Select your staff category first, then choose your department.</p>
+    {% if form.non_field_errors %}<div class="staff-error" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+    <form method="post" id="staff-registration" novalidate>
+      {% csrf_token %}
+      <div class="staff-fields">
+      {% for field in form %}
+        <div class="staff-field {% if field.name == 'staff_category' or field.name == 'department' or field.name == 'job_title' %}staff-full{% endif %}">
+          <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+          {{ field }}
+          {% if field.help_text %}<div class="staff-hint">{{ field.help_text }}</div>{% endif %}
+          {% if field.errors %}<div class="staff-error" role="alert">{{ field.errors }}</div>{% endif %}
+        </div>
+      {% endfor %}
+      </div>
+      <div class="staff-approval-note">🔒 After signup, your account stays inactive until a university administrator approves your application and issues an employee registration number by email (when email delivery is configured).</div>
+      <button type="submit" class="staff-primary">Submit Staff Application →</button>
+    </form>
+    <p class="staff-help staff-bottom">Already approved? <a href="{% url 'campus_access:role_login' 'staff' %}">Staff Login</a> · <a href="{% url 'campus_access:home' %}">All Portals</a></p>
+  </section>
+</div>
+{{ department_catalogue|json_script:"campus-staff-departments" }}
+<script defer src="{% static 'campus_access/password-eye.js' %}"></script>
+<script defer src="{% static 'staff_portal/staff-departments.js' %}"></script>
+{% endblock %}

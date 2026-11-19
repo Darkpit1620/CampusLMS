@@ -1,0 +1,18 @@
+{% extends "dashboard/base.html" %}
+{% load static %}
+{% block title %}University Staff Departments | CampusLMS{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'staff_portal/staff.css' %}">
+<div class="staff-container">
+  <div class="staff-hero"><span class="staff-overline">CAMPUSLMS STAFF</span><h1>University Departments</h1><p>Explore the university's academic support and non-teaching departments.</p></div>
+  <h2 class="staff-heading">Teaching support departments</h2>
+  <div class="staff-summary-grid staff-department-grid">
+    {% for dep in teaching_support %}<section class="staff-info-card"><div class="staff-info-value">{{ dep.name }}</div><p>{{ dep.description }}</p></section>{% empty %}<p>No teaching support departments available.</p>{% endfor %}
+  </div>
+  <h2 class="staff-heading">Non-teaching departments</h2>
+  <div class="staff-summary-grid staff-department-grid">
+    {% for dep in non_teaching %}<section class="staff-info-card"><div class="staff-info-value">{{ dep.name }}</div><p>{{ dep.description }}</p></section>{% empty %}<p>No non-teaching departments available.</p>{% endfor %}
+  </div>
+  <a class="staff-outline staff-action" href="{% url 'campus_access:staff_workspace' %}">← Back to Staff Desk</a>
+</div>
+{% endblock %}

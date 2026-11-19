@@ -1,0 +1,841 @@
+﻿programme_code,programme_name,year,semester,unit_code,unit_title,credits
+BSC-CS,Bachelor of Science in Computer Science,1,1,CSC101,Introduction to Programming,3
+BSC-CS,Bachelor of Science in Computer Science,1,1,CSC-1102,Discrete Mathematics I,3
+BSC-CS,Bachelor of Science in Computer Science,1,1,CSC-1103,Computer Fundamentals,3
+BSC-CS,Bachelor of Science in Computer Science,1,1,CSC-1104,Communication Skills,3
+BSC-CS,Bachelor of Science in Computer Science,1,1,CSC-1105,Calculus for Computing I,3
+BSC-CS,Bachelor of Science in Computer Science,1,2,CSC-1201,Object-Oriented Programming,3
+BSC-CS,Bachelor of Science in Computer Science,1,2,CSC-1202,Discrete Mathematics II,3
+BSC-CS,Bachelor of Science in Computer Science,1,2,CSC-1203,Computer Organization,3
+BSC-CS,Bachelor of Science in Computer Science,1,2,CSC-1204,Web Development I,3
+BSC-CS,Bachelor of Science in Computer Science,1,2,CSC-1205,Linear Algebra,3
+BSC-CS,Bachelor of Science in Computer Science,1,3,CSC-1301,Data Structures I,3
+BSC-CS,Bachelor of Science in Computer Science,1,3,CSC-1302,Database Management I,3
+BSC-CS,Bachelor of Science in Computer Science,1,3,CSC-1303,Computer Networks I,3
+BSC-CS,Bachelor of Science in Computer Science,1,3,CSC-1304,Probability for Computing,3
+BSC-CS,Bachelor of Science in Computer Science,1,3,CSC-1305,Software Development Practice,3
+BSC-CS,Bachelor of Science in Computer Science,2,1,CSC-2101,Data Structures II,3
+BSC-CS,Bachelor of Science in Computer Science,2,1,CSC-2102,Operating Systems I,3
+BSC-CS,Bachelor of Science in Computer Science,2,1,CSC-2103,Database Management II,3
+BSC-CS,Bachelor of Science in Computer Science,2,1,CSC-2104,Computer Networks II,3
+BSC-CS,Bachelor of Science in Computer Science,2,1,CSC-2105,Statistics for Computing,3
+BSC-CS,Bachelor of Science in Computer Science,2,2,CSC-2201,Algorithms and Complexity,3
+BSC-CS,Bachelor of Science in Computer Science,2,2,CSC-2202,Web Development II,3
+BSC-CS,Bachelor of Science in Computer Science,2,2,CSC-2203,Systems Analysis and Design,3
+BSC-CS,Bachelor of Science in Computer Science,2,2,CSC-2204,Computer Architecture,3
+BSC-CS,Bachelor of Science in Computer Science,2,2,CSC-2205,Professional Ethics in Computing,3
+BSC-CS,Bachelor of Science in Computer Science,2,3,CSC-2301,Software Engineering I,3
+BSC-CS,Bachelor of Science in Computer Science,2,3,CSC-2302,Operating Systems II,3
+BSC-CS,Bachelor of Science in Computer Science,2,3,CSC-2303,Human-Computer Interaction,3
+BSC-CS,Bachelor of Science in Computer Science,2,3,CSC-2304,Information Security Fundamentals,3
+BSC-CS,Bachelor of Science in Computer Science,2,3,CSC-2305,Research Methods in Computing,3
+BSC-CS,Bachelor of Science in Computer Science,3,1,CSC-3101,Artificial Intelligence Foundations,3
+BSC-CS,Bachelor of Science in Computer Science,3,1,CSC-3102,Software Engineering II,3
+BSC-CS,Bachelor of Science in Computer Science,3,1,CSC-3103,Mobile Application Development I,3
+BSC-CS,Bachelor of Science in Computer Science,3,1,CSC-3104,Cloud Computing Foundations,3
+BSC-CS,Bachelor of Science in Computer Science,3,1,CSC-3105,Computer Graphics,3
+BSC-CS,Bachelor of Science in Computer Science,3,2,CSC-3201,Machine Learning Foundations,3
+BSC-CS,Bachelor of Science in Computer Science,3,2,CSC-3202,Distributed Systems,3
+BSC-CS,Bachelor of Science in Computer Science,3,2,CSC-3203,Mobile Application Development II,3
+BSC-CS,Bachelor of Science in Computer Science,3,2,CSC-3204,Cryptography,3
+BSC-CS,Bachelor of Science in Computer Science,3,2,CSC-3205,Data Mining,3
+BSC-CS,Bachelor of Science in Computer Science,3,3,CSC-3301,Advanced Algorithms,3
+BSC-CS,Bachelor of Science in Computer Science,3,3,CSC-3302,Compiler Design,3
+BSC-CS,Bachelor of Science in Computer Science,3,3,CSC-3303,Cybersecurity Operations,3
+BSC-CS,Bachelor of Science in Computer Science,3,3,CSC-3304,Parallel Programming,3
+BSC-CS,Bachelor of Science in Computer Science,3,3,CSC-3305,Research Proposal,3
+BSC-CS,Bachelor of Science in Computer Science,4,1,CSC-4101,Natural Language Processing,3
+BSC-CS,Bachelor of Science in Computer Science,4,1,CSC-4102,Internet of Things,3
+BSC-CS,Bachelor of Science in Computer Science,4,1,CSC-4103,Software Testing and Quality,3
+BSC-CS,Bachelor of Science in Computer Science,4,1,CSC-4104,DevOps and Deployment,3
+BSC-CS,Bachelor of Science in Computer Science,4,1,CSC-4105,Entrepreneurship in Technology,3
+BSC-CS,Bachelor of Science in Computer Science,4,2,CSC-4201,Computer Vision,3
+BSC-CS,Bachelor of Science in Computer Science,4,2,CSC-4202,Advanced Databases,3
+BSC-CS,Bachelor of Science in Computer Science,4,2,CSC-4203,Cloud Systems Engineering,3
+BSC-CS,Bachelor of Science in Computer Science,4,2,CSC-4204,Final Year Project I,6
+BSC-CS,Bachelor of Science in Computer Science,4,2,CSC-4205,Professional Practice,3
+BSC-CS,Bachelor of Science in Computer Science,4,3,CSC-4301,Emerging Computing Technologies,3
+BSC-CS,Bachelor of Science in Computer Science,4,3,CSC-4302,Scalable Web Systems,3
+BSC-CS,Bachelor of Science in Computer Science,4,3,CSC-4303,Computing Policy and Governance,3
+BSC-CS,Bachelor of Science in Computer Science,4,3,CSC-4304,Final Year Project II,6
+BSC-CS,Bachelor of Science in Computer Science,4,3,CSC-4305,Industry Seminar,3
+BSC-IT,Bachelor of Science in Information Technology,1,1,ITC-1101,Introduction to Information Technology,3
+BSC-IT,Bachelor of Science in Information Technology,1,1,ITC-1102,Computer Applications,3
+BSC-IT,Bachelor of Science in Information Technology,1,1,ITC-1103,Mathematics for IT I,3
+BSC-IT,Bachelor of Science in Information Technology,1,1,ITC-1104,Communication Skills,3
+BSC-IT,Bachelor of Science in Information Technology,1,1,ITC-1105,Programming Fundamentals,3
+BSC-IT,Bachelor of Science in Information Technology,1,2,ITC-1201,Structured Programming,3
+BSC-IT,Bachelor of Science in Information Technology,1,2,ITC-1202,Computer Hardware,3
+BSC-IT,Bachelor of Science in Information Technology,1,2,ITC-1203,Business Information Systems,3
+BSC-IT,Bachelor of Science in Information Technology,1,2,ITC-1204,Mathematics for IT II,3
+BSC-IT,Bachelor of Science in Information Technology,1,2,ITC-1205,Web Technologies I,3
+BSC-IT,Bachelor of Science in Information Technology,1,3,ITC-1301,Computer Networks I,3
+BSC-IT,Bachelor of Science in Information Technology,1,3,ITC-1302,Database Fundamentals,3
+BSC-IT,Bachelor of Science in Information Technology,1,3,ITC-1303,Object-Oriented Programming,3
+BSC-IT,Bachelor of Science in Information Technology,1,3,ITC-1304,IT Support Principles,3
+BSC-IT,Bachelor of Science in Information Technology,1,3,ITC-1305,Statistics for IT,3
+BSC-IT,Bachelor of Science in Information Technology,2,1,ITC-2101,Database Administration I,3
+BSC-IT,Bachelor of Science in Information Technology,2,1,ITC-2102,Network Administration I,3
+BSC-IT,Bachelor of Science in Information Technology,2,1,ITC-2103,Web Technologies II,3
+BSC-IT,Bachelor of Science in Information Technology,2,1,ITC-2104,Systems Analysis,3
+BSC-IT,Bachelor of Science in Information Technology,2,1,ITC-2105,IT Service Management,3
+BSC-IT,Bachelor of Science in Information Technology,2,2,ITC-2201,Cloud Infrastructure I,3
+BSC-IT,Bachelor of Science in Information Technology,2,2,ITC-2202,Cybersecurity Fundamentals,3
+BSC-IT,Bachelor of Science in Information Technology,2,2,ITC-2203,Enterprise Systems,3
+BSC-IT,Bachelor of Science in Information Technology,2,2,ITC-2204,Network Administration II,3
+BSC-IT,Bachelor of Science in Information Technology,2,2,ITC-2205,Business Process Modelling,3
+BSC-IT,Bachelor of Science in Information Technology,2,3,ITC-2301,Virtualization Technologies,3
+BSC-IT,Bachelor of Science in Information Technology,2,3,ITC-2302,Database Administration II,3
+BSC-IT,Bachelor of Science in Information Technology,2,3,ITC-2303,Software Project Management,3
+BSC-IT,Bachelor of Science in Information Technology,2,3,ITC-2304,Wireless Networks,3
+BSC-IT,Bachelor of Science in Information Technology,2,3,ITC-2305,Research Methods in IT,3
+BSC-IT,Bachelor of Science in Information Technology,3,1,ITC-3101,Information Systems Audit,3
+BSC-IT,Bachelor of Science in Information Technology,3,1,ITC-3102,Advanced Networking,3
+BSC-IT,Bachelor of Science in Information Technology,3,1,ITC-3103,Mobile Systems,3
+BSC-IT,Bachelor of Science in Information Technology,3,1,ITC-3104,Data Analytics for IT,3
+BSC-IT,Bachelor of Science in Information Technology,3,1,ITC-3105,Information Security Management,3
+BSC-IT,Bachelor of Science in Information Technology,3,2,ITC-3201,Enterprise Architecture,3
+BSC-IT,Bachelor of Science in Information Technology,3,2,ITC-3202,Cloud Infrastructure II,3
+BSC-IT,Bachelor of Science in Information Technology,3,2,ITC-3203,IT Governance,3
+BSC-IT,Bachelor of Science in Information Technology,3,2,ITC-3204,Human-Computer Interaction,3
+BSC-IT,Bachelor of Science in Information Technology,3,2,ITC-3205,Digital Forensics Foundations,3
+BSC-IT,Bachelor of Science in Information Technology,3,3,ITC-3301,Network Security Engineering,3
+BSC-IT,Bachelor of Science in Information Technology,3,3,ITC-3302,Advanced Enterprise Systems,3
+BSC-IT,Bachelor of Science in Information Technology,3,3,ITC-3303,Business Intelligence,3
+BSC-IT,Bachelor of Science in Information Technology,3,3,ITC-3304,IT Research Proposal,3
+BSC-IT,Bachelor of Science in Information Technology,3,3,ITC-3305,Technology Entrepreneurship,3
+BSC-IT,Bachelor of Science in Information Technology,4,1,ITC-4101,Systems Integration,3
+BSC-IT,Bachelor of Science in Information Technology,4,1,ITC-4102,Data Centre Management,3
+BSC-IT,Bachelor of Science in Information Technology,4,1,ITC-4103,Incident Response,3
+BSC-IT,Bachelor of Science in Information Technology,4,1,ITC-4104,IT Project Implementation,3
+BSC-IT,Bachelor of Science in Information Technology,4,1,ITC-4105,Privacy and Data Protection,3
+BSC-IT,Bachelor of Science in Information Technology,4,2,ITC-4201,Cloud Operations and Automation,3
+BSC-IT,Bachelor of Science in Information Technology,4,2,ITC-4202,IT Consulting Practice,3
+BSC-IT,Bachelor of Science in Information Technology,4,2,ITC-4203,IT Service Continuity,3
+BSC-IT,Bachelor of Science in Information Technology,4,2,ITC-4204,Final Year Project I,6
+BSC-IT,Bachelor of Science in Information Technology,4,2,ITC-4205,Professional Placement,3
+BSC-IT,Bachelor of Science in Information Technology,4,3,ITC-4301,Emerging IT Platforms,3
+BSC-IT,Bachelor of Science in Information Technology,4,3,ITC-4302,IT Policy and Strategy,3
+BSC-IT,Bachelor of Science in Information Technology,4,3,ITC-4303,Enterprise Performance Management,3
+BSC-IT,Bachelor of Science in Information Technology,4,3,ITC-4304,Final Year Project II,6
+BSC-IT,Bachelor of Science in Information Technology,4,3,ITC-4305,Professional Seminar,3
+BSC-SE,Bachelor of Science in Software Engineering,1,1,SWE-1101,Programming Foundations,3
+BSC-SE,Bachelor of Science in Software Engineering,1,1,SWE-1102,Discrete Structures,3
+BSC-SE,Bachelor of Science in Software Engineering,1,1,SWE-1103,Introduction to Software Engineering,3
+BSC-SE,Bachelor of Science in Software Engineering,1,1,SWE-1104,Calculus I,3
+BSC-SE,Bachelor of Science in Software Engineering,1,1,SWE-1105,Communication Skills,3
+BSC-SE,Bachelor of Science in Software Engineering,1,2,SWE-1201,Object-Oriented Design,3
+BSC-SE,Bachelor of Science in Software Engineering,1,2,SWE-1202,Data Structures,3
+BSC-SE,Bachelor of Science in Software Engineering,1,2,SWE-1203,Requirements Engineering I,3
+BSC-SE,Bachelor of Science in Software Engineering,1,2,SWE-1204,Linear Algebra,3
+BSC-SE,Bachelor of Science in Software Engineering,1,2,SWE-1205,Software Development Tools,3
+BSC-SE,Bachelor of Science in Software Engineering,1,3,SWE-1301,Algorithms I,3
+BSC-SE,Bachelor of Science in Software Engineering,1,3,SWE-1302,Database Systems,3
+BSC-SE,Bachelor of Science in Software Engineering,1,3,SWE-1303,Web Application Engineering I,3
+BSC-SE,Bachelor of Science in Software Engineering,1,3,SWE-1304,User Interface Design,3
+BSC-SE,Bachelor of Science in Software Engineering,1,3,SWE-1305,Probability and Statistics,3
+BSC-SE,Bachelor of Science in Software Engineering,2,1,SWE-2101,Algorithms II,3
+BSC-SE,Bachelor of Science in Software Engineering,2,1,SWE-2102,Software Architecture I,3
+BSC-SE,Bachelor of Science in Software Engineering,2,1,SWE-2103,Operating Systems,3
+BSC-SE,Bachelor of Science in Software Engineering,2,1,SWE-2104,Requirements Engineering II,3
+BSC-SE,Bachelor of Science in Software Engineering,2,1,SWE-2105,Software Verification I,3
+BSC-SE,Bachelor of Science in Software Engineering,2,2,SWE-2201,Web Application Engineering II,3
+BSC-SE,Bachelor of Science in Software Engineering,2,2,SWE-2202,Software Design Patterns,3
+BSC-SE,Bachelor of Science in Software Engineering,2,2,SWE-2203,Software Configuration Management,3
+BSC-SE,Bachelor of Science in Software Engineering,2,2,SWE-2204,Computer Networks,3
+BSC-SE,Bachelor of Science in Software Engineering,2,2,SWE-2205,Agile Development,3
+BSC-SE,Bachelor of Science in Software Engineering,2,3,SWE-2301,Software Architecture II,3
+BSC-SE,Bachelor of Science in Software Engineering,2,3,SWE-2302,Software Testing I,3
+BSC-SE,Bachelor of Science in Software Engineering,2,3,SWE-2303,Mobile Application Engineering,3
+BSC-SE,Bachelor of Science in Software Engineering,2,3,SWE-2304,Project Planning and Estimation,3
+BSC-SE,Bachelor of Science in Software Engineering,2,3,SWE-2305,Software Security,3
+BSC-SE,Bachelor of Science in Software Engineering,3,1,SWE-3101,DevOps Foundations,3
+BSC-SE,Bachelor of Science in Software Engineering,3,1,SWE-3102,Formal Methods,3
+BSC-SE,Bachelor of Science in Software Engineering,3,1,SWE-3103,Cloud-Native Development,3
+BSC-SE,Bachelor of Science in Software Engineering,3,1,SWE-3104,Software Testing II,3
+BSC-SE,Bachelor of Science in Software Engineering,3,1,SWE-3105,Research Methods in Software,3
+BSC-SE,Bachelor of Science in Software Engineering,3,2,SWE-3201,Distributed Software Systems,3
+BSC-SE,Bachelor of Science in Software Engineering,3,2,SWE-3202,API Design and Integration,3
+BSC-SE,Bachelor of Science in Software Engineering,3,2,SWE-3203,Performance Engineering,3
+BSC-SE,Bachelor of Science in Software Engineering,3,2,SWE-3204,Accessibility Engineering,3
+BSC-SE,Bachelor of Science in Software Engineering,3,2,SWE-3205,Software Product Management,3
+BSC-SE,Bachelor of Science in Software Engineering,3,3,SWE-3301,Secure Software Development,3
+BSC-SE,Bachelor of Science in Software Engineering,3,3,SWE-3302,Large Scale Systems,3
+BSC-SE,Bachelor of Science in Software Engineering,3,3,SWE-3303,Quality Assurance Management,3
+BSC-SE,Bachelor of Science in Software Engineering,3,3,SWE-3304,Research Proposal,3
+BSC-SE,Bachelor of Science in Software Engineering,3,3,SWE-3305,Industry Case Study,3
+BSC-SE,Bachelor of Science in Software Engineering,4,1,SWE-4101,Reliability Engineering,3
+BSC-SE,Bachelor of Science in Software Engineering,4,1,SWE-4102,Microservices Architecture,3
+BSC-SE,Bachelor of Science in Software Engineering,4,1,SWE-4103,Deployment Automation,3
+BSC-SE,Bachelor of Science in Software Engineering,4,1,SWE-4104,Professional Ethics,3
+BSC-SE,Bachelor of Science in Software Engineering,4,1,SWE-4105,Entrepreneurship,3
+BSC-SE,Bachelor of Science in Software Engineering,4,2,SWE-4201,Software Maintenance and Evolution,3
+BSC-SE,Bachelor of Science in Software Engineering,4,2,SWE-4202,Software Engineering Economics,3
+BSC-SE,Bachelor of Science in Software Engineering,4,2,SWE-4203,Team Project Management,3
+BSC-SE,Bachelor of Science in Software Engineering,4,2,SWE-4204,Final Year Project I,6
+BSC-SE,Bachelor of Science in Software Engineering,4,2,SWE-4205,Industry Attachment,4
+BSC-SE,Bachelor of Science in Software Engineering,4,3,SWE-4301,Advanced Software Architecture,3
+BSC-SE,Bachelor of Science in Software Engineering,4,3,SWE-4302,Software Process Improvement,3
+BSC-SE,Bachelor of Science in Software Engineering,4,3,SWE-4303,Emerging Engineering Practices,3
+BSC-SE,Bachelor of Science in Software Engineering,4,3,SWE-4304,Final Year Project II,6
+BSC-SE,Bachelor of Science in Software Engineering,4,3,SWE-4305,Professional Seminar,3
+BSC-DS,Bachelor of Science in Data Science,1,1,DSC-1101,Introduction to Data Science,3
+BSC-DS,Bachelor of Science in Data Science,1,1,DSC-1102,Python Programming,3
+BSC-DS,Bachelor of Science in Data Science,1,1,DSC-1103,Calculus I,3
+BSC-DS,Bachelor of Science in Data Science,1,1,DSC-1104,Communication Skills,3
+BSC-DS,Bachelor of Science in Data Science,1,1,DSC-1105,Descriptive Statistics,3
+BSC-DS,Bachelor of Science in Data Science,1,2,DSC-1201,Database Fundamentals,3
+BSC-DS,Bachelor of Science in Data Science,1,2,DSC-1202,Linear Algebra I,3
+BSC-DS,Bachelor of Science in Data Science,1,2,DSC-1203,Probability I,3
+BSC-DS,Bachelor of Science in Data Science,1,2,DSC-1204,Data Wrangling,3
+BSC-DS,Bachelor of Science in Data Science,1,2,DSC-1205,Programming with R,3
+BSC-DS,Bachelor of Science in Data Science,1,3,DSC-1301,Data Structures for Data Science,3
+BSC-DS,Bachelor of Science in Data Science,1,3,DSC-1302,Inferential Statistics I,3
+BSC-DS,Bachelor of Science in Data Science,1,3,DSC-1303,SQL for Analytics,3
+BSC-DS,Bachelor of Science in Data Science,1,3,DSC-1304,Data Visualization I,3
+BSC-DS,Bachelor of Science in Data Science,1,3,DSC-1305,Calculus II,3
+BSC-DS,Bachelor of Science in Data Science,2,1,DSC-2101,Regression Analysis I,3
+BSC-DS,Bachelor of Science in Data Science,2,1,DSC-2102,Probability II,3
+BSC-DS,Bachelor of Science in Data Science,2,1,DSC-2103,Statistical Computing,3
+BSC-DS,Bachelor of Science in Data Science,2,1,DSC-2104,Data Ethics,3
+BSC-DS,Bachelor of Science in Data Science,2,1,DSC-2105,Data Collection Methods,3
+BSC-DS,Bachelor of Science in Data Science,2,2,DSC-2201,Machine Learning I,3
+BSC-DS,Bachelor of Science in Data Science,2,2,DSC-2202,Database Systems II,3
+BSC-DS,Bachelor of Science in Data Science,2,2,DSC-2203,Time Series I,3
+BSC-DS,Bachelor of Science in Data Science,2,2,DSC-2204,Experimental Design,3
+BSC-DS,Bachelor of Science in Data Science,2,2,DSC-2205,Data Visualization II,3
+BSC-DS,Bachelor of Science in Data Science,2,3,DSC-2301,Machine Learning II,3
+BSC-DS,Bachelor of Science in Data Science,2,3,DSC-2302,Multivariate Analysis,3
+BSC-DS,Bachelor of Science in Data Science,2,3,DSC-2303,Big Data Fundamentals,3
+BSC-DS,Bachelor of Science in Data Science,2,3,DSC-2304,Research Methods,3
+BSC-DS,Bachelor of Science in Data Science,2,3,DSC-2305,Optimization for Analytics,3
+BSC-DS,Bachelor of Science in Data Science,3,1,DSC-3101,Deep Learning I,3
+BSC-DS,Bachelor of Science in Data Science,3,1,DSC-3102,Natural Language Processing I,3
+BSC-DS,Bachelor of Science in Data Science,3,1,DSC-3103,Cloud Data Platforms,3
+BSC-DS,Bachelor of Science in Data Science,3,1,DSC-3104,Data Engineering I,3
+BSC-DS,Bachelor of Science in Data Science,3,1,DSC-3105,Applied Econometrics,3
+BSC-DS,Bachelor of Science in Data Science,3,2,DSC-3201,Deep Learning II,3
+BSC-DS,Bachelor of Science in Data Science,3,2,DSC-3202,Data Engineering II,3
+BSC-DS,Bachelor of Science in Data Science,3,2,DSC-3203,Bayesian Statistics,3
+BSC-DS,Bachelor of Science in Data Science,3,2,DSC-3204,Geospatial Analytics,3
+BSC-DS,Bachelor of Science in Data Science,3,2,DSC-3205,Business Analytics,3
+BSC-DS,Bachelor of Science in Data Science,3,3,DSC-3301,Predictive Analytics,3
+BSC-DS,Bachelor of Science in Data Science,3,3,DSC-3302,Natural Language Processing II,3
+BSC-DS,Bachelor of Science in Data Science,3,3,DSC-3303,Data Governance,3
+BSC-DS,Bachelor of Science in Data Science,3,3,DSC-3304,Research Proposal,3
+BSC-DS,Bachelor of Science in Data Science,3,3,DSC-3305,Data Science Practicum,3
+BSC-DS,Bachelor of Science in Data Science,4,1,DSC-4101,Recommender Systems,3
+BSC-DS,Bachelor of Science in Data Science,4,1,DSC-4102,Computer Vision Fundamentals,3
+BSC-DS,Bachelor of Science in Data Science,4,1,DSC-4103,Causal Inference,3
+BSC-DS,Bachelor of Science in Data Science,4,1,DSC-4104,Operations Research,3
+BSC-DS,Bachelor of Science in Data Science,4,1,DSC-4105,Analytics Consulting,3
+BSC-DS,Bachelor of Science in Data Science,4,2,DSC-4201,Advanced Machine Learning,3
+BSC-DS,Bachelor of Science in Data Science,4,2,DSC-4202,Data Product Deployment,3
+BSC-DS,Bachelor of Science in Data Science,4,2,DSC-4203,Statistical Learning Theory,3
+BSC-DS,Bachelor of Science in Data Science,4,2,DSC-4204,Final Year Project I,6
+BSC-DS,Bachelor of Science in Data Science,4,2,DSC-4205,Industry Attachment,4
+BSC-DS,Bachelor of Science in Data Science,4,3,DSC-4301,Responsible AI Systems,3
+BSC-DS,Bachelor of Science in Data Science,4,3,DSC-4302,Scalable Data Pipelines,3
+BSC-DS,Bachelor of Science in Data Science,4,3,DSC-4303,Emerging Data Technologies,3
+BSC-DS,Bachelor of Science in Data Science,4,3,DSC-4304,Final Year Project II,6
+BSC-DS,Bachelor of Science in Data Science,4,3,DSC-4305,Professional Seminar,3
+BCOM,Bachelor of Commerce,1,1,COM-1101,Principles of Accounting I,3
+BCOM,Bachelor of Commerce,1,1,COM-1102,Microeconomics I,3
+BCOM,Bachelor of Commerce,1,1,COM-1103,Business Mathematics,3
+BCOM,Bachelor of Commerce,1,1,COM-1104,Business Communication,3
+BCOM,Bachelor of Commerce,1,1,COM-1105,Introduction to Management,3
+BCOM,Bachelor of Commerce,1,2,COM-1201,Principles of Accounting II,3
+BCOM,Bachelor of Commerce,1,2,COM-1202,Macroeconomics I,3
+BCOM,Bachelor of Commerce,1,2,COM-1203,Business Statistics I,3
+BCOM,Bachelor of Commerce,1,2,COM-1204,Business Law I,3
+BCOM,Bachelor of Commerce,1,2,COM-1205,Business Information Systems,3
+BCOM,Bachelor of Commerce,1,3,COM-1301,Financial Accounting I,3
+BCOM,Bachelor of Commerce,1,3,COM-1302,Business Finance I,3
+BCOM,Bachelor of Commerce,1,3,COM-1303,Marketing Principles,3
+BCOM,Bachelor of Commerce,1,3,COM-1304,Business Statistics II,3
+BCOM,Bachelor of Commerce,1,3,COM-1305,Organizational Behaviour,3
+BCOM,Bachelor of Commerce,2,1,COM-2101,Financial Accounting II,3
+BCOM,Bachelor of Commerce,2,1,COM-2102,Cost Accounting I,3
+BCOM,Bachelor of Commerce,2,1,COM-2103,Commercial Law,3
+BCOM,Bachelor of Commerce,2,1,COM-2104,Operations Management,3
+BCOM,Bachelor of Commerce,2,1,COM-2105,Research Skills in Business,3
+BCOM,Bachelor of Commerce,2,2,COM-2201,Management Accounting I,3
+BCOM,Bachelor of Commerce,2,2,COM-2202,Corporate Finance I,3
+BCOM,Bachelor of Commerce,2,2,COM-2203,Taxation Principles,3
+BCOM,Bachelor of Commerce,2,2,COM-2204,Human Resource Management,3
+BCOM,Bachelor of Commerce,2,2,COM-2205,Entrepreneurship,3
+BCOM,Bachelor of Commerce,2,3,COM-2301,Auditing Principles,3
+BCOM,Bachelor of Commerce,2,3,COM-2302,Corporate Finance II,3
+BCOM,Bachelor of Commerce,2,3,COM-2303,Marketing Management,3
+BCOM,Bachelor of Commerce,2,3,COM-2304,Business Research Methods,3
+BCOM,Bachelor of Commerce,2,3,COM-2305,International Business,3
+BCOM,Bachelor of Commerce,3,1,COM-3101,Financial Reporting I,3
+BCOM,Bachelor of Commerce,3,1,COM-3102,Management Accounting II,3
+BCOM,Bachelor of Commerce,3,1,COM-3103,Investment Analysis,3
+BCOM,Bachelor of Commerce,3,1,COM-3104,Financial Markets,3
+BCOM,Bachelor of Commerce,3,1,COM-3105,Strategic Management I,3
+BCOM,Bachelor of Commerce,3,2,COM-3201,Financial Reporting II,3
+BCOM,Bachelor of Commerce,3,2,COM-3202,Advanced Taxation,3
+BCOM,Bachelor of Commerce,3,2,COM-3203,Supply Chain Management,3
+BCOM,Bachelor of Commerce,3,2,COM-3204,Business Analytics,3
+BCOM,Bachelor of Commerce,3,2,COM-3205,Business Ethics,3
+BCOM,Bachelor of Commerce,3,3,COM-3301,Risk Management,3
+BCOM,Bachelor of Commerce,3,3,COM-3302,Strategic Management II,3
+BCOM,Bachelor of Commerce,3,3,COM-3303,Public Finance,3
+BCOM,Bachelor of Commerce,3,3,COM-3304,Research Proposal,3
+BCOM,Bachelor of Commerce,3,3,COM-3305,Elective in Commerce,3
+BCOM,Bachelor of Commerce,4,1,COM-4101,Advanced Auditing,3
+BCOM,Bachelor of Commerce,4,1,COM-4102,Financial Modelling,3
+BCOM,Bachelor of Commerce,4,1,COM-4103,International Trade,3
+BCOM,Bachelor of Commerce,4,1,COM-4104,Corporate Governance,3
+BCOM,Bachelor of Commerce,4,1,COM-4105,Business Consultancy,3
+BCOM,Bachelor of Commerce,4,2,COM-4201,Business Valuation,3
+BCOM,Bachelor of Commerce,4,2,COM-4202,Enterprise Risk Analysis,3
+BCOM,Bachelor of Commerce,4,2,COM-4203,Digital Commerce,3
+BCOM,Bachelor of Commerce,4,2,COM-4204,Final Year Project I,6
+BCOM,Bachelor of Commerce,4,2,COM-4205,Professional Attachment,4
+BCOM,Bachelor of Commerce,4,3,COM-4301,Contemporary Business Issues,3
+BCOM,Bachelor of Commerce,4,3,COM-4302,Financial Strategy,3
+BCOM,Bachelor of Commerce,4,3,COM-4303,Sustainability Accounting,3
+BCOM,Bachelor of Commerce,4,3,COM-4304,Final Year Project II,6
+BCOM,Bachelor of Commerce,4,3,COM-4305,Professional Seminar,3
+BBA,Bachelor of Business Administration,1,1,BBA-1101,Introduction to Business Administration,3
+BBA,Bachelor of Business Administration,1,1,BBA-1102,Principles of Management,3
+BBA,Bachelor of Business Administration,1,1,BBA-1103,Business Mathematics,3
+BBA,Bachelor of Business Administration,1,1,BBA-1104,Communication Skills,3
+BBA,Bachelor of Business Administration,1,1,BBA-1105,Microeconomics,3
+BBA,Bachelor of Business Administration,1,2,BBA-1201,Organizational Behaviour,3
+BBA,Bachelor of Business Administration,1,2,BBA-1202,Business Statistics,3
+BBA,Bachelor of Business Administration,1,2,BBA-1203,Financial Accounting Basics,3
+BBA,Bachelor of Business Administration,1,2,BBA-1204,Marketing Principles,3
+BBA,Bachelor of Business Administration,1,2,BBA-1205,Business Law,3
+BBA,Bachelor of Business Administration,1,3,BBA-1301,Human Resource Management I,3
+BBA,Bachelor of Business Administration,1,3,BBA-1302,Managerial Economics,3
+BBA,Bachelor of Business Administration,1,3,BBA-1303,Operations Management I,3
+BBA,Bachelor of Business Administration,1,3,BBA-1304,Business Information Systems,3
+BBA,Bachelor of Business Administration,1,3,BBA-1305,Professional Writing,3
+BBA,Bachelor of Business Administration,2,1,BBA-2101,Project Management I,3
+BBA,Bachelor of Business Administration,2,1,BBA-2102,Organizational Development,3
+BBA,Bachelor of Business Administration,2,1,BBA-2103,Business Finance,3
+BBA,Bachelor of Business Administration,2,1,BBA-2104,Consumer Behaviour,3
+BBA,Bachelor of Business Administration,2,1,BBA-2105,Research Skills,3
+BBA,Bachelor of Business Administration,2,2,BBA-2201,Leadership and Team Management,3
+BBA,Bachelor of Business Administration,2,2,BBA-2202,Business Strategy I,3
+BBA,Bachelor of Business Administration,2,2,BBA-2203,Entrepreneurship I,3
+BBA,Bachelor of Business Administration,2,2,BBA-2204,Management Accounting,3
+BBA,Bachelor of Business Administration,2,2,BBA-2205,Supply Chain Fundamentals,3
+BBA,Bachelor of Business Administration,2,3,BBA-2301,Operations Management II,3
+BBA,Bachelor of Business Administration,2,3,BBA-2302,Digital Marketing,3
+BBA,Bachelor of Business Administration,2,3,BBA-2303,Business Research Methods,3
+BBA,Bachelor of Business Administration,2,3,BBA-2304,Negotiation Skills,3
+BBA,Bachelor of Business Administration,2,3,BBA-2305,Corporate Governance,3
+BBA,Bachelor of Business Administration,3,1,BBA-3101,Strategic Human Resource Management,3
+BBA,Bachelor of Business Administration,3,1,BBA-3102,Business Analytics I,3
+BBA,Bachelor of Business Administration,3,1,BBA-3103,Business Strategy II,3
+BBA,Bachelor of Business Administration,3,1,BBA-3104,Service Management,3
+BBA,Bachelor of Business Administration,3,1,BBA-3105,Innovation Management,3
+BBA,Bachelor of Business Administration,3,2,BBA-3201,Risk and Compliance Management,3
+BBA,Bachelor of Business Administration,3,2,BBA-3202,International Management,3
+BBA,Bachelor of Business Administration,3,2,BBA-3203,Business Analytics II,3
+BBA,Bachelor of Business Administration,3,2,BBA-3204,Customer Relationship Management,3
+BBA,Bachelor of Business Administration,3,2,BBA-3205,Change Leadership,3
+BBA,Bachelor of Business Administration,3,3,BBA-3301,Business Process Improvement,3
+BBA,Bachelor of Business Administration,3,3,BBA-3302,Strategic Marketing,3
+BBA,Bachelor of Business Administration,3,3,BBA-3303,Public Sector Management,3
+BBA,Bachelor of Business Administration,3,3,BBA-3304,Research Proposal,3
+BBA,Bachelor of Business Administration,3,3,BBA-3305,Management Consulting,3
+BBA,Bachelor of Business Administration,4,1,BBA-4101,Corporate Strategy,3
+BBA,Bachelor of Business Administration,4,1,BBA-4102,Performance Management,3
+BBA,Bachelor of Business Administration,4,1,BBA-4103,Enterprise Systems,3
+BBA,Bachelor of Business Administration,4,1,BBA-4104,Entrepreneurship II,3
+BBA,Bachelor of Business Administration,4,1,BBA-4105,Business Ethics,3
+BBA,Bachelor of Business Administration,4,2,BBA-4201,Global Business Operations,3
+BBA,Bachelor of Business Administration,4,2,BBA-4202,Leadership Practicum,3
+BBA,Bachelor of Business Administration,4,2,BBA-4203,Digital Transformation,3
+BBA,Bachelor of Business Administration,4,2,BBA-4204,Final Year Project I,6
+BBA,Bachelor of Business Administration,4,2,BBA-4205,Industrial Attachment,4
+BBA,Bachelor of Business Administration,4,3,BBA-4301,Executive Decision Making,3
+BBA,Bachelor of Business Administration,4,3,BBA-4302,Sustainable Business,3
+BBA,Bachelor of Business Administration,4,3,BBA-4303,Contemporary Management Issues,3
+BBA,Bachelor of Business Administration,4,3,BBA-4304,Final Year Project II,6
+BBA,Bachelor of Business Administration,4,3,BBA-4305,Professional Seminar,3
+BED-ART,Bachelor of Education (Arts),1,1,EDA-1101,Foundations of Education,3
+BED-ART,Bachelor of Education (Arts),1,1,EDA-1102,Introduction to Psychology,3
+BED-ART,Bachelor of Education (Arts),1,1,EDA-1103,Academic Communication,3
+BED-ART,Bachelor of Education (Arts),1,1,EDA-1104,Language and Society,3
+BED-ART,Bachelor of Education (Arts),1,1,EDA-1105,Introduction to Sociology,3
+BED-ART,Bachelor of Education (Arts),1,2,EDA-1201,History of Education,3
+BED-ART,Bachelor of Education (Arts),1,2,EDA-1202,Educational Psychology I,3
+BED-ART,Bachelor of Education (Arts),1,2,EDA-1203,Curriculum Studies I,3
+BED-ART,Bachelor of Education (Arts),1,2,EDA-1204,Literature and Language Studies,3
+BED-ART,Bachelor of Education (Arts),1,2,EDA-1205,ICT in Education,3
+BED-ART,Bachelor of Education (Arts),1,3,EDA-1301,Philosophy of Education,3
+BED-ART,Bachelor of Education (Arts),1,3,EDA-1302,Educational Psychology II,3
+BED-ART,Bachelor of Education (Arts),1,3,EDA-1303,Teaching Methods I,3
+BED-ART,Bachelor of Education (Arts),1,3,EDA-1304,African History and Society,3
+BED-ART,Bachelor of Education (Arts),1,3,EDA-1305,Assessment Fundamentals,3
+BED-ART,Bachelor of Education (Arts),2,1,EDA-2101,Sociology of Education,3
+BED-ART,Bachelor of Education (Arts),2,1,EDA-2102,Curriculum Development,3
+BED-ART,Bachelor of Education (Arts),2,1,EDA-2103,Classroom Management I,3
+BED-ART,Bachelor of Education (Arts),2,1,EDA-2104,Applied Linguistics,3
+BED-ART,Bachelor of Education (Arts),2,1,EDA-2105,Educational Statistics,3
+BED-ART,Bachelor of Education (Arts),2,2,EDA-2201,Inclusive Education,3
+BED-ART,Bachelor of Education (Arts),2,2,EDA-2202,Teaching Methods II,3
+BED-ART,Bachelor of Education (Arts),2,2,EDA-2203,Research Methods in Education,3
+BED-ART,Bachelor of Education (Arts),2,2,EDA-2204,Contemporary Literature,3
+BED-ART,Bachelor of Education (Arts),2,2,EDA-2205,Guidance and Counselling,3
+BED-ART,Bachelor of Education (Arts),2,3,EDA-2301,Instructional Technology,3
+BED-ART,Bachelor of Education (Arts),2,3,EDA-2302,Educational Administration I,3
+BED-ART,Bachelor of Education (Arts),2,3,EDA-2303,Language Teaching Practice,3
+BED-ART,Bachelor of Education (Arts),2,3,EDA-2304,Social Science Pedagogy,3
+BED-ART,Bachelor of Education (Arts),2,3,EDA-2305,Microteaching I,3
+BED-ART,Bachelor of Education (Arts),3,1,EDA-3101,Assessment and Evaluation,3
+BED-ART,Bachelor of Education (Arts),3,1,EDA-3102,Educational Policy,3
+BED-ART,Bachelor of Education (Arts),3,1,EDA-3103,Advanced Classroom Management,3
+BED-ART,Bachelor of Education (Arts),3,1,EDA-3104,Curriculum Implementation,3
+BED-ART,Bachelor of Education (Arts),3,1,EDA-3105,Teaching Practice Preparation,3
+BED-ART,Bachelor of Education (Arts),3,2,EDA-3201,School Leadership,3
+BED-ART,Bachelor of Education (Arts),3,2,EDA-3202,Education and Development,3
+BED-ART,Bachelor of Education (Arts),3,2,EDA-3203,Literary Criticism,3
+BED-ART,Bachelor of Education (Arts),3,2,EDA-3204,History Teaching Methods,3
+BED-ART,Bachelor of Education (Arts),3,2,EDA-3205,School-Based Practicum I,3
+BED-ART,Bachelor of Education (Arts),3,3,EDA-3301,Educational Research Proposal,3
+BED-ART,Bachelor of Education (Arts),3,3,EDA-3302,Special Needs Education Practice,3
+BED-ART,Bachelor of Education (Arts),3,3,EDA-3303,Microteaching II,3
+BED-ART,Bachelor of Education (Arts),3,3,EDA-3304,Comparative Education,3
+BED-ART,Bachelor of Education (Arts),3,3,EDA-3305,Arts Subject Specialization I,3
+BED-ART,Bachelor of Education (Arts),4,1,EDA-4101,Community Education,3
+BED-ART,Bachelor of Education (Arts),4,1,EDA-4102,Educational Measurement,3
+BED-ART,Bachelor of Education (Arts),4,1,EDA-4103,Arts Subject Specialization II,3
+BED-ART,Bachelor of Education (Arts),4,1,EDA-4104,Teaching Practice I,3
+BED-ART,Bachelor of Education (Arts),4,1,EDA-4105,Professional Ethics for Teachers,3
+BED-ART,Bachelor of Education (Arts),4,2,EDA-4201,Instructional Design,3
+BED-ART,Bachelor of Education (Arts),4,2,EDA-4202,Educational Leadership,3
+BED-ART,Bachelor of Education (Arts),4,2,EDA-4203,Teacher Professional Development,3
+BED-ART,Bachelor of Education (Arts),4,2,EDA-4204,School Research Project I,3
+BED-ART,Bachelor of Education (Arts),4,2,EDA-4205,Teaching Practice II,3
+BED-ART,Bachelor of Education (Arts),4,3,EDA-4301,Education Quality Assurance,3
+BED-ART,Bachelor of Education (Arts),4,3,EDA-4302,Emerging Issues in Education,3
+BED-ART,Bachelor of Education (Arts),4,3,EDA-4303,School Research Project II,6
+BED-ART,Bachelor of Education (Arts),4,3,EDA-4304,Teaching Practice III,3
+BED-ART,Bachelor of Education (Arts),4,3,EDA-4305,Professional Seminar,3
+BED-SCI,Bachelor of Education (Science),1,1,EDS-1101,Foundations of Education,3
+BED-SCI,Bachelor of Education (Science),1,1,EDS-1102,General Biology I,3
+BED-SCI,Bachelor of Education (Science),1,1,EDS-1103,Calculus for Science,3
+BED-SCI,Bachelor of Education (Science),1,1,EDS-1104,General Chemistry I,3
+BED-SCI,Bachelor of Education (Science),1,1,EDS-1105,Academic Communication,3
+BED-SCI,Bachelor of Education (Science),1,2,EDS-1201,Educational Psychology I,3
+BED-SCI,Bachelor of Education (Science),1,2,EDS-1202,General Biology II,3
+BED-SCI,Bachelor of Education (Science),1,2,EDS-1203,General Chemistry II,3
+BED-SCI,Bachelor of Education (Science),1,2,EDS-1204,Introduction to Physics,3
+BED-SCI,Bachelor of Education (Science),1,2,EDS-1205,ICT in Education,3
+BED-SCI,Bachelor of Education (Science),1,3,EDS-1301,Curriculum Studies I,3
+BED-SCI,Bachelor of Education (Science),1,3,EDS-1302,Cell Biology,3
+BED-SCI,Bachelor of Education (Science),1,3,EDS-1303,Organic Chemistry I,3
+BED-SCI,Bachelor of Education (Science),1,3,EDS-1304,Teaching Mathematics,3
+BED-SCI,Bachelor of Education (Science),1,3,EDS-1305,Education Statistics,3
+BED-SCI,Bachelor of Education (Science),2,1,EDS-2101,Educational Psychology II,3
+BED-SCI,Bachelor of Education (Science),2,1,EDS-2102,Ecology and Environment,3
+BED-SCI,Bachelor of Education (Science),2,1,EDS-2103,Physical Chemistry,3
+BED-SCI,Bachelor of Education (Science),2,1,EDS-2104,Science Laboratory Methods,3
+BED-SCI,Bachelor of Education (Science),2,1,EDS-2105,Classroom Management,3
+BED-SCI,Bachelor of Education (Science),2,2,EDS-2201,Science Teaching Methods I,3
+BED-SCI,Bachelor of Education (Science),2,2,EDS-2202,Human Physiology,3
+BED-SCI,Bachelor of Education (Science),2,2,EDS-2203,Inorganic Chemistry,3
+BED-SCI,Bachelor of Education (Science),2,2,EDS-2204,Research Methods in Education,3
+BED-SCI,Bachelor of Education (Science),2,2,EDS-2205,Inclusive Education,3
+BED-SCI,Bachelor of Education (Science),2,3,EDS-2301,Instructional Technology,3
+BED-SCI,Bachelor of Education (Science),2,3,EDS-2302,Genetics,3
+BED-SCI,Bachelor of Education (Science),2,3,EDS-2303,Analytical Chemistry,3
+BED-SCI,Bachelor of Education (Science),2,3,EDS-2304,Assessment and Evaluation,3
+BED-SCI,Bachelor of Education (Science),2,3,EDS-2305,Microteaching I,3
+BED-SCI,Bachelor of Education (Science),3,1,EDS-3101,Science Teaching Methods II,3
+BED-SCI,Bachelor of Education (Science),3,1,EDS-3102,Microbiology,3
+BED-SCI,Bachelor of Education (Science),3,1,EDS-3103,Environmental Chemistry,3
+BED-SCI,Bachelor of Education (Science),3,1,EDS-3104,Curriculum Implementation,3
+BED-SCI,Bachelor of Education (Science),3,1,EDS-3105,Educational Policy,3
+BED-SCI,Bachelor of Education (Science),3,2,EDS-3201,Teaching Practice Preparation,3
+BED-SCI,Bachelor of Education (Science),3,2,EDS-3202,Biochemistry,3
+BED-SCI,Bachelor of Education (Science),3,2,EDS-3203,Scientific Instrumentation,3
+BED-SCI,Bachelor of Education (Science),3,2,EDS-3204,School Leadership,3
+BED-SCI,Bachelor of Education (Science),3,2,EDS-3205,Practical Science Instruction,3
+BED-SCI,Bachelor of Education (Science),3,3,EDS-3301,Educational Research Proposal,3
+BED-SCI,Bachelor of Education (Science),3,3,EDS-3302,Biotechnology Basics,3
+BED-SCI,Bachelor of Education (Science),3,3,EDS-3303,Applied Physics in Education,3
+BED-SCI,Bachelor of Education (Science),3,3,EDS-3304,Science Assessment Design,3
+BED-SCI,Bachelor of Education (Science),3,3,EDS-3305,School-Based Practicum I,3
+BED-SCI,Bachelor of Education (Science),4,1,EDS-4101,Education Quality Assurance,3
+BED-SCI,Bachelor of Education (Science),4,1,EDS-4102,Chemistry Teaching Practicum,3
+BED-SCI,Bachelor of Education (Science),4,1,EDS-4103,Biology Teaching Practicum,3
+BED-SCI,Bachelor of Education (Science),4,1,EDS-4104,Microteaching II,3
+BED-SCI,Bachelor of Education (Science),4,1,EDS-4105,Professional Ethics for Teachers,3
+BED-SCI,Bachelor of Education (Science),4,2,EDS-4201,Educational Administration,3
+BED-SCI,Bachelor of Education (Science),4,2,EDS-4202,Advanced Science Pedagogy,3
+BED-SCI,Bachelor of Education (Science),4,2,EDS-4203,Teacher Professional Development,3
+BED-SCI,Bachelor of Education (Science),4,2,EDS-4204,School Research Project I,3
+BED-SCI,Bachelor of Education (Science),4,2,EDS-4205,Teaching Practice I,3
+BED-SCI,Bachelor of Education (Science),4,3,EDS-4301,Inclusive Science Education,3
+BED-SCI,Bachelor of Education (Science),4,3,EDS-4302,Emerging Issues in Science Education,3
+BED-SCI,Bachelor of Education (Science),4,3,EDS-4303,School Research Project II,6
+BED-SCI,Bachelor of Education (Science),4,3,EDS-4304,Teaching Practice II,3
+BED-SCI,Bachelor of Education (Science),4,3,EDS-4305,Professional Seminar,3
+BSC-NUR,Bachelor of Science in Nursing,1,1,NUR-1101,Anatomy and Physiology I,3
+BSC-NUR,Bachelor of Science in Nursing,1,1,NUR-1102,Fundamentals of Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,1,1,NUR-1103,Human Biology,3
+BSC-NUR,Bachelor of Science in Nursing,1,1,NUR-1104,Communication for Health Professionals,3
+BSC-NUR,Bachelor of Science in Nursing,1,1,NUR-1105,Introduction to Public Health,3
+BSC-NUR,Bachelor of Science in Nursing,1,2,NUR-1201,Anatomy and Physiology II,3
+BSC-NUR,Bachelor of Science in Nursing,1,2,NUR-1202,Fundamentals of Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,1,2,NUR-1203,Biochemistry for Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,1,2,NUR-1204,Microbiology for Health Sciences,3
+BSC-NUR,Bachelor of Science in Nursing,1,2,NUR-1205,Health Psychology,3
+BSC-NUR,Bachelor of Science in Nursing,1,3,NUR-1301,Medical-Surgical Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,1,3,NUR-1302,Pharmacology I,3
+BSC-NUR,Bachelor of Science in Nursing,1,3,NUR-1303,Pathophysiology I,3
+BSC-NUR,Bachelor of Science in Nursing,1,3,NUR-1304,Health Assessment,3
+BSC-NUR,Bachelor of Science in Nursing,1,3,NUR-1305,Nutrition and Dietetics,3
+BSC-NUR,Bachelor of Science in Nursing,2,1,NUR-2101,Medical-Surgical Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,2,1,NUR-2102,Pharmacology II,3
+BSC-NUR,Bachelor of Science in Nursing,2,1,NUR-2103,Pathophysiology II,3
+BSC-NUR,Bachelor of Science in Nursing,2,1,NUR-2104,Infection Prevention and Control,3
+BSC-NUR,Bachelor of Science in Nursing,2,1,NUR-2105,Nursing Skills Laboratory,3
+BSC-NUR,Bachelor of Science in Nursing,2,2,NUR-2201,Maternal Health Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,2,2,NUR-2202,Child Health Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,2,2,NUR-2203,Community Health Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,2,2,NUR-2204,Nursing Research Fundamentals,3
+BSC-NUR,Bachelor of Science in Nursing,2,2,NUR-2205,Professional Ethics in Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,2,3,NUR-2301,Maternal Health Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,2,3,NUR-2302,Child Health Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,2,3,NUR-2303,Mental Health Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,2,3,NUR-2304,Epidemiology,3
+BSC-NUR,Bachelor of Science in Nursing,2,3,NUR-2305,Clinical Nursing Practicum I,4
+BSC-NUR,Bachelor of Science in Nursing,3,1,NUR-3101,Emergency and Critical Care Nursing I,3
+BSC-NUR,Bachelor of Science in Nursing,3,1,NUR-3102,Community Health Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,3,1,NUR-3103,Mental Health Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,3,1,NUR-3104,Nursing Leadership I,3
+BSC-NUR,Bachelor of Science in Nursing,3,1,NUR-3105,Clinical Nursing Practicum II,4
+BSC-NUR,Bachelor of Science in Nursing,3,2,NUR-3201,Emergency and Critical Care Nursing II,3
+BSC-NUR,Bachelor of Science in Nursing,3,2,NUR-3202,Geriatric Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,3,2,NUR-3203,Reproductive Health Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,3,2,NUR-3204,Evidence-Based Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,3,2,NUR-3205,Clinical Nursing Practicum III,4
+BSC-NUR,Bachelor of Science in Nursing,3,3,NUR-3301,Advanced Medical-Surgical Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,3,3,NUR-3302,Primary Health Care Management,3
+BSC-NUR,Bachelor of Science in Nursing,3,3,NUR-3303,Health Informatics,3
+BSC-NUR,Bachelor of Science in Nursing,3,3,NUR-3304,Research Proposal,3
+BSC-NUR,Bachelor of Science in Nursing,3,3,NUR-3305,Clinical Nursing Practicum IV,4
+BSC-NUR,Bachelor of Science in Nursing,4,1,NUR-4101,Advanced Midwifery Care,3
+BSC-NUR,Bachelor of Science in Nursing,4,1,NUR-4102,Healthcare Quality and Safety,3
+BSC-NUR,Bachelor of Science in Nursing,4,1,NUR-4103,Nursing Management,3
+BSC-NUR,Bachelor of Science in Nursing,4,1,NUR-4104,Specialized Clinical Nursing,3
+BSC-NUR,Bachelor of Science in Nursing,4,1,NUR-4105,Clinical Nursing Practicum V,4
+BSC-NUR,Bachelor of Science in Nursing,4,2,NUR-4201,Community Nursing Leadership,3
+BSC-NUR,Bachelor of Science in Nursing,4,2,NUR-4202,Public Health Programmes,3
+BSC-NUR,Bachelor of Science in Nursing,4,2,NUR-4203,Palliative Care,3
+BSC-NUR,Bachelor of Science in Nursing,4,2,NUR-4204,Final Year Research Project I,3
+BSC-NUR,Bachelor of Science in Nursing,4,2,NUR-4205,Clinical Nursing Practicum VI,4
+BSC-NUR,Bachelor of Science in Nursing,4,3,NUR-4301,Nursing Policy and Advocacy,3
+BSC-NUR,Bachelor of Science in Nursing,4,3,NUR-4302,Professional Practice Preparation,3
+BSC-NUR,Bachelor of Science in Nursing,4,3,NUR-4303,Health Systems Management,3
+BSC-NUR,Bachelor of Science in Nursing,4,3,NUR-4304,Final Year Research Project II,6
+BSC-NUR,Bachelor of Science in Nursing,4,3,NUR-4305,Clinical Consolidation Practicum,3
+BSC-AGR,Bachelor of Science in Agriculture,1,1,AGR-1101,Introduction to Agriculture,3
+BSC-AGR,Bachelor of Science in Agriculture,1,1,AGR-1102,General Botany,3
+BSC-AGR,Bachelor of Science in Agriculture,1,1,AGR-1103,General Chemistry,3
+BSC-AGR,Bachelor of Science in Agriculture,1,1,AGR-1104,Agricultural Mathematics,3
+BSC-AGR,Bachelor of Science in Agriculture,1,1,AGR-1105,Communication Skills,3
+BSC-AGR,Bachelor of Science in Agriculture,1,2,AGR-1201,Soil Science I,3
+BSC-AGR,Bachelor of Science in Agriculture,1,2,AGR-1202,Crop Production I,3
+BSC-AGR,Bachelor of Science in Agriculture,1,2,AGR-1203,Animal Science I,3
+BSC-AGR,Bachelor of Science in Agriculture,1,2,AGR-1204,Agricultural Economics I,3
+BSC-AGR,Bachelor of Science in Agriculture,1,2,AGR-1205,Agricultural Biology,3
+BSC-AGR,Bachelor of Science in Agriculture,1,3,AGR-1301,Soil Fertility and Plant Nutrition,3
+BSC-AGR,Bachelor of Science in Agriculture,1,3,AGR-1302,Crop Physiology,3
+BSC-AGR,Bachelor of Science in Agriculture,1,3,AGR-1303,Livestock Production I,3
+BSC-AGR,Bachelor of Science in Agriculture,1,3,AGR-1304,Agricultural Statistics,3
+BSC-AGR,Bachelor of Science in Agriculture,1,3,AGR-1305,Farm Mechanization,3
+BSC-AGR,Bachelor of Science in Agriculture,2,1,AGR-2101,Weed Science,3
+BSC-AGR,Bachelor of Science in Agriculture,2,1,AGR-2102,Crop Protection I,3
+BSC-AGR,Bachelor of Science in Agriculture,2,1,AGR-2103,Livestock Nutrition,3
+BSC-AGR,Bachelor of Science in Agriculture,2,1,AGR-2104,Agricultural Microbiology,3
+BSC-AGR,Bachelor of Science in Agriculture,2,1,AGR-2105,Agricultural Extension I,3
+BSC-AGR,Bachelor of Science in Agriculture,2,2,AGR-2201,Irrigation and Drainage,3
+BSC-AGR,Bachelor of Science in Agriculture,2,2,AGR-2202,Plant Pathology,3
+BSC-AGR,Bachelor of Science in Agriculture,2,2,AGR-2203,Animal Health,3
+BSC-AGR,Bachelor of Science in Agriculture,2,2,AGR-2204,Farm Management I,3
+BSC-AGR,Bachelor of Science in Agriculture,2,2,AGR-2205,Research Methods in Agriculture,3
+BSC-AGR,Bachelor of Science in Agriculture,2,3,AGR-2301,Soil and Water Conservation,3
+BSC-AGR,Bachelor of Science in Agriculture,2,3,AGR-2302,Crop Breeding I,3
+BSC-AGR,Bachelor of Science in Agriculture,2,3,AGR-2303,Livestock Production II,3
+BSC-AGR,Bachelor of Science in Agriculture,2,3,AGR-2304,Agricultural Marketing,3
+BSC-AGR,Bachelor of Science in Agriculture,2,3,AGR-2305,Agribusiness Entrepreneurship,3
+BSC-AGR,Bachelor of Science in Agriculture,3,1,AGR-3101,Sustainable Crop Systems,3
+BSC-AGR,Bachelor of Science in Agriculture,3,1,AGR-3102,Integrated Pest Management,3
+BSC-AGR,Bachelor of Science in Agriculture,3,1,AGR-3103,Animal Breeding,3
+BSC-AGR,Bachelor of Science in Agriculture,3,1,AGR-3104,Agricultural Policy,3
+BSC-AGR,Bachelor of Science in Agriculture,3,1,AGR-3105,Agricultural GIS,3
+BSC-AGR,Bachelor of Science in Agriculture,3,2,AGR-3201,Agricultural Biotechnology,3
+BSC-AGR,Bachelor of Science in Agriculture,3,2,AGR-3202,Rangeland Management,3
+BSC-AGR,Bachelor of Science in Agriculture,3,2,AGR-3203,Seed Technology,3
+BSC-AGR,Bachelor of Science in Agriculture,3,2,AGR-3204,Postharvest Systems,3
+BSC-AGR,Bachelor of Science in Agriculture,3,2,AGR-3205,Farm Management II,3
+BSC-AGR,Bachelor of Science in Agriculture,3,3,AGR-3301,Climate-Smart Agriculture,3
+BSC-AGR,Bachelor of Science in Agriculture,3,3,AGR-3302,Agricultural Value Chains,3
+BSC-AGR,Bachelor of Science in Agriculture,3,3,AGR-3303,Precision Agriculture,3
+BSC-AGR,Bachelor of Science in Agriculture,3,3,AGR-3304,Research Proposal,3
+BSC-AGR,Bachelor of Science in Agriculture,3,3,AGR-3305,Field Practical I,3
+BSC-AGR,Bachelor of Science in Agriculture,4,1,AGR-4101,Horticultural Production,3
+BSC-AGR,Bachelor of Science in Agriculture,4,1,AGR-4102,Food Security and Nutrition,3
+BSC-AGR,Bachelor of Science in Agriculture,4,1,AGR-4103,Agricultural Project Management,3
+BSC-AGR,Bachelor of Science in Agriculture,4,1,AGR-4104,Agroforestry Systems,3
+BSC-AGR,Bachelor of Science in Agriculture,4,1,AGR-4105,Field Practical II,3
+BSC-AGR,Bachelor of Science in Agriculture,4,2,AGR-4201,Advanced Crop Production,3
+BSC-AGR,Bachelor of Science in Agriculture,4,2,AGR-4202,Agribusiness Planning,3
+BSC-AGR,Bachelor of Science in Agriculture,4,2,AGR-4203,Agricultural Innovations,3
+BSC-AGR,Bachelor of Science in Agriculture,4,2,AGR-4204,Final Year Project I,6
+BSC-AGR,Bachelor of Science in Agriculture,4,2,AGR-4205,Industrial Attachment,4
+BSC-AGR,Bachelor of Science in Agriculture,4,3,AGR-4301,Sustainable Farm Enterprises,3
+BSC-AGR,Bachelor of Science in Agriculture,4,3,AGR-4302,Extension Programme Evaluation,3
+BSC-AGR,Bachelor of Science in Agriculture,4,3,AGR-4303,Emerging Agricultural Technologies,3
+BSC-AGR,Bachelor of Science in Agriculture,4,3,AGR-4304,Final Year Project II,6
+BSC-AGR,Bachelor of Science in Agriculture,4,3,AGR-4305,Professional Seminar,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,1,ENV-1101,Introduction to Environmental Science,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,1,ENV-1102,General Ecology,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,1,ENV-1103,Environmental Chemistry I,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,1,ENV-1104,Earth Systems,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,1,ENV-1105,Communication Skills,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,2,ENV-1201,Environmental Biology,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,2,ENV-1202,Environmental Chemistry II,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,2,ENV-1203,Environmental Physics,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,2,ENV-1204,Environmental Mathematics,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,2,ENV-1205,Climate Fundamentals,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,3,ENV-1301,Biodiversity and Conservation,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,3,ENV-1302,Soil and Water Science,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,3,ENV-1303,Environmental Microbiology,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,3,ENV-1304,Environmental Statistics,3
+BSC-ENV,Bachelor of Science in Environmental Science,1,3,ENV-1305,Environmental Law I,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,1,ENV-2101,Hydrology and Watershed Studies,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,1,ENV-2102,Air Pollution Science,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,1,ENV-2103,Environmental Toxicology,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,1,ENV-2104,Geographic Information Systems I,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,1,ENV-2105,Environmental Economics,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,2,ENV-2201,Waste Management I,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,2,ENV-2202,Environmental Impact Assessment I,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,2,ENV-2203,Climate Change Science,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,2,ENV-2204,Research Methods in Environment,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,2,ENV-2205,Community Ecology,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,3,ENV-2301,Water Quality Management,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,3,ENV-2302,Environmental Monitoring,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,3,ENV-2303,Remote Sensing I,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,3,ENV-2304,Natural Resource Management,3
+BSC-ENV,Bachelor of Science in Environmental Science,2,3,ENV-2305,Environmental Policy,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,1,ENV-3101,Conservation Biology,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,1,ENV-3102,Waste Management II,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,1,ENV-3103,Geographic Information Systems II,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,1,ENV-3104,Environmental Epidemiology,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,1,ENV-3105,Sustainable Development,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,2,ENV-3201,Environmental Impact Assessment II,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,2,ENV-3202,Climate Adaptation Planning,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,2,ENV-3203,Remote Sensing II,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,2,ENV-3204,Land Use Planning,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,2,ENV-3205,Environmental Auditing,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,3,ENV-3301,Environmental Risk Assessment,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,3,ENV-3302,Carbon Accounting,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,3,ENV-3303,Environmental Governance,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,3,ENV-3304,Research Proposal,3
+BSC-ENV,Bachelor of Science in Environmental Science,3,3,ENV-3305,Field Assessment I,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,1,ENV-4101,Renewable Energy and Environment,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,1,ENV-4102,Ecosystem Restoration,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,1,ENV-4103,Environmental Data Analysis,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,1,ENV-4104,Resource Economics,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,1,ENV-4105,Field Assessment II,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,2,ENV-4201,Climate Mitigation Strategies,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,2,ENV-4202,Pollution Control Technology,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,2,ENV-4203,Environmental Project Management,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,2,ENV-4204,Final Year Project I,6
+BSC-ENV,Bachelor of Science in Environmental Science,4,2,ENV-4205,Industrial Attachment,4
+BSC-ENV,Bachelor of Science in Environmental Science,4,3,ENV-4301,Integrated Environmental Management,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,3,ENV-4302,Biodiversity Policy,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,3,ENV-4303,Environmental Ethics and Practice,3
+BSC-ENV,Bachelor of Science in Environmental Science,4,3,ENV-4304,Final Year Project II,6
+BSC-ENV,Bachelor of Science in Environmental Science,4,3,ENV-4305,Professional Seminar,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,1,EEE-1101,Engineering Mathematics I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,1,EEE-1102,Engineering Physics I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,1,EEE-1103,Engineering Drawing,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,1,EEE-1104,Electrical Circuit Fundamentals,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,1,EEE-1105,Communication Skills,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,2,EEE-1201,Engineering Mathematics II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,2,EEE-1202,Engineering Physics II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,2,EEE-1203,Circuit Analysis I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,2,EEE-1204,Programming for Engineers,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,2,EEE-1205,Engineering Materials,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,3,EEE-1301,Electrical Machines I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,3,EEE-1302,Circuit Analysis II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,3,EEE-1303,Electronics I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,3,EEE-1304,Engineering Mathematics III,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,1,3,EEE-1305,Workshop Practice,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,1,EEE-2101,Electrical Machines II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,1,EEE-2102,Digital Electronics I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,1,EEE-2103,Signals and Systems,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,1,EEE-2104,Electromagnetic Fields,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,1,EEE-2105,Engineering Measurements,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,2,EEE-2201,Control Systems I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,2,EEE-2202,Power Systems I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,2,EEE-2203,Microprocessors I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,2,EEE-2204,Analogue Electronics,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,2,EEE-2205,Engineering Thermodynamics,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,3,EEE-2301,Control Systems II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,3,EEE-2302,Power Systems II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,3,EEE-2303,Digital Signal Processing,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,3,EEE-2304,Embedded Systems I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,2,3,EEE-2305,Engineering Research Methods,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,1,EEE-3101,Electrical Drives,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,1,EEE-3102,Power Electronics I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,1,EEE-3103,Communications Engineering I,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,1,EEE-3104,Industrial Instrumentation,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,1,EEE-3105,Engineering Economics,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,2,EEE-3201,Power Electronics II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,2,EEE-3202,Renewable Energy Systems,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,2,EEE-3203,Communications Engineering II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,2,EEE-3204,Embedded Systems II,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,2,EEE-3205,Professional Ethics,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,3,EEE-3301,Power System Protection,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,3,EEE-3302,Electrical Installations Design,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,3,EEE-3303,Industrial Automation,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,3,EEE-3304,Engineering Research Proposal,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,3,3,EEE-3305,Field Engineering Practice,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,1,EEE-4101,High Voltage Engineering,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,1,EEE-4102,Smart Grids,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,1,EEE-4103,Digital Control Systems,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,1,EEE-4104,Power Distribution Planning,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,1,EEE-4105,Engineering Project Management,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,2,EEE-4201,Electrical System Reliability,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,2,EEE-4202,Advanced Renewable Integration,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,2,EEE-4203,Safety and Standards,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,2,EEE-4204,Final Year Design Project I,6
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,2,EEE-4205,Industrial Attachment,4
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,3,EEE-4301,Power Systems Optimization,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,3,EEE-4302,Emerging Electronics Technologies,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,3,EEE-4303,Energy Policy,3
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,3,EEE-4304,Final Year Design Project II,6
+BENG-EEE,Bachelor of Engineering in Electrical and Electronic Engineering,4,3,EEE-4305,Professional Seminar,3
+DIP-IT,Diploma in Information Technology,1,1,DIT-1101,Computer Applications,3
+DIP-IT,Diploma in Information Technology,1,1,DIT-1102,Digital Literacy,3
+DIP-IT,Diploma in Information Technology,1,1,DIT-1103,Introduction to Programming,3
+DIP-IT,Diploma in Information Technology,1,1,DIT-1104,Communication Skills,3
+DIP-IT,Diploma in Information Technology,1,1,DIT-1105,Basic Mathematics,3
+DIP-IT,Diploma in Information Technology,1,2,DIT-1201,PC Hardware and Maintenance,3
+DIP-IT,Diploma in Information Technology,1,2,DIT-1202,Web Design I,3
+DIP-IT,Diploma in Information Technology,1,2,DIT-1203,Programming Practice,3
+DIP-IT,Diploma in Information Technology,1,2,DIT-1204,Database Basics,3
+DIP-IT,Diploma in Information Technology,1,2,DIT-1205,Computer Networking I,3
+DIP-IT,Diploma in Information Technology,1,3,DIT-1301,Operating Systems Basics,3
+DIP-IT,Diploma in Information Technology,1,3,DIT-1302,Web Design II,3
+DIP-IT,Diploma in Information Technology,1,3,DIT-1303,Database Queries,3
+DIP-IT,Diploma in Information Technology,1,3,DIT-1304,Computer Networking II,3
+DIP-IT,Diploma in Information Technology,1,3,DIT-1305,Technical Support Practice,3
+DIP-IT,Diploma in Information Technology,2,1,DIT-2101,IT Service Management Basics,3
+DIP-IT,Diploma in Information Technology,2,1,DIT-2102,Information Security Basics,3
+DIP-IT,Diploma in Information Technology,2,1,DIT-2103,Network Configuration,3
+DIP-IT,Diploma in Information Technology,2,1,DIT-2104,Application Development I,3
+DIP-IT,Diploma in Information Technology,2,1,DIT-2105,Business Information Systems,3
+DIP-IT,Diploma in Information Technology,2,2,DIT-2201,Application Development II,3
+DIP-IT,Diploma in Information Technology,2,2,DIT-2202,Server Administration,3
+DIP-IT,Diploma in Information Technology,2,2,DIT-2203,Cloud Computing Basics,3
+DIP-IT,Diploma in Information Technology,2,2,DIT-2204,IT Entrepreneurship,3
+DIP-IT,Diploma in Information Technology,2,2,DIT-2205,Project Planning,3
+DIP-IT,Diploma in Information Technology,2,3,DIT-2301,IT Capstone Project,6
+DIP-IT,Diploma in Information Technology,2,3,DIT-2302,Workplace ICT Support,3
+DIP-IT,Diploma in Information Technology,2,3,DIT-2303,Digital Professional Ethics,3
+DIP-IT,Diploma in Information Technology,2,3,DIT-2304,Industrial Attachment,4
+DIP-IT,Diploma in Information Technology,2,3,DIT-2305,Emerging IT Tools,3
+DIP-BM,Diploma in Business Management,1,1,DBM-1101,Introduction to Business,3
+DIP-BM,Diploma in Business Management,1,1,DBM-1102,Principles of Management,3
+DIP-BM,Diploma in Business Management,1,1,DBM-1103,Business Communication,3
+DIP-BM,Diploma in Business Management,1,1,DBM-1104,Business Mathematics,3
+DIP-BM,Diploma in Business Management,1,1,DBM-1105,Computer Applications,3
+DIP-BM,Diploma in Business Management,1,2,DBM-1201,Principles of Accounting,3
+DIP-BM,Diploma in Business Management,1,2,DBM-1202,Business Economics,3
+DIP-BM,Diploma in Business Management,1,2,DBM-1203,Marketing Fundamentals,3
+DIP-BM,Diploma in Business Management,1,2,DBM-1204,Business Law,3
+DIP-BM,Diploma in Business Management,1,2,DBM-1205,Office Administration,3
+DIP-BM,Diploma in Business Management,1,3,DBM-1301,Human Resource Management,3
+DIP-BM,Diploma in Business Management,1,3,DBM-1302,Business Statistics,3
+DIP-BM,Diploma in Business Management,1,3,DBM-1303,Customer Service,3
+DIP-BM,Diploma in Business Management,1,3,DBM-1304,Business Finance Basics,3
+DIP-BM,Diploma in Business Management,1,3,DBM-1305,Entrepreneurship,3
+DIP-BM,Diploma in Business Management,2,1,DBM-2101,Operations and Logistics,3
+DIP-BM,Diploma in Business Management,2,1,DBM-2102,Small Business Management,3
+DIP-BM,Diploma in Business Management,2,1,DBM-2103,Business Research Skills,3
+DIP-BM,Diploma in Business Management,2,1,DBM-2104,Digital Marketing,3
+DIP-BM,Diploma in Business Management,2,1,DBM-2105,Organizational Behaviour,3
+DIP-BM,Diploma in Business Management,2,2,DBM-2201,Strategic Business Planning,3
+DIP-BM,Diploma in Business Management,2,2,DBM-2202,Financial Decision Making,3
+DIP-BM,Diploma in Business Management,2,2,DBM-2203,Business Project Management,3
+DIP-BM,Diploma in Business Management,2,2,DBM-2204,Business Ethics,3
+DIP-BM,Diploma in Business Management,2,2,DBM-2205,Workplace Leadership,3
+DIP-BM,Diploma in Business Management,2,3,DBM-2301,Business Management Capstone,6
+DIP-BM,Diploma in Business Management,2,3,DBM-2302,Industrial Attachment,4
+DIP-BM,Diploma in Business Management,2,3,DBM-2303,Enterprise Practice,3
+DIP-BM,Diploma in Business Management,2,3,DBM-2304,Business Reporting,3
+DIP-BM,Diploma in Business Management,2,3,DBM-2305,Career Development,3
+DIP-HM,Diploma in Hospitality Management,1,1,DHM-1101,Introduction to Hospitality,3
+DIP-HM,Diploma in Hospitality Management,1,1,DHM-1102,Food Production Basics,3
+DIP-HM,Diploma in Hospitality Management,1,1,DHM-1103,Food and Beverage Service I,3
+DIP-HM,Diploma in Hospitality Management,1,1,DHM-1104,Communication Skills,3
+DIP-HM,Diploma in Hospitality Management,1,1,DHM-1105,Hospitality Hygiene,3
+DIP-HM,Diploma in Hospitality Management,1,2,DHM-1201,Front Office Operations,3
+DIP-HM,Diploma in Hospitality Management,1,2,DHM-1202,Housekeeping Operations,3
+DIP-HM,Diploma in Hospitality Management,1,2,DHM-1203,Food Safety,3
+DIP-HM,Diploma in Hospitality Management,1,2,DHM-1204,Basic Accounting,3
+DIP-HM,Diploma in Hospitality Management,1,2,DHM-1205,Customer Relations,3
+DIP-HM,Diploma in Hospitality Management,1,3,DHM-1301,Food and Beverage Service II,3
+DIP-HM,Diploma in Hospitality Management,1,3,DHM-1302,Hospitality Marketing,3
+DIP-HM,Diploma in Hospitality Management,1,3,DHM-1303,Accommodation Operations,3
+DIP-HM,Diploma in Hospitality Management,1,3,DHM-1304,Hospitality IT,3
+DIP-HM,Diploma in Hospitality Management,1,3,DHM-1305,Hospitality Purchasing,3
+DIP-HM,Diploma in Hospitality Management,2,1,DHM-2101,Restaurant Operations,3
+DIP-HM,Diploma in Hospitality Management,2,1,DHM-2102,Event Planning Basics,3
+DIP-HM,Diploma in Hospitality Management,2,1,DHM-2103,Hospitality Human Resource Management,3
+DIP-HM,Diploma in Hospitality Management,2,1,DHM-2104,Cost Control,3
+DIP-HM,Diploma in Hospitality Management,2,1,DHM-2105,Tourism Fundamentals,3
+DIP-HM,Diploma in Hospitality Management,2,2,DHM-2201,Hotel Operations Management,3
+DIP-HM,Diploma in Hospitality Management,2,2,DHM-2202,Sustainable Hospitality,3
+DIP-HM,Diploma in Hospitality Management,2,2,DHM-2203,Event Operations,3
+DIP-HM,Diploma in Hospitality Management,2,2,DHM-2204,Hospitality Entrepreneurship,3
+DIP-HM,Diploma in Hospitality Management,2,2,DHM-2205,Hospitality Quality Assurance,3
+DIP-HM,Diploma in Hospitality Management,2,3,DHM-2301,Hospitality Capstone Project,6
+DIP-HM,Diploma in Hospitality Management,2,3,DHM-2302,Industry Attachment,4
+DIP-HM,Diploma in Hospitality Management,2,3,DHM-2303,Professional Ethics,3
+DIP-HM,Diploma in Hospitality Management,2,3,DHM-2304,Revenue Management,3
+DIP-HM,Diploma in Hospitality Management,2,3,DHM-2305,Service Innovation,3
+DIP-CH,Diploma in Community Health,1,1,DCH-1101,Introduction to Community Health,3
+DIP-CH,Diploma in Community Health,1,1,DCH-1102,Human Biology,3
+DIP-CH,Diploma in Community Health,1,1,DCH-1103,Basic Nutrition,3
+DIP-CH,Diploma in Community Health,1,1,DCH-1104,Communication Skills,3
+DIP-CH,Diploma in Community Health,1,1,DCH-1105,Health Systems Fundamentals,3
+DIP-CH,Diploma in Community Health,1,2,DCH-1201,Primary Health Care,3
+DIP-CH,Diploma in Community Health,1,2,DCH-1202,Community Health Education,3
+DIP-CH,Diploma in Community Health,1,2,DCH-1203,Health Statistics,3
+DIP-CH,Diploma in Community Health,1,2,DCH-1204,Environmental Health Basics,3
+DIP-CH,Diploma in Community Health,1,2,DCH-1205,First Aid and Safety,3
+DIP-CH,Diploma in Community Health,1,3,DCH-1301,Maternal and Child Community Health,3
+DIP-CH,Diploma in Community Health,1,3,DCH-1302,Disease Prevention,3
+DIP-CH,Diploma in Community Health,1,3,DCH-1303,Community Nutrition,3
+DIP-CH,Diploma in Community Health,1,3,DCH-1304,Health Records and Reporting,3
+DIP-CH,Diploma in Community Health,1,3,DCH-1305,Community Mobilization,3
+DIP-CH,Diploma in Community Health,2,1,DCH-2101,Infectious Disease Control,3
+DIP-CH,Diploma in Community Health,2,1,DCH-2102,Noncommunicable Disease Prevention,3
+DIP-CH,Diploma in Community Health,2,1,DCH-2103,Health Promotion Methods,3
+DIP-CH,Diploma in Community Health,2,1,DCH-2104,Research Skills in Health,3
+DIP-CH,Diploma in Community Health,2,1,DCH-2105,Community Fieldwork I,3
+DIP-CH,Diploma in Community Health,2,2,DCH-2201,Health Programme Planning,3
+DIP-CH,Diploma in Community Health,2,2,DCH-2202,Public Health Surveillance,3
+DIP-CH,Diploma in Community Health,2,2,DCH-2203,Health Behaviour Change,3
+DIP-CH,Diploma in Community Health,2,2,DCH-2204,Community Project Management,3
+DIP-CH,Diploma in Community Health,2,2,DCH-2205,Community Fieldwork II,3
+DIP-CH,Diploma in Community Health,2,3,DCH-2301,Community Health Capstone,6
+DIP-CH,Diploma in Community Health,2,3,DCH-2302,Health Service Ethics,3
+DIP-CH,Diploma in Community Health,2,3,DCH-2303,Monitoring and Evaluation,3
+DIP-CH,Diploma in Community Health,2,3,DCH-2304,Professional Attachment,4
+DIP-CH,Diploma in Community Health,2,3,DCH-2305,Career Preparation,3
